@@ -1,13 +1,13 @@
 # FirstRepository
- First Repository\n
+ First Repository
 
-the app use QT to develop \n
-XML for UI (QT can use the drap and drop function to develop) \n
-
-
+the app use QT to develop 
+XML for UI (QT can use the drap and drop function to develop) 
 
 
-build the UI\n
-server\n
-let function work(dummy data)\n
-link to the server\n
+
+
+build the UI
+server
+let function work(dummy data)
+link to the server
