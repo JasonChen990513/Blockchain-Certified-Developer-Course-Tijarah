@@ -40,7 +40,7 @@
             But in reality, a single block in blockchain can store 1MB of data and that's why, depending on the size of the transaction, a single block can store a few thousand transactions under one roof.
 
             Is the one block store one transaction detail or many?
-                 one block innclude a lot of transaction and contract
+                 one block include a lot of transaction and contract internal transaction.(ETH block)
 
 
     How the blockchain work
@@ -60,7 +60,7 @@
             It is this hash ID which differentiates the processed transaction from the others and even a small space can make a huge difference in its identification. 
 
             what is the small space can make a huge difference in its identification?
-        
+                Because any change in the transaction data will be affect the hash generate.        
 
     Who & What is a Blockchain Miner
         Role of miner validate new transactions and record them on the global ledger and get the reward.
