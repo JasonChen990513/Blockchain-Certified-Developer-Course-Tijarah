@@ -186,17 +186,20 @@ Difference between Blockchain and cryptocurrency
 
 <table>
     <tr>
-        <th>Col 1</th>
-        <th>Col 2</th>
-        <th>Col 3</th>
+        <th>Private Blockchain</th>
+        <th>Public Blockchain</th>
     </tr>
     <tr>
-        <td colspan="2">span 2 cols</td>
-        <td rowspan="2">span 2 rows</td>
+        <td colspan="2">Both function as an append-only ledger</td>
     </tr>
     <tr>
-        <td>stuff</td>
-        <td>stuff</td>
+        <td colspan="2">Each network node in both these blockchains has a complete replica of the ledger.</td>
+    </tr>
+    <tr>
+        <td colspan="2">In both, the validity of a record is verified</td>
+    </tr>
+    <tr>
+        <td colspan="2">Both blockchain rely on numerous to authenticate edits.</td>
     </tr>
 </table>​
 
