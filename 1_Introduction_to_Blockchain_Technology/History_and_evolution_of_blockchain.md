@@ -1,4 +1,4 @@
-# Blockchain History and Evolution
+# History and Evolution of Blockchain
 
 ## 1991  
 Stuart Haber and W. Scott Stornetta, they want to found the solution of the time-stamping the digital documents. Avoid the data couldn’t be tempered or misdated through chain to cryptographically secure blocks . In order to protect the integrity of past information.    
