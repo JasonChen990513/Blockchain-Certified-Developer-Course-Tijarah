@@ -11,15 +11,13 @@
 | Span 2 columns   || Column 3 |
 
 
-| Head A | Spanned Header ||
-| Head B | Head C | Head D |
-|:-------|:------:|:------:|
-| 1A     |    1B  |    1C  |
-| 2A    ^|    2B  |    2C  |
-| 3A    ^|    3B       3C ||
-| 4A     |    4B       4C^||
-| 5A    ^|    5B  |    5C  |
-| 6A     |    6B ^|    6C  |
+| Column 1                | Col 2 | Big row span   |
+|:-----------------------:|-------| -------------- |
+| r1_c1 spans two cols           || One large cell |
+| r2_c1 spans two rows    | r2_c2 |                |
+|_^                      _| r3_c2 |                |
+|    ______ &#20;         | r4_c2 |_              _|
+
 
 ## Video name: What is Blockchain Technology and How Does it Work | Blockchain Explained in 6 minutes
 
