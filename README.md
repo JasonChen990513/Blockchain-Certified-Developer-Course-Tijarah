@@ -8,3 +8,4 @@ https://www.youtube.com/watch?v=pWROdu1O8xw&list=PLG4Yor99jlgmJS7cptBvER0HKFwa9c
 https://www.geeksforgeeks.org/consensus-algorithms-in-blockchain/
 https://www.investopedia.com/terms/c/consensus-mechanism-cryptocurrency.asp
 https://ethereum.org/en/what-is-ethereum/
+https://www.algorand.foundation/news/web2-vs-web3
