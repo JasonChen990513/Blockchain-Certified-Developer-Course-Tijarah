@@ -1,33 +1,33 @@
 ## Video name: Types of Blockchain Explained | Blockchain Types
 1.Public Blockchain
-    Public accessible, permissionless.  
-    No restriction on the participant and validator.  
-    Uncontrollability: single entuty can complete control over this network.  
-    Data is secure and help in immutability.  
-    Everyone have equal, so it is fully distributed.  
-    EX: Bitcoin and ethereum.   
+>Public accessible, permissionless.  
+>No restriction on the participant and validator.  
+>Uncontrollability: single entuty can complete control over this network.  
+>Data is secure and help in immutability.  
+>Everyone have equal, so it is fully distributed.  
+>>EX: Bitcoin and ethereum.   
 
-    The developer can do some change for the blockchain? if can, what is the meaning of the complete control?  
+Question: The developer can do some change for the blockchain? if can, what is the meaning of the complete control?  
 
 2.Private Blockchain  
-    Invitation is required. Resrict the people who can participate.  
-    Only the user who in this system can see the transcation.  
-    Centralized and much better control.  
-    Governed and regulated by someone.  
-    Can have token or not, it is based on the owner.  
-    EX: Hyperledger Fabric  
+>Invitation is required. Resrict the people who can participate.  
+>Only the user who in this system can see the transcation.  
+>Centralized and much better control.   
+>Governed and regulated by someone.   
+>Can have token or not, it is based on the owner.  
+>>EX: Hyperledger Fabric  
 
 
 
 3.Consorttium/Hybird  
-    Some nodes private.  
-    Other are public.  
-    Some node use to participate the transcation, and other node use to control consensus process.  
-    All node can access by blockchain, and what information can be accessed is based on particular data in that blockchain.  
-    There are two type of the users, one is only can access the blockchain as their function, another can control over the blockchain and decides the level of security.  
+>Some nodes private.  
+>Other are public.  
+>Some node use to participate the transcation, and other node use to control consensus process.  
+>All node can access by blockchain, and what information can be accessed is based on particular data in that blockchain.  
+>There are two type of the users, one is only can access the blockchain as their function, another can control over the blockchain and decides the level of security.  
 
 Difference between Blockchain and cryptocurrency  
-    The relationship between Blockchain and cryptocurrency like the mobile app and mobile OS, like the bitcoin is the first cryptocurrency on the blockchain platform.  
+>The relationship between Blockchain and cryptocurrency like the mobile app and mobile OS, like the bitcoin is the first cryptocurrency on the blockchain platform.  
 
 
 
