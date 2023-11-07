@@ -1,22 +1,6 @@
 # What is blockchain?
 
 
-| Private Blockchain | Public Blockchain |
-|:-------------------|:------------------|
-|Both function as an append-only ledger.||
-
-
-| Header 1  | Header 2  | Header 3  |
-|-----------|-----------|-----------|
-| Span 2 columns   || Column 3 |
-
-
-| Column 1                | Col 2 | Big row span   |
-|:-----------------------:|-------| -------------- |
-| r1_c1 spans two cols           || One large cell |
-| r2_c1 spans two rows    | r2_c2 |                |
-|_^                      _| r3_c2 |                |
-|    ______ &#20;         | r4_c2 |_              _|
 
 
 ## Video name: What is Blockchain Technology and How Does it Work | Blockchain Explained in 6 minutes
@@ -201,6 +185,14 @@ Difference between Blockchain and cryptocurrency
 
 
 
+
+| Private Blockchain | Public Blockchain |
+|:-------------------|:------------------|
+|Both function as an append-only ledger.||
+|Each network node in both these blockchains has a complete replica of the ledger.||
+|In both, the validity of a record is verified||
+|Both blockchain rely on numerous to authenticate edits.||
+|Oder of magnitude is less in public blockchain|Oder of magnitude is more in private blockchain.|
 
 
 
