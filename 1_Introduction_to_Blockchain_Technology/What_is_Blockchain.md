@@ -24,15 +24,15 @@ why blockchain speed faster than normal database?
 
 
 Block have 3 part
->1.Information about the transaction (date, time, transfer amount)
->2.Information about participants
->>not include any identifying, only digital signature
->3.Information about other block
->>the unique code call "hash" 
->>>cryptographic codes created by special algorithms
+>1.Information about the transaction (date, time, transfer amount)  
+>2.Information about participants  
+>>not include any identifying, only digital signature  
+>3.Information about other block  
+>>the unique code call "hash"  
+>>>cryptographic codes created by special algorithms  
 
-A single block can store 1 MB for data
-Blockchain is base on the transaction
+A single block can store 1 MB for data  
+Blockchain is base on the transaction  
 
 
 Question: 2:39
@@ -46,10 +46,13 @@ For block to be added to Blockchain
 >1.A transaction must occur  
 >2.That transaction must be verified   
 >>Miner will do the verify, check the transation, dollar amount and praticipant.  
+
 >3.The transaction must be stored in a block  
 >>Information include the praticipant digital signature transation dollar amount.  
+
 >4.That block must be given a hash  
 >>hash is the unique code  
+
 After this 4 steps, the block can be add to the blockchain.  
 
 
