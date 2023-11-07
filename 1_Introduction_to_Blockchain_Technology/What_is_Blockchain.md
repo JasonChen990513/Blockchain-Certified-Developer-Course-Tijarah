@@ -82,109 +82,113 @@ pods
 ## Video name: 7 Skills Needed to Become a Blockchain Developer | Blockchain Developer Career Path  
 
 
-1. Command Line
->learn Unix or Linux command-line interface  
->learning how to interate with computer using command line      
+1. Command Line  
+Learn Unix or Linux command-line interface.  
+Learning how to interate with computer using command line.      
 
-2. Javascript
-    it supported by every browser
-    it is client side language and can performs the computation in web browser, no need to wait the server reply.
+2. Javascript  
+It supported by every browser.  
+It is client side language and can performs the computation in web browser, no need to wait the server reply.  
 
-3. NodeJS
-    cross-platform javascript
-    enable developer to write server-side application with javascript.
-    Many blockchain frameworks are built on top of NodeJS
+3. NodeJS  
+Cross-platform javascript.  
+Enable developer to write server-side application with javascript.  
+Many blockchain frameworks are built on top of NodeJS.  
 
-4. Blockchain baiscs
-    What is blockchain?
-        Block use to store the information in the chain(database).
+4. Blockchain baiscs  
+What is blockchain?  
+>Block use to store the information in the chain(database).  
 
-    How does it work?
-        When the transaction occur, and the transaction is virified. 
-        The transaction information will be store into the block. 
-        The block will have unique hash and store in to blockchain. 
-        After it will be add to the blockchain.
+How does it work?  
+>When the transaction occur, and the transaction is virified.   
+>The transaction information will be store into the block.   
+>The block will have unique hash and store in to blockchain.  
+>After it will be add to the blockchain.  
 
-    What are the consensus mechanisms?
-        System that validates a transaction and marks it as authentic.
-            EX: if the hash is different, the block will be replace by the currect one.
+What are the consensus mechanisms?  
+>System that validates a transaction and marks it as authentic.  
+>>EX: if the hash is different, the block will be replace by the currect one.  
 
-    What is a node?
-        It is computer systems that contain a copy of a blockchain's primary protocol and its entire transaction history.
-            Lite node: specify a point in time and copy the data after that point in time.(Question: is my understanding correct?)
-            archive
-            full
+What is a node?  
+>It is computer systems that contain a copy of a blockchain's primary protocol and its entire transaction history.  
+>>Lite node: specify a point in time and copy the data after that point in time.(Question: is my understanding correct?)   
+>>archive  
+>>full  
 
-    What is a Smart Contract?
-        It is Immutable.
-        it is digital contracts stored on a blockchain that are automatically executed when predetermined terms and conditions are met.
+What is a Smart Contract?  
+>It is Immutable.  
+>it is digital contracts stored on a blockchain that are automatically executed when predetermined terms and conditions are met.  
 
-5.Solidity
-    It is OOP language for write the Smart Contract.
+5. Solidity  
+It is OOP language for write the Smart Contract.  
 
-6.Web3.js
-    Is a collection of libraries that allows user to interact with local or remote ethereum node using an http or ipc.  
-    Used to connect an ethereum blockchain to a client browser usually through a browser extension like metamask.
-    Easily installed into javascript object and allows user decentralized application to run and retrieve information to and from a blockchain defined by the user.
+6. Web3.js  
+Is a collection of libraries that allows user to interact with local or remote ethereum node using an http or ipc.   
+Used to connect an ethereum blockchain to a client browser usually through a browser extension like metamask.  
+Easily installed into javascript object and allows user decentralized application to run and retrieve information to and from a blockchain defined by the user.  
 
 7. Turffle Suite
-    A framework which facilitates the development, testing and deployment of full-stack decentralised applications.
-    Framework
-        Can write and deploy smart contract within minutes.
-        Easy to use solidity and javascript test the smart contract.
-        Easy deployment to any test network or the main network from the command line. 
-    Ganache
-        Allows you to start a local blockchain in your development environment with just two clicks and makes developing decentralized applications on your machine extremely easy.
+A framework which facilitates the development, testing and deployment of full-stack decentralised applications.  
+Framework   
+>Can write and deploy smart contract within minutes.  
+>Easy to use solidity and javascript test the smart contract.  
+>Easy deployment to any test network or the main network from the command line.  
+Ganache  
+>Allows you to start a local blockchain in your development environment with just two clicks and makes developing decentralized applications on your machine extremely easy.  
 
 
-    Video Name: Difference Between Blockchain and Distributed Ledger Technology
-    
-        Blockchain is one type of distributed ledger.
-        Blockchain is the subset of distributed ledger.
-        Distributed ledger do not need proof of work. Better scaling option. It have mutiple sites, regions or Participants.
+## Video Name: Difference Between Blockchain and Distributed Ledger Technology
+
+Blockchain is one type of distributed ledger.  
+Blockchain is the subset of distributed ledger.  
+Distributed ledger do not need proof of work. Better scaling option. It have mutiple sites, regions or Participants.  
         
 
 
-    Video name: Types of Blockchain Explained | Blockchain Types
-        1.Public Blockchain
-            Public accessible, permissionless.
-            No restriction on the participant and validator.
-            Uncontrollability: single entuty can complete control over this network.
-            Data is secure and help in immutability.
-            Everyone have equal, so it is fully distributed.
-            EX: Bitcoin and ethereum 
+## Video name: Types of Blockchain Explained | Blockchain Types
+1.Public Blockchain
+    Public accessible, permissionless.
+    No restriction on the participant and validator.
+    Uncontrollability: single entuty can complete control over this network.
+    Data is secure and help in immutability.
+    Everyone have equal, so it is fully distributed.
+    EX: Bitcoin and ethereum 
 
-            The developer can do some change for the blockchain? if can, what is the meaning of the complete control?
+    The developer can do some change for the blockchain? if can, what is the meaning of the complete control?
 
-        2.Private Blockchain
-            Invitation is required. Resrict the people who can participate.
-            Only the user who in this system can see the transcation.
-            Centralized and much better control.
-            Governed and regulated by someone.
-            Can have token or not, it is based on the owner.
-            EX: Hyperledger Fabric
-
-
-
-        3.Consorttium/Hybird
-            Some nodes private.
-            Other are public.
-            Some node use to participate the transcation, and other node use to control consensus process.
-            All node can access by blockchain, and what information can be accessed is based on particular data in that blockchain.
-            There are two type of the users, one is only can access the blockchain as their function, another can control over the blockchain and decides the level of security.
-
-        Difference between Blockchain and cryptocurrency
-            The relationship between Blockchain and cryptocurrency like the mobile app and mobile OS, like the bitcoin is the first cryptocurrency on the blockchain platform.
+2.Private Blockchain
+    Invitation is required. Resrict the people who can participate.
+    Only the user who in this system can see the transcation.
+    Centralized and much better control.
+    Governed and regulated by someone.
+    Can have token or not, it is based on the owner.
+    EX: Hyperledger Fabric
 
 
 
-    Video Name: Public vs Private Blockchain | Difference Between Public and Private Blockchain
+3.Consorttium/Hybird
+    Some nodes private.
+    Other are public.
+    Some node use to participate the transcation, and other node use to control consensus process.
+    All node can access by blockchain, and what information can be accessed is based on particular data in that blockchain.
+    There are two type of the users, one is only can access the blockchain as their function, another can control over the blockchain and decides the level of security.
 
-        Similarity:
-            Both function as an append-only ledger.
-            Each network node in both these blockchains has a complete replica of the ledger.
-            In both, the validity of a record is verified.
-            Both blockchain rely on numerous to authenticate edits.
+Difference between Blockchain and cryptocurrency
+    The relationship between Blockchain and cryptocurrency like the mobile app and mobile OS, like the bitcoin is the first cryptocurrency on the blockchain platform.
+
+
+
+## Video Name: Public vs Private Blockchain | Difference Between Public and Private Blockchain
+
+| Private Blockchain | Public Blockchain |
+|:-------------------|:------------------|
+|Both function as an append-only ledger.|
+
+Similarity:  
+>Both function as an append-only ledger.  
+>Each network node in both these blockchains has a complete replica of the ledger.  
+>In both, the validity of a record is verified.  
+>Both blockchain rely on numerous to authenticate edits.  
 
         Differences:
             Oder of magnitude is less in public blockchain,  oder of magnitude is more in private blockchain.
