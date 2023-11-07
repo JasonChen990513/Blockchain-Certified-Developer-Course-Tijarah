@@ -7,20 +7,20 @@ Digital information (block) store in the public database(chain)
 Base on peer to peer topology  
     2 PC communicate without the server, each user can be a server and node.
 
-Distributed ledger technology 
-    That data can be store in globlely on thousands of server
-    A platform that uses ledgers stored on separate, connected devices in a network to ensure data accuracy and security
+Distributed ledger technology  
+    That data can be store in globlely on thousands of server  
+    A platform that uses ledgers stored on separate, connected devices in a network to ensure data accuracy and security   
 
-One user is hard to gain control the network
-More secure and transparent
-Unique id for each item
-    It is immutable
-        If want to change the data, a least need 2/3 nodes be modified. (for this chain)
+One user is hard to gain control the network  
+More secure and transparent  
+Unique id for each item  
+    It is immutable  
+        If want to change the data, a least need 2/3 nodes be modified. (for this chain)  
 
-Good transparency of all transaction
-Everyone can get the real time data
-why blockchain speed faster than normal database? 
-    For the blockchain stored the data in the node, when want to update the data in the node, only need to get the data which is inside your node. So the speed is depend on the size you need to download.
+Good transparency of all transaction  
+Everyone can get the real time data  
+why blockchain speed faster than normal database?   
+        For the blockchain stored the data in the node, when want to update the data in the node, only need to get the data which is inside your node. So the speed is depend on the size you need to download.  
 
 
     Block have 3 part
