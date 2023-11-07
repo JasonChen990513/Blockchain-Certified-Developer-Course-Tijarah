@@ -1,4 +1,4 @@
-    ## What is blockchain?
+## What is blockchain?
 
     Video name: What is Blockchain Technology and How Does it Work | Blockchain Explained in 6 minutes
 
