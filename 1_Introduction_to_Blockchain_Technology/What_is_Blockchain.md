@@ -15,7 +15,7 @@ One user is hard to gain control the network
 More secure and transparent  
 Unique id for each item  
 > It is immutable  
-        >> If want to change the data, a least need 2/3 nodes be modified. (for this chain)  
+>> If want to change the data, a least need 2/3 nodes be modified. (for this chain)  
 
 Good transparency of all transaction  
 Everyone can get the real time data  
