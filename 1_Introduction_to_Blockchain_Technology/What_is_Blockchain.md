@@ -1,5 +1,17 @@
 # What is blockchain?
 
+|              | Header 1        | Header 2                       || Header 3                       ||
+|              | Subheader 1     | Subheader 2.1  | Subheader 2.2  | Subheader 3.1  | Subheader 3.2  |
+|==============|-----------------|----------------|----------------|----------------|----------------|
+| Row Header 1 | 3row, 3col span                                 ||| Colspan only                   ||
+| Row Header 2 |       ^                                         ||| Rowspan only   | Cell           |
+| Row Header 3 |       ^                                         |||       ^        | Cell           |
+| Row Header 4 |  Row            |  Each cell     |:   Centered   :| Right-aligned :|: Left-aligned  |
+:              :  with multiple  :  has room for  :   multi-line   :    multi-line  :  multi-line    :
+:              :  lines.         :  more text.    :      text.     :         text.  :  text.         :
+|--------------|-----------------|----------------|----------------|----------------|----------------|
+[Caption Text]
+
 ## Video name: What is Blockchain Technology and How Does it Work | Blockchain Explained in 6 minutes
 
 Blockchain
@@ -189,16 +201,7 @@ Difference between Blockchain and cryptocurrency
 |-----------|-----------|-----------|
 | Span 2 columns   || Column 3 |
 
-|               |          Grouping             ||         Grouping 2         ||  Not Grouped    |
-| First Header  | Second Header | Third Header   | Forth Header | Fifth Header | Sixth Header    |
-| ------------- | :-----------: | -------------: | :----------: | :----------: | --------------- |
-| Tall Cell     |          *Long Cell*          ||         *Long Long Cell*                    |||
-| ^^            |   **Bold**    | 1. first item  | *Italic*     | 3. third item | + first point  |\
-| ^^            |               | 1. second item |              | 1. forth item | + second point |
 
-| New section   |     More      |         Data   | ... - -- --- |||
-| And more      | With an escaped \|          || "Try 'quotes' in quotes "         |||
-[Compicated table]
 
 
 
