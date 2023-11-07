@@ -203,11 +203,11 @@ Similarity:
     </tr>
 </table>​
 
-
+Differences:
 | Private Blockchain | Public Blockchain |
 |:-------------------|:------------------|
 |Oder of magnitude is less in public blockchain|Oder of magnitude is more in private blockchain|
-| Anyone can take part by verifiing and adding data in public blockchain|Private blockchain olny allow authoried entities can praticipate and control network|
+|Anyone can take part by verifiing and adding data in public blockchain|Private blockchain olny allow authoried entities can praticipate and control network|
 |Decentralized|Centralized|
 |Public blockchain more scalable|Private blockchain less scalable|
 |Public blockchain is trustless network|Participants must not trust one another|
@@ -215,8 +215,13 @@ Similarity:
 |Consumes more energy|Consumes less energy|    
 |Public bloclchain have riskier it terms of collision or 51% attack| Private blockchain no chance of minor collisions|
 
+Info of public vs private blockchain and scalability of blockchain  
 
-        Differences:
+https://www.analyticsvidhya.com/blog/2022/09/blockchain-technology-and-its-types/  
+https://chain.link/education-hub/blockchain-scalability  
+
+
+
             Oder of magnitude is less in public blockchain,  oder of magnitude is more in private blockchain.
             Anyone can take part by verifiing and adding data in public blockchain, the private blockchain olny allow authoried entities can praticipate and control network.
             Public blockchain is decentralized, and private is centralized.
@@ -256,11 +261,9 @@ Similarity:
 
  
 
-    The need for web3
-        It provide more secure, private, transparnecy of transaction. And it is no need the intermediary.
+
             
 
-    Web3 vs Web2
 
 
 
