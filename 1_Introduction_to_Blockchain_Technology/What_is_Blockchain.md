@@ -43,7 +43,7 @@ Question: 2:39
 
 How the blockchain work  
 For block to be added to Blockchain  
->1.A transaction must occur  
+>1.A transaction must occur  <br>
 >2.That transaction must be verified  
 >>Miner will do the verify, check the transation, dollar amount and praticipant.  
 >3.The transaction must be stored in a block  
