@@ -186,13 +186,14 @@ Difference between Blockchain and cryptocurrency
 
 
 
-| Private Blockchain | Public Blockchain |
+| Private Blockchain | Public Blockchain ||
 |:-------------------|:------------------|
 |Both function as an append-only ledger.||
 |Each network node in both these blockchains has a complete replica of the ledger.||
 |In both, the validity of a record is verified||
 |Both blockchain rely on numerous to authenticate edits.||
 |Oder of magnitude is less in public blockchain|Oder of magnitude is more in private blockchain.|
+
 
 
 
