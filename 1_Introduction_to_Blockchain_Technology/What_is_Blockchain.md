@@ -23,34 +23,33 @@ why blockchain speed faster than normal database?
 > For the blockchain stored the data in the node, when want to update the data in the node, only need to get the data which is inside your node. So the speed is depend on the size you need to download.  
 
 
-    Block have 3 part
-        1.Information about the transaction (date, time, transfer amount)
-        2.Information about participants
-            not include any identifying, only digital signature
-        3.Information about other block
-            the unique code call "hash" 
-                cryptographic codes created by special algorithms
+Block have 3 part
+>1.Information about the transaction (date, time, transfer amount)
+>2.Information about participants
+>>not include any identifying, only digital signature
+>3.Information about other block
+>>the unique code call "hash" 
+>>>cryptographic codes created by special algorithms
 
-        A single block can store 1 MB for data
-        Blockchain is base on the transaction
-
-
-        Question:
-        2:39
-            But in reality, a single block in blockchain can store 1MB of data and that's why, depending on the size of the transaction, a single block can store a few thousand transactions under one roof.
-
-            Is the one block store one transaction detail or many?
-                 one block include a lot of transaction and contract internal transaction.(ETH block)
+A single block can store 1 MB for data
+Blockchain is base on the transaction
 
 
-    How the blockchain work
-        For block to be added to Blockchain
-            1.A transaction must occur
-            2.That transaction must be verified
-                miner will do the verify, check the transation, dollar amount and praticipant.
-            3.The transaction must be stored in a block
-                information include the praticipant digital signature transation dollar amount.
-            4.That block must be given a hash
+Question: 2:39
+>But in reality, a single block in blockchain can store 1MB of data and that's why, depending on the size of the transaction, a single block can store a few thousand transactions under one roof.
+
+>Is the one block store one transaction detail or many?
+>>One block include a lot of transaction and contract internal transaction.(ETH block)
+
+
+How the blockchain work
+For block to be added to Blockchain
+>1.A transaction must occur
+>            2.That transaction must be verified
+>>                miner will do the verify, check the transation, dollar amount and praticipant.
+>            3.The transaction must be stored in a block
+>>                information include the praticipant digital signature transation dollar amount.
+>4.That block must be given a hash
                 hash is the unique code 
         After this 4 steps, the block can be add to the blockchain.
 
