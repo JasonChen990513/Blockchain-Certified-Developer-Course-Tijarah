@@ -183,7 +183,7 @@ Difference between Blockchain and cryptocurrency
 
 ## Video Name: Public vs Private Blockchain | Difference Between Public and Private Blockchain
 
-
+Similarity:  
 <table>
     <tr>
         <th>Private Blockchain</th>
@@ -206,19 +206,19 @@ Difference between Blockchain and cryptocurrency
 
 | Private Blockchain | Public Blockchain |
 |:-------------------|:------------------|
-|Both function as an append-only ledger.||
-|Each network node in both these blockchains has a complete replica of the ledger.||
-|In both, the validity of a record is verified||
-|Both blockchain rely on numerous to authenticate edits.||
-|Oder of magnitude is less in public blockchain|Oder of magnitude is more in private blockchain.|
+|Oder of magnitude is less in public blockchain|Oder of magnitude is more in private blockchain|
+| Anyone can take part by verifiing and adding data in public blockchain|Private blockchain olny allow authoried entities can praticipate and control network|
+|Decentralized|Centralized|
+|Public blockchain more scalable|Private blockchain less scalable|
+|Public blockchain is trustless network|Participants must not trust one another|
+|More secure|Less secure|
+|Consumes more energy|Consumes less energy|    
+|Public bloclchain have riskier it terms of collision or 51% attack| Private blockchain no chance of minor collisions|
 
 
 
 
 
-
-
-Similarity:  
 >Both function as an append-only ledger.  
 >Each network node in both these blockchains has a complete replica of the ledger.  
 >In both, the validity of a record is verified.  
@@ -250,7 +250,8 @@ Similarity:
             (Question: why can not trust other perticipants in private blockchain? 
              Answer:　Because in a private blockchain, the validity of records cannot be independently verified as the integrity of a private network relies on the credibility of the authorized nodes.)
 
-            Public Blockchain is more secure and private blockchain is less secure. Because the node of the blockchain in public blockchain is higher than private blockchain, so the hacker hard to modify the data in blockchain. And hacker can hack whole network through accessing central node.
+            Public Blockchain is more secure and private blockchain is less secure. 
+            Because the node of the blockchain in public blockchain is higher than private blockchain, so the hacker hard to modify the data in blockchain. And hacker can hack whole network through accessing central node.
 
             Public blockchain consumes more energy and private blockchain consumes less.
 
