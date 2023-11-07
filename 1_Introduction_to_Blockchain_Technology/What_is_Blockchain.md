@@ -216,14 +216,6 @@ Similarity:
 |Public bloclchain have riskier it terms of collision or 51% attack| Private blockchain no chance of minor collisions|
 
 
-
-
-
->Both function as an append-only ledger.  
->Each network node in both these blockchains has a complete replica of the ledger.  
->In both, the validity of a record is verified.  
->Both blockchain rely on numerous to authenticate edits.  
-
         Differences:
             Oder of magnitude is less in public blockchain,  oder of magnitude is more in private blockchain.
             Anyone can take part by verifiing and adding data in public blockchain, the private blockchain olny allow authoried entities can praticipate and control network.
