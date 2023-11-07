@@ -141,20 +141,6 @@ Ganache
 
 
 
-        
-
-
-
-
-
- 
-
-
-            
-
-
-
-
 
 
 Need to know how to use MAAL
