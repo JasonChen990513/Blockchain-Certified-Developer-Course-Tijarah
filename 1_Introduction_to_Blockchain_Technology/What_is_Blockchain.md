@@ -25,8 +25,10 @@ why blockchain speed faster than normal database?
 
 Block have 3 part
 >1.Information about the transaction (date, time, transfer amount)  
+
 >2.Information about participants  
 >>not include any identifying, only digital signature  
+
 >3.Information about other block  
 >>the unique code call "hash"  
 >>>cryptographic codes created by special algorithms  
@@ -44,6 +46,7 @@ Question: 2:39
 How the blockchain work  
 For block to be added to Blockchain  
 >1.A transaction must occur  
+
 >2.That transaction must be verified   
 >>Miner will do the verify, check the transation, dollar amount and praticipant.  
 
