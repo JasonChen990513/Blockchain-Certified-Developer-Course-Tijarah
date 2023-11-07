@@ -186,7 +186,7 @@ Difference between Blockchain and cryptocurrency
 
 
 
-| Private Blockchain | Public Blockchain ||
+| Private Blockchain | Public Blockchain |
 |:-------------------|:------------------|
 |Both function as an append-only ledger.||
 |Each network node in both these blockchains has a complete replica of the ledger.||
