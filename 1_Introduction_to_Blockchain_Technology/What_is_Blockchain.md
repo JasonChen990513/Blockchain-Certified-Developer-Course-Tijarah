@@ -49,7 +49,7 @@ For block to be added to Blockchain
 >3.The transaction must be stored in a block  
 >>Information include the praticipant digital signature transation dollar amount.  
 >4.That block must be given a hash  
->>hash is the unique code   
+>>hash is the unique code  
 After this 4 steps, the block can be add to the blockchain.  
 
 
