@@ -184,6 +184,21 @@ Difference between Blockchain and cryptocurrency
 ## Video Name: Public vs Private Blockchain | Difference Between Public and Private Blockchain
 
 
+<table>
+    <tr>
+        <th>Col 1</th>
+        <th>Col 2</th>
+        <th>Col 3</th>
+    </tr>
+    <tr>
+        <td colspan="2">span 2 cols</td>
+        <td rowspan="2">span 2 rows</td>
+    </tr>
+    <tr>
+        <td>stuff</td>
+        <td>stuff</td>
+    </tr>
+</table>​
 
 
 | Private Blockchain | Public Blockchain |
