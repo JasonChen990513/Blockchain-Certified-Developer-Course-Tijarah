@@ -182,7 +182,12 @@ Difference between Blockchain and cryptocurrency
 
 | Private Blockchain | Public Blockchain |
 |:-------------------|:------------------|
-|Both function as an append-only ledger.|
+|Both function as an append-only ledger.|   
+
+
+| Header 1  | Header 2  | Header 3  |
+|-----------|-----------|-----------|
+| Span 2 columns   || Column 3 |
 
 Similarity:  
 >Both function as an append-only ledger.  
