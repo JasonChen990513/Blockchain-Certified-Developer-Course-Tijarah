@@ -99,3 +99,17 @@ Why the value of bitcoin keep change? what reason will let it happen?
 The NFT also can through the blockchain to do the transaction?  
 [what is ethereum 2.0?](https://www.blockchain-council.org/blockchain/what-is-ethereum-2-0-a-comprehensive-guide/?gad_source=1&gclid=CjwKCAiA3aeqBhBzEiwAxFiOBsRm0dCqbRMMiZVRfHqe8SMd-eU_G09bsBZNzQi_KZZWqF8LHu2XghoC5XgQAvD_BwE)  
 
+
+
+want to protect the data. 
+using timespan to generate the hash for each block.
+thorugh the chain to make sure the data is correct.
+Merkle Tree use to store the complex relationship data. Like the tree, there are a lot of b.
+pow to do the consensus algorthm.
+mining 1 block can get 50 bicoin at the first, every 4 year will be reduce half.
+value of the money? who give the value of money? the value of the money will keep dicrease, because the bank continuous printing the money.
+the maximum number of bitcoins is 21,000,000.
+wonld not happen the supply exceeds demand.
+
+
+read the withepaper
