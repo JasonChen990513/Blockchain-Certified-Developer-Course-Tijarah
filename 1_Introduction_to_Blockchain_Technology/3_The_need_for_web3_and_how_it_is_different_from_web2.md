@@ -44,7 +44,34 @@ It provide more secure, private, transparnecy of transaction. And it is no need 
 
 
 
-## Web3 vs Web2
+# Key feature of Web3
+
+## Technology:  
+leveraging Web3 decentralized and transparent nature to enable trustless interactions and smart contract execution.  
+
+## Ownership & sovereignty:   
+Web3 shifts the power balance by giving users ownership and control over their data, allowing individuals to decide how their information is used.  
+
+## Censorship resistance:  
+Web3's decentralized nature makes it resistant to censorship, such as social media networks build in web3 ,that can’t arbitrarily ban or censor users like in the way that centralized platforms can.  
+
+## Greater privacy and security:    
+With enhanced privacy and security measures, Web3 can reduce the need to share personal data with third parties in order to access services and applications. Users have more control over their personal information and can maintain a higher level of privacy.  
+
+## Token economy:   
+Web3 introduces a token economy where digital assets can hold real value and be used for payments and transactions within the ecosystem, so payments can be made peer-to-peer in cryptocurrencies like Bitcoin.   
+
+## Governance: 
+Web3 promotes community-driven DAO governance, where decisions are made collectively by participants through voting and consensus mechanisms.  
+‍
+## Identity:   
+Web3 introduces digital identity solutions that allow users to have portable identities that can be used across various decentralized applications (DApps), allowing users to transfer and manage identity credentials within the Web3 ecosystem.  
+
+## Native built-in payments:   
+Web3 platforms have native payment capabilities, eliminating the need for traditional intermediaries like banks or payment processors. Users can make direct and secure payments using digital currencies within the ecosystem.  
+
+
+# Web3 vs Web2
 
 
 | Web2| Web3 |
@@ -63,7 +90,22 @@ It provide more secure, private, transparnecy of transaction. And it is no need 
 
 
 
+## What is the biggest difference between Web2 and Web3?
 
+The biggest difference between Web2 and Web3 is the shift from a centralized internet to a decentralized one. 
+Web2 relies on intermediaries and centralized platforms.
+Web3 enables peer-to-peer interactions without the need for intermediaries, offering more control and ownership to users.
+
+## Is Web3 replacing Web2? 
+
+Web3 is not replacing Web2 entirely. Instead, it represents the next evolution of the internet. 
+Web3 is introducing new technologies and approaches to the internet as we currently know it. 
+Web3 challenges the dominance of centralized platforms through decentralized applications (dApps) running on the blockchain.
+
+## Why is Web3 better than Web2? 
+
+It provides more data ownership and control for individuals, eliminating the reliance on centralized authorities and reducing the risk of data misuse. 
+Additionally, Web3 fosters transparency, trust, and democratization of the internet by leveraging distributed ledger technologies and allowing anyone to participate without monetizing their personal information.
 
 
 
