@@ -93,9 +93,9 @@ https://www.shiksha.com/online-courses/articles/evolution-of-blockchain-technolo
 
 
 
-How decentralized app work?
-How to using blockchain techology on the game filed?
-Why the value of bitcoin keep change? what reason will let it happen?
-The NFT also can through the blockchain to do the transaction?
-[what is ethereum 2.0?](https://www.blockchain-council.org/blockchain/what-is-ethereum-2-0-a-comprehensive-guide/?gad_source=1&gclid=CjwKCAiA3aeqBhBzEiwAxFiOBsRm0dCqbRMMiZVRfHqe8SMd-eU_G09bsBZNzQi_KZZWqF8LHu2XghoC5XgQAvD_BwE)
+How decentralized app work?  
+How to using blockchain techology on the game filed?  
+Why the value of bitcoin keep change? what reason will let it happen?  
+The NFT also can through the blockchain to do the transaction?  
+[what is ethereum 2.0?](https://www.blockchain-council.org/blockchain/what-is-ethereum-2-0-a-comprehensive-guide/?gad_source=1&gclid=CjwKCAiA3aeqBhBzEiwAxFiOBsRm0dCqbRMMiZVRfHqe8SMd-eU_G09bsBZNzQi_KZZWqF8LHu2XghoC5XgQAvD_BwE)  
 
