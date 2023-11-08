@@ -92,20 +92,20 @@ Web3 platforms have native payment capabilities, eliminating the need for tradit
 
 ## What is the biggest difference between Web2 and Web3?
 
-The biggest difference between Web2 and Web3 is the shift from a centralized internet to a decentralized one. 
-Web2 relies on intermediaries and centralized platforms.
-Web3 enables peer-to-peer interactions without the need for intermediaries, offering more control and ownership to users.
+The biggest difference between Web2 and Web3 is the shift from a centralized internet to a decentralized one.   
+Web2 relies on intermediaries and centralized platforms.   
+Web3 enables peer-to-peer interactions without the need for intermediaries, offering more control and ownership to users.   
 
 ## Is Web3 replacing Web2? 
 
-Web3 is not replacing Web2 entirely. Instead, it represents the next evolution of the internet. 
-Web3 is introducing new technologies and approaches to the internet as we currently know it. 
-Web3 challenges the dominance of centralized platforms through decentralized applications (dApps) running on the blockchain.
+Web3 is not replacing Web2 entirely. Instead, it represents the next evolution of the internet.    
+Web3 is introducing new technologies and approaches to the internet as we currently know it.    
+Web3 challenges the dominance of centralized platforms through decentralized applications (dApps) running on the blockchain.   
 
 ## Why is Web3 better than Web2? 
 
-It provides more data ownership and control for individuals, eliminating the reliance on centralized authorities and reducing the risk of data misuse. 
-Additionally, Web3 fosters transparency, trust, and democratization of the internet by leveraging distributed ledger technologies and allowing anyone to participate without monetizing their personal information.
+It provides more data ownership and control for individuals, eliminating the reliance on centralized authorities and reducing the risk of data misuse.    
+Additionally, Web3 fosters transparency, trust, and democratization of the internet by leveraging distributed ledger technologies and allowing anyone to participate without monetizing their personal information.   
 
 
 
