@@ -8,6 +8,38 @@ The embodiment of a decentralized and user-centric internet. Built on blockchain
 It provide more secure, private, transparnecy of transaction. And it is no need the intermediary.
 
 ## Main ideas behind Web3
+Decentralization   
+‍
+>Web3 is built upon the concept of decentralization, where power is distributed among participants rather than controlled by a central authority.   
+>It's peer-to-peer network, where user can interact directly with each other without the need for intermediaries or a centralized server.  
+
+Verifiability    
+‍
+>Web3 leverages blockchain to provide transparency and verifiability.   
+>Transactions and interactions can be recorded on a public ledger, enabling anyone to independently verify the authenticity and integrity of data.   
+
+Trustless   
+‍
+>Trust is not placed solely in central authorities or intermediaries.   
+>Trust is base on the cryptographic algorithms and consensus mechanisms.   
+
+Self governance    
+‍
+>Communities collectively make decisions and govern the platforms and protocols they use.   
+>Through decentralized governance mechanisms, such as token-based voting or consensus-based decision-making, users have a say in the direction and rules of the system.   
+
+Permissionless   
+‍
+>Anyone can participate, no need any apply or invite.   
+>Allow any individuals to freely engage with the ecosystem.  
+
+Ownership  
+‍
+>In Web2, we have relied on banks to hold our money; on Visa, SWIFT, Paypal and others to transact our money; and on Google, Facebook and others to verify our identity. In Web3, our >wallet (and the assets within it) can be used to verify our decentralized identity and as the “key” to unlock verification and commerce.  ‍  
+
+Native payments   
+‍
+>Cryptocurrencies, like Bitcoin and Algorand, play a significant role in Web3, enabling direct and seamless transactions. This also allows for payments to bypass traditional financial intermediaries and reduce transaction fees.  
 
 
 
