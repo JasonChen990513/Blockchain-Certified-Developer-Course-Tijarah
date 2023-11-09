@@ -26,15 +26,29 @@ It is decentralized architecture.
 |user only can contribute more data in the additional blocks in the Blockchain. The old data will not be destroyed; it will stay in the system and be accessible to the public.	|The client performs four action in a typical database: Create, Read, Update, and Delete. These are the four steps in the CRUD process.|
 |The information that is current and the information that was previously available coexist. It generates a database with its histories in it. This property of Blockchain makes it handy for tracing records and determining a product’s validity.	|The information in a centralized or traditional database is current at any given time. If want to check old data need to found the history backup, and it also may incomplete.|
 
-## Use Blockchain for
-Real-time data exchange   
-Financial transfer  
-Identifying and authenticating records  
-dApps (Decentralized applications)  
+## Use Blockchain for  
+Real-time data exchange    
+Financial transfer   
+Identifying and authenticating records   
+dApps (Decentralized applications)    
 
 ## Use traditional database for
-Relational Data
-Confidential records
-Conventional storage systems
-Data that would be frequently modified
+Relational Data  
+Confidential records  
+Conventional storage systems  
+Data that would be frequently modified  
 
+
+Question:    
+For the reading speed of the data, why traditional is faster?    
+>When a transaction is carried out in the blockchain, it does all the things that a traditional database will do. However, it is slowed down because of carrying more operations, including the following.    
+>## Signature Verification:  
+>Blockchain transactions, when carried out, are cryptographically signed using cryptographic algorithms. This step is needed to ensure that each transaction is valid and originated from a valid source. As it is a complex process, it takes time to carry out the process.   
+>In comparison, a centralized database doesn’t have to go through the signature verification process, which makes them comparatively faster.  
+
+>## Consensus Mechanisms:  
+>As blockchain is decentralized, it relies heavily on a consensus mechanism to validate transactions on to the blockchain. Also, the speed of consensus depends on the type of consensus method used. Some consensus method is faster than others, but overall, it adds more time before a transaction can be processed.   
+>Centralized databases don’t suffer from this kind of issue as they are centralized in nature. Each transaction is verified automatically by the database and can be executed way faster using a queue.  
+
+>## Redundancy:  
+>Blockchain is a complete network where each node plays a crucial role. To ensure that each node can participate, each transaction information needs to be stored and verified by each node.  
