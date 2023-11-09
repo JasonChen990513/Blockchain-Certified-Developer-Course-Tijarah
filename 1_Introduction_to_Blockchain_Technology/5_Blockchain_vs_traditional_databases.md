@@ -26,3 +26,15 @@ It is decentralized architecture.
 |user only can contribute more data in the additional blocks in the Blockchain. The old data will not be destroyed; it will stay in the system and be accessible to the public.	|The client performs four action in a typical database: Create, Read, Update, and Delete. These are the four steps in the CRUD process.|
 |The information that is current and the information that was previously available coexist. It generates a database with its histories in it. This property of Blockchain makes it handy for tracing records and determining a product’s validity.	|The information in a centralized or traditional database is current at any given time. If want to check old data need to found the history backup, and it also may incomplete.|
 
+## Use Blockchain for
+Real-time data exchange   
+Financial transfer  
+Identifying and authenticating records  
+dApps (Decentralized applications)  
+
+## Use traditional database for
+Relational Data
+Confidential records
+Conventional storage systems
+Data that would be frequently modified
+
