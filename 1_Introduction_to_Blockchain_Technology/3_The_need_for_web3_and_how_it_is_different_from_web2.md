@@ -109,6 +109,10 @@ Additionally, Web3 fosters transparency, trust, and democratization of the inter
 
 
 
+Dapp using the blockchain to store the data. How it work?   
+How decentralized app work?    
+How to using blockchain techology on the game filed?  
+The NFT also can through the blockchain to do the transaction?  
 
 
 

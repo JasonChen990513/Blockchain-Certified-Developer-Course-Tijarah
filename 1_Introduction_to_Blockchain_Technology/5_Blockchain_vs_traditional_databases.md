@@ -39,7 +39,7 @@ Conventional storage systems
 Data that would be frequently modified  
 
 
-Question:    
+Question:       
 For the reading speed of the data, why traditional is faster?    
 >When a transaction is carried out in the blockchain, it does all the things that a traditional database will do. However, it is slowed down because of carrying more operations, including the following.    
 >## Signature Verification:  
@@ -52,3 +52,7 @@ For the reading speed of the data, why traditional is faster?
 
 >## Redundancy:  
 >Blockchain is a complete network where each node plays a crucial role. To ensure that each node can participate, each transaction information needs to be stored and verified by each node.  
+
+
+Why the scalability of traditional database is better?
+    
