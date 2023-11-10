@@ -112,12 +112,12 @@ Additionally, Web3 fosters transparency, trust, and democratization of the inter
 ## Question:
 
 ### Dapp using the blockchain to store the data. How it work?   
-After the smart contract execute, the data will be store in to the block, and everyone can see that.
+After the smart contract execute, the data will be store in to the block, and everyone can see that.  
 
 ### How decentralized app work?    
-Decentralized Network: DApps run on a decentralized network of nodes (computers) that participate in a blockchain or peer-to-peer network. These nodes work together to validate transactions and execute smart contracts.  
+Decentralized Network: DApps run on a decentralized network of nodes (computers) that participate in a blockchain or peer-to-peer network. These nodes work together to validate transactions and execute smart contracts.    
 
-Smart Contracts: DApps often make use of smart contracts, which are self-executing agreements with the terms of the contract directly written into code. These contracts automatically execute actions when predefined conditions are met.  
+Smart Contracts: DApps often make use of smart contracts, which are self-executing agreements with the terms of the contract directly written into code. These contracts automatically execute actions when predefined conditions are met.    
 
 Data Storage: DApps may use blockchain technology for data storage, ensuring data immutability and transparency. This data is stored in a distributed ledger, accessible to all participants in the network.  
 
@@ -130,20 +130,20 @@ Consensus Mechanism: DApps rely on a consensus mechanism (e.g., Proof of Work, P
 Decentralized Governance: Some DApps incorporate decentralized governance models, allowing users to participate in decision-making processes and protocol upgrades.  
 
 ### How to using blockchain techology on the game filed?  
-Smart Contracts: The game is built using smart contracts, self-executing code deployed on a blockchain. These smart contracts define the game's rules, mechanics, and token standards. They handle everything from character creation and asset ownership to in-game actions and rewards. Like the server in the cetralized system.
+Smart Contracts: The game is built using smart contracts, self-executing code deployed on a blockchain. These smart contracts define the game's rules, mechanics, and token standards. They handle everything from character creation and asset ownership to in-game actions and rewards. Like the server in the cetralized system.  
 
-Data Storage on the Blockchain: In blockchain games, various types of data are stored directly on the blockchain. This includes player profiles, in-game assets (represented as NFTs or tokens), transaction history, and game state. Smart contracts on the blockchain define and manage this data.
+Data Storage on the Blockchain: In blockchain games, various types of data are stored directly on the blockchain. This includes player profiles, in-game assets (represented as NFTs or tokens), transaction history, and game state. Smart contracts on the blockchain define and manage this data.  
 
-Disadvantage:
-Access Complexity: Accessing data from the blockchain can be more complex compared to centralized databases. Users typically need to use blockchain wallets or interfaces that support the specific blockchain network the game is built on. They may also require some knowledge of blockchain technology.
+Disadvantage:  
+Access Complexity: Accessing data from the blockchain can be more complex compared to centralized databases. Users typically need to use blockchain wallets or interfaces that support the specific blockchain network the game is built on. They may also require some knowledge of blockchain technology.    
 
-Scalability: Blockchain networks often face scalability issues in handling a large number of transactions simultaneously. Real-time games like LoL and Apex require rapid and frequent interactions, such as character movements, actions, and updates. Blockchain transactions may not be able to match the real-time responsiveness needed for such games.
+Scalability: Blockchain networks often face scalability issues in handling a large number of transactions simultaneously. Real-time games like LoL and Apex require rapid and frequent interactions, such as character movements, actions, and updates. Blockchain transactions may not be able to match the real-time responsiveness needed for such games.  
 
-Latency: Blockchain transactions can introduce latency due to the time required for transaction confirmation and block generation. Real-time games demand low latency to ensure smooth gameplay. Blockchain networks can't always guarantee the sub-second response times needed for these games.
+Latency: Blockchain transactions can introduce latency due to the time required for transaction confirmation and block generation. Real-time games demand low latency to ensure smooth gameplay. Blockchain networks can't always guarantee the sub-second response times needed for these games.  
 
-Game State: Storing the entire game state on the blockchain would be impractical due to storage limitations and data costs. While some game elements, like in-game assets, can be represented as NFTs on the blockchain, core game state and mechanics typically remain off-chain to ensure efficient gameplay.
+Game State: Storing the entire game state on the blockchain would be impractical due to storage limitations and data costs. While some game elements, like in-game assets, can be represented as NFTs on the blockchain, core game state and mechanics typically remain off-chain to ensure efficient gameplay.  
 
-Transaction Costs: Real-time games could generate a significant number of transactions, each incurring transaction fees. These fees could make the cost of playing the game prohibitive.
+Transaction Costs: Real-time games could generate a significant number of transactions, each incurring transaction fees. These fees could make the cost of playing the game prohibitive.  
 
 
 
