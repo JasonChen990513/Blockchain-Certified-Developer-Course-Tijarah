@@ -125,9 +125,7 @@ User Interface: DApps have a user interface (UI) that can be web-based or a stan
 
 Token Usage: Many DApps have their own native tokens or cryptocurrencies that are used within the application for various purposes, such as paying for services, participating in governance, or staking for network security.  
 
-Consensus Mechanism: DApps rely on a consensus mechanism (e.g., Proof of Work, Proof of Stake) to validate and confirm transactions. This mechanism ensures the security and integrity of the network.  
-
-Decentralized Governance: Some DApps incorporate decentralized governance models, allowing users to participate in decision-making processes and protocol upgrades.  
+Consensus Mechanism: DApps rely on a consensus mechanism (e.g., Proof of Work, Proof of Stake) to validate and confirm transactions. This mechanism ensures the security and integrity of the network.   
 
 ### How to using blockchain techology on the game filed?  
 Smart Contracts: The game is built using smart contracts, self-executing code deployed on a blockchain. These smart contracts define the game's rules, mechanics, and token standards. They handle everything from character creation and asset ownership to in-game actions and rewards. Like the server in the cetralized system.  

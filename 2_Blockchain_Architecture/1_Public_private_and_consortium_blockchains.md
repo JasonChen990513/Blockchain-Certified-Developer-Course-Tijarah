@@ -78,32 +78,35 @@ https://chain.link/education-hub/blockchain-scalability
 
 
 
-            Public don't use consensus algorithm, private blockchain can use consensus algorithm such as Poorf of Elapsed Time(PoET), Raft and Istanbul BFT. (Question : Why don't use in public blockchain? XX)
-            IBFT
+Public blockchain don't use consensus algorithm, private blockchain can use consensus algorithm such as Poorf of Elapsed Time(PoET), Raft and Istanbul BFT. (Question : Why don't use in public blockchain? XX) Both can use  
+IBFT  
 
-            (Quesiton: 
-            Transactions per second (or TPS) are lesser in a public blockchain when compared to private blockchains.  
-            As the number of authorized participants is less in a private blockchain, it can process hundreds or even thousands of transactions per second. why?)
+(Quesiton:   
+Transactions per second (or TPS) are lesser in a public blockchain when compared to private blockchains.    
+As the number of authorized participants is less in a private blockchain, it can process hundreds or even thousands of transactions per second. why?)  
+Because the public blockchain need to wait more node to do the validation for each transaction.  
 
-            Public blockchain more scalable. Private blockchain less scalable.
-            (Question: 
-            public blockchain cannot compete with a private blockchain in terms of scalability  issues as it is slow and hence can process transactions only at a slow pace. 
+Public blockchain less scalable. Private blockchain more scalable.  
+(Question:   
+public blockchain cannot compete with a private blockchain in terms of scalability issues as it is slow and hence can process transactions only at a slow pace.   
 
-            In a private blockchain, as only a few nodes need to manage data, transactions can be  supported and processed at a much higher pace.
+In a private blockchain, as only a few nodes need to manage data, transactions can be supported and processed at a much higher pace.  
 
-            What is the meaning of scalability at here?)
+What is the meaning of scalability at here?)  
 
-            Public blockchain is trustless network. In private blockchain, participants must not trust one another.
-            (Question: why can not trust other perticipants in private blockchain? 
-             Answer:　Because in a private blockchain, the validity of records cannot be independently verified as the integrity of a private network relies on the credibility of the authorized nodes.)
+Scalability: The ability to effectively cope with the growing volume of transactions and number of users without degrading performance or increasing latency.     
+So for the node increasing the public blockchain will be slower than private blockchain.  
 
-            Public Blockchain is more secure and private blockchain is less secure. 
-            Because the node of the blockchain in public blockchain is higher than private blockchain, so the hacker hard to modify the data in blockchain. And hacker can hack whole network through accessing central node.
 
-            Public blockchain consumes more energy and private blockchain consumes less.
+Public blockchain is trustless network. In private blockchain, participants must not trust one another.  
+(Question: why can not trust other perticipants in private blockchain?   
+    Answer:　Because in a private blockchain, the validity of records cannot be independently verified as the integrity of a private network relies on the credibility of the authorized nodes.)  
 
-            Public bloclchain have riskier it terms of collision or 51% attack. Private blockchain no chance of minor collisions.
-               In the private blockchain, there is no chance of minor collision, because the validator in the network is know and they have suitable credentials.
-               In public blockchain, the validator don't know each other, so it increase the risk of the potential collision (Current cryptographic hash function used in blockchain. Although incredibly unlikely, the possibility still exists potential threat to the data integrity).
+Public Blockchain is more secure and private blockchain is less secure.   
+Because the node of the blockchain in public blockchain is higher than private blockchain, so the hacker hard to modify the data in blockchain. And hacker can hack whole network through accessing central node.  
 
-               And it also have change to be 51% attack (where a group of miners who control more than 50% of the  network’s computing power can influence it).
+Public bloclchain have riskier it terms of collision or 51% attack. Private blockchain no chance of minor collisions.  
+    In the private blockchain, there is no chance of minor collision, because the validator in the network is know and they have suitable credentials.  
+    In public blockchain, the validator don't know each other, so it increase the risk of the potential collision (Current cryptographic hash function used in blockchain. Although incredibly unlikely, the possibility still exists potential threat to the data integrity).  
+
+    And it also have change to be 51% attack (where a group of miners who control more than 50% of the  network’s computing power can influence it).  
