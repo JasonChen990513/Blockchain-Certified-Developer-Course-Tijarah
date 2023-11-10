@@ -55,6 +55,7 @@ For the reading speed of the data, why traditional is faster?
 
 
 Why the scalability of traditional database is better?  
+>Scalability: The ability to effectively cope with the growing volume of transactions and number of users without degrading performance or increasing latency.      
 >When both of them keep growing, the blockchain will slower than traditional database.  
 >Because the blockchain need do addtional step, check signature verification, consensus mechanisms, and redundancy.   
 >It will take some time for each transaction.  
