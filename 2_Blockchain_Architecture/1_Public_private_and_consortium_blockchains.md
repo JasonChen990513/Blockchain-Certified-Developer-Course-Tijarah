@@ -51,6 +51,9 @@ Similarity:
     <tr>
         <td colspan="2">Both blockchain rely on numerous to authenticate edits.</td>
     </tr>
+    <tr>
+        <td colspan="2">Both blockchain using consensus algorithm to .</td>
+    </tr>
 </table>​
 
 Differences:
@@ -64,6 +67,7 @@ Differences:
 |More secure|Less secure|
 |Consumes more energy|Consumes less energy|    
 |Public bloclchain have riskier it terms of collision or 51% attack| Private blockchain no chance of minor collisions|
+|Private TPS(Transaction per second) are more| Public blockchain TPS are less.|
 
 Info of public vs private blockchain and scalability of blockchain  
 
@@ -72,14 +76,10 @@ https://chain.link/education-hub/blockchain-scalability
 
 
 
-            Oder of magnitude is less in public blockchain,  oder of magnitude is more in private blockchain.
-            Anyone can take part by verifiing and adding data in public blockchain, the private blockchain olny allow authoried entities can praticipate and control network.
-            Public blockchain is decentralized, and private is centralized.
+
 
             Public don't use consensus algorithm, private blockchain can use consensus algorithm such as Poorf of Elapsed Time(PoET), Raft and Istanbul BFT. (Question : Why don't use in public blockchain? XX)
             IBFT
-
-            Public blockchain TPS(Transaction per second) are less. Private TPS are more. 
 
             (Quesiton: 
             Transactions per second (or TPS) are lesser in a public blockchain when compared to private blockchains.  
