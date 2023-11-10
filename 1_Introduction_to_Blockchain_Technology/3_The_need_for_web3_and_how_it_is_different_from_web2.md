@@ -145,7 +145,7 @@ Transaction Costs: Real-time games could generate a significant number of transa
 
 
 
-[The NFT also can through the blockchain to do the transaction?](https://www.investopedia.com/non-fungible-tokens-nft-5115211)
+[The NFT also can through the blockchain to do the transaction?](https://www.investopedia.com/non-fungible-tokens-nft-5115211)  
 [How NFT work?](https://www.investopedia.com/non-fungible-tokens-nft-5115211#toc-how-nfts-work) 
 
 
