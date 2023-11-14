@@ -4,14 +4,9 @@
 
 
 ## Video name: What is Blockchain Technology and How Does it Work | Blockchain Explained in 6 minutes   
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/KA_wOqYc1zo?si=gB7S7SZ_aWk2FVA-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>  
-
-[<img src="https://img.youtube.com/vi/watch?v=KA_wOqYc1zo/maxresdefault.jpg" width="600" height="300"/>](https://www.youtube.com/embed/KA_wOqYc1zo?si=gB7S7SZ_aWk2FVA-)
-
 [![Watch the video](https://img.youtube.com/vi/KA_wOqYc1zo/maxresdefault.jpg)](https://www.youtube.com/embed/KA_wOqYc1zo)
 
-[![現在在 Android 中：55](https://i.ytimg.com/vi/Hc79sDi3f0U/maxresdefault.jpg)](https://www.youtube.com/watch?v=Hc79sDi3f0U "Now in Android: 55")
+
 
 Blockchain
 Digital information (block) store in the public database(chain)  
@@ -91,8 +86,7 @@ pods
 
 
 ## Video name: 7 Skills Needed to Become a Blockchain Developer | Blockchain Developer Career Path  
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=x9l3y0cdpuU" frameborder="0" allowfullscreen></iframe>
-
+[![Watch the video](https://img.youtube.com/vi/v=x9l3y0cdpuU/maxresdefault.jpg)](https://www.youtube.com/embed/v=x9l3y0cdpuU)
 1. Command Line  
 Learn Unix or Linux command-line interface.  
 Learning how to interate with computer using command line.      
