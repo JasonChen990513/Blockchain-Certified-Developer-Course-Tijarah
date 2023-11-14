@@ -3,8 +3,9 @@
 
 
 
-## Video name: What is Blockchain Technology and How Does it Work | Blockchain Explained in 6 minutes
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=KA_wOqYc1zo" frameborder="0" allowfullscreen></iframe>
+## Video name: What is Blockchain Technology and How Does it Work | Blockchain Explained in 6 minutes 
+<iframe width="560" height="315" src="https://www.youtube.com/watch?v=KA_wOqYc1zo" frameborder="0" allowfullscreen></iframe>  
+[<img src="https://img.youtube.com/vi/watch?v=KA_wOqYc1zo/hqdefault.jpg" width="600" height="300"/>](https://www.youtube.com/embed/watch?v=KA_wOqYc1zo)
 [![]](https://www.youtube.com/watch?v=KA_wOqYc1zo)
 
 Blockchain
