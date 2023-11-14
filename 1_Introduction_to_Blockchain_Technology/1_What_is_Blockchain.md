@@ -4,9 +4,10 @@
 
 
 ## Video name: What is Blockchain Technology and How Does it Work | Blockchain Explained in 6 minutes   
-<iframe width="560" height="315" src="https://www.youtube.com/embed/KA_wOqYc1zo?si=gB7S7SZ_aWk2FVA-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/KA_wOqYc1zo?si=gB7S7SZ_aWk2FVA-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>  
+
 [<img src="https://img.youtube.com/vi/KA_wOqYc1zo?si=gB7S7SZ_aWk2FVA/hqdefault.jpg" width="600" height="300"/>](https://www.youtube.com/embed/KA_wOqYc1zo?si=gB7S7SZ_aWk2FVA-)
-[![]](https://www.youtube.com/watch?v=KA_wOqYc1zo)
+
 
 Blockchain
 Digital information (block) store in the public database(chain)  
