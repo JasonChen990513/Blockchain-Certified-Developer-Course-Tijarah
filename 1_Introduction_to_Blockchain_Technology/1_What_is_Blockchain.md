@@ -4,6 +4,7 @@
 
 
 ## Video name: What is Blockchain Technology and How Does it Work | Blockchain Explained in 6 minutes
+<iframe width="560" height="315" src="https://www.youtube.com/watch?v=KA_wOqYc1zo" frameborder="0" allowfullscreen></iframe>
 
 Blockchain
 Digital information (block) store in the public database(chain)  
@@ -83,7 +84,7 @@ pods
 
 
 ## Video name: 7 Skills Needed to Become a Blockchain Developer | Blockchain Developer Career Path  
-
+<iframe width="560" height="315" src="https://www.youtube.com/watch?v=x9l3y0cdpuU" frameborder="0" allowfullscreen></iframe>
 
 1. Command Line  
 Learn Unix or Linux command-line interface.  
