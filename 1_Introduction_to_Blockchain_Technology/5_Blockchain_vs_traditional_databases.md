@@ -20,17 +20,19 @@ It is decentralized architecture.
 |The administrator has authority over it from a central location. Any change in the data can cause the information to change all over the place. Anyone with access to the centralized database can corrupt or destroy the data. It has resulted in hacking and forgery cases.|Modifying data does not require permission.  Users have a copy of data and by modifying the copies does not affect the master copy of the data as Blockchain is irresistible to modification of data.|
 |Centralized databases keep information that is up-to-date at a particular moment.|Blockchain keeps the present information as well as the past information that has been stored before.|
 |Centralized databases are used as databases for a really long time and have a good performance record, but are slow for ertain functionalities.|Blockchain is ideal for transaction platform but it slows down when used as databases, specially with large collection of data.|
-|Blockchain technology faces scalability issues because of its dependency on all the decentralized nodes.|Because permissions are centralized and the powers to alter data are in the hands of a few, traditional databases can handle enormous volumes of transactions per second. The client-server design lowers reliance on nodes, which are replaced with isolated server centers.|
-|Blockchain has the potential to boost data transparency and trust, resulting in increased creativity, productivity, and quality.|Traditional databases fail to provide the level of transparency offered by BlockchainBlockchain.|
-|As Blockchain is a public distributed ledger, it can not be customized by an individual’s choice.|A traditional database offers numerous customization choices. Permissions, Privileges, and set-up requirements can all be optimized because traditional databases are managed centrally. Developers can update the front end and add plugins to the database to make it customer-centric.|
-|user only can contribute more data in the additional blocks in the Blockchain. The old data will not be destroyed; it will stay in the system and be accessible to the public.	|The client performs four action in a typical database: Create, Read, Update, and Delete. These are the four steps in the CRUD process.|
-|The information that is current and the information that was previously available coexist. It generates a database with its histories in it. This property of Blockchain makes it handy for tracing records and determining a product’s validity.	|The information in a centralized or traditional database is current at any given time. If want to check old data need to found the history backup, and it also may incomplete.|
+|Because permissions are centralized and the powers to alter data are in the hands of a few, traditional databases can handle enormous volumes of transactions per second. The client-server design lowers reliance on nodes, which are replaced with isolated server centers.|Blockchain technology faces scalability issues because of its dependency on all the decentralized nodes.|
+|Traditional databases fail to provide the level of transparency offered by BlockchainBlockchain.|Blockchain has the potential to boost data transparency and trust, resulting in increased creativity, productivity, and quality.|
+|A traditional database offers numerous customization choices. Permissions, Privileges, and set-up requirements can all be optimized because traditional databases are managed centrally. Developers can update the front end and add plugins to the database to make it customer-centric.|As Blockchain is a public distributed ledger, it can not be customized by an individual’s choice.|
+|The client performs four action in a typical database: Create, Read, Update, and Delete. These are the four steps in the CRUD process.| user only can contribute more data in the additional blocks in the Blockchain. The old data will not be destroyed; it will stay in the system and be accessible to the public.	|
+|The information in a centralized or traditional database is current at any given time. If want to check old data need to found the history backup, and it also may incomplete.|The information that is current and the information that was previously available coexist. It generates a database with its histories in it. This property of Blockchain makes it handy for tracing records and determining a product’s validity.|
 
 ## Use Blockchain for  
 Real-time data exchange    
 Financial transfer   
 Identifying and authenticating records   
 dApps (Decentralized applications)    
+Zero Knowledge(ZK)
+data immutable
 
 ## Use traditional database for
 Relational Data  
@@ -59,4 +61,3 @@ For the reading speed of the data, why traditional is faster?
 >When both of them keep growing, the blockchain will slower than traditional database.  
 >Because the blockchain need do addtional step, check signature verification, consensus mechanisms, and redundancy.   
 >It will take some time for each transaction.  
->Am i courrect?
