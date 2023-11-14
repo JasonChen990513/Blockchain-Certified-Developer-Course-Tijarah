@@ -103,7 +103,7 @@ Public blockchain is trustless network. In private blockchain, participants must
     Answer:　Because in a private blockchain, the validity of records cannot be independently verified as the integrity of a private network relies on the credibility of the authorized nodes.)  
 
 Public Blockchain is more secure and private blockchain is less secure.   
-Because the node of the blockchain in public blockchain is higher than private blockchain, so the hacker hard to modify the data in blockchain. And hacker can hack whole network through accessing central node.  
+>Because the node of the blockchain in public blockchain is higher than private blockchain, so the hacker hard to modify the data in blockchain. And hacker can hack whole network through accessing central node.  
 
 Public bloclchain have riskier it terms of collision or 51% attack. Private blockchain no chance of minor collisions.  
 >In the private blockchain, there is no chance of minor collision, because the validator in the network is know and they have suitable credentials.    
