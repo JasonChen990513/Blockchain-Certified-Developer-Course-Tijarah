@@ -12,7 +12,9 @@ Blocks and the information within them must be verified by a network before new 
 ## What is transaction
 A transaction refers to a contract, agreement, transfer, or exchange of assets between two or more parties. The asset is typically cash or property. Likewise, a blockchain transaction is nothing but data transmission across the network of computers in a blockchain system.  
 ### Transaction hash
+A unique identifier generated for each transaction that occurs on the network. It is a long string of characters and numbers that serves as a digital fingerprint for a specific transaction. The transaction hash is crucial for tracking and verifying transactions on the blockchain.  
 ### Block No
+
 ### Wallet
 ### Gas
 ### Block confirmation 

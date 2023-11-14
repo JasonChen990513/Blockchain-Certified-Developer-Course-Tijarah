@@ -8,6 +8,7 @@
 >>EX: Bitcoin and ethereum.   
 
 Question: The developer can do some change for the blockchain? if can, what is the meaning of the complete control?  
+>Can modify the smart contract
 
 2.Private Blockchain  
 >Invitation is required. Resrict the people who can participate.  
