@@ -86,7 +86,7 @@ pods
 
 
 ## Video name: 7 Skills Needed to Become a Blockchain Developer | Blockchain Developer Career Path      
-[![Watch the video](https://img.youtube.com/vi/v=x9l3y0cdpuU/maxresdefault.jpg)](https://www.youtube.com/embed/v=x9l3y0cdpuU)
+[![Watch the video](https://img.youtube.com/vi/x9l3y0cdpuU/maxresdefault.jpg)](https://www.youtube.com/embed/x9l3y0cdpuU)
 1. Command Line  
 Learn Unix or Linux command-line interface.  
 Learning how to interate with computer using command line.      
