@@ -11,6 +11,11 @@ Blocks and the information within them must be verified by a network before new 
 
 ## What is transaction
 A transaction refers to a contract, agreement, transfer, or exchange of assets between two or more parties. The asset is typically cash or property. Likewise, a blockchain transaction is nothing but data transmission across the network of computers in a blockchain system.  
+### Transaction hash
+### Block No
+### Wallet
+### Gas
+### Block confirmation 
 
 [Source](https://www.upgrad.com/blog/what-is-blockchain-transaction/)
 
