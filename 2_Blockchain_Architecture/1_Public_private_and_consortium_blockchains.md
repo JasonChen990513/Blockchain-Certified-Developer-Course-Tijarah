@@ -106,7 +106,7 @@ Public Blockchain is more secure and private blockchain is less secure.
 Because the node of the blockchain in public blockchain is higher than private blockchain, so the hacker hard to modify the data in blockchain. And hacker can hack whole network through accessing central node.  
 
 Public bloclchain have riskier it terms of collision or 51% attack. Private blockchain no chance of minor collisions.  
-    In the private blockchain, there is no chance of minor collision, because the validator in the network is know and they have suitable credentials.  
-    In public blockchain, the validator don't know each other, so it increase the risk of the potential collision (Current cryptographic hash function used in blockchain. Although incredibly unlikely, the possibility still exists potential threat to the data integrity).  
+>In the private blockchain, there is no chance of minor collision, because the validator in the network is know and they have suitable credentials.    
+>In public blockchain, the validator don't know each other, so it increase the risk of the potential collision (Current cryptographic hash function used in blockchain. Although incredibly unlikely, the possibility still exists potential threat to the data integrity).    
 
-    And it also have change to be 51% attack (where a group of miners who control more than 50% of the  network’s computing power can influence it).  
+>And it also have change to be 51% attack (where a group of miners who control more than 50% of the  network’s computing power can influence it).  
