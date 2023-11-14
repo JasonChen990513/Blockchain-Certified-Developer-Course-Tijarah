@@ -11,6 +11,10 @@
 
 [![Watch the video](https://img.youtube.com/vi/KA_wOqYc1zo?si=gB7S7SZ_aWk2FVA/maxresdefault.jpg)](https://www.youtube.com/embed/KA_wOqYc1zo?si=gB7S7SZ_aWk2FVA-)
 
+[![現在在 Android 中：55] // 標題
+(https://i.ytimg.com/vi/Hc79sDi3f0U/maxresdefault.jpg)] // 縮圖
+(https://www.youtube.com/watch?v=Hc79sDi3f0U "Now in Android: 55") // 影片鏈接
+
 Blockchain
 Digital information (block) store in the public database(chain)  
 Base on peer to peer topology  
