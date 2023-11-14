@@ -8,6 +8,7 @@
 
 [<img src="https://img.youtube.com/vi/KA_wOqYc1zo?si=gB7S7SZ_aWk2FVA/hqdefault.jpg" width="600" height="300"/>](https://www.youtube.com/embed/KA_wOqYc1zo?si=gB7S7SZ_aWk2FVA-)
 
+[![Watch the video](https://img.youtube.com/vi/KA_wOqYc1zo?si=gB7S7SZ_aWk2FVA/hqdefault.jpg)](https://www.youtube.com/embed/KA_wOqYc1zo?si=gB7S7SZ_aWk2FVA-)
 
 Blockchain
 Digital information (block) store in the public database(chain)  
