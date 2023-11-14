@@ -78,7 +78,7 @@ https://chain.link/education-hub/blockchain-scalability
 
 
 
-Public blockchain don't use consensus algorithm, private blockchain can use consensus algorithm such as Poorf of Elapsed Time(PoET), Raft and Istanbul BFT. (Question : Why don't use in public blockchain? XX) Both can use  
+Public blockchain don't use consensus algorithm, private blockchain can use consensus algorithm such as Poorf of Elapsed Time(PoET), Raft and Istanbul BFT. (Question : Why don't use in public blockchain?) It is wrong. Both can use the consensus algorithm.  
 IBFT  
 
 (Quesiton:   
