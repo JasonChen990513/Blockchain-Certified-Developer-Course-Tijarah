@@ -40,19 +40,19 @@ Similarity:
         <th>Public Blockchain</th>
     </tr>
     <tr>
-        <td colspan="2">Both function as an append-only ledger</td>
+        <td colspan="2">Both function as an append-only ledger.</td>
     </tr>
     <tr>
         <td colspan="2">Each network node in both these blockchains has a complete replica of the ledger.</td>
     </tr>
     <tr>
-        <td colspan="2">In both, the validity of a record is verified</td>
+        <td colspan="2">In both, the validity of a record is verified.</td>
     </tr>
     <tr>
         <td colspan="2">Both blockchain rely on numerous to authenticate edits.</td>
     </tr>
     <tr>
-        <td colspan="2">Both blockchain using consensus algorithm to .</td>
+        <td colspan="2">Both blockchain using consensus algorithm to ensuring data consistency.</td>
     </tr>
 </table>​
 
