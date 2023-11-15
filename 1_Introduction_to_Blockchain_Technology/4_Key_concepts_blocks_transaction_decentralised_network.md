@@ -14,10 +14,21 @@ A transaction refers to a contract, agreement, transfer, or exchange of assets b
 ### Transaction hash
 A unique identifier generated for each transaction that occurs on the network. It is a long string of characters and numbers that serves as a digital fingerprint for a specific transaction. The transaction hash is crucial for tracking and verifying transactions on the blockchain.  
 ### Block No
-
+It is a unique identifier assigned to each block in the blockchain.   
+Each block contains a collection of transactions and is linked to the previous block through a cryptographic hash, forming a chain of blocks.   
+The block number helps organize and sequence the blocks within the blockchain.  
 ### Wallet
+Wallet is a digital tool that allows users to store, manage, and interact with their cryptocurrencies.   
+It doesn't actually "store" the cryptocurrencies themselves but securely stores the cryptographic keys (private and public keys) needed to access and manage the funds associated with a blockchain address.  
 ### Gas
+Gas measures the computational work required to execute operations or smart contracts on a blockchain.  
+When executing smart contracts, each operation within the contract consumes a specific amount of gas.   
+More complex operations or computations require more gas.  
+Gas serves as a mechanism to prevent abuse of network resources. Encourages efficient use of network resources.  
 ### Block confirmation 
+Process of validating and adding a block of transactions to the blockchain. 
+When a new block is created and added to the blockchain, it undergoes a confirmation process to ensure that the transactions within the block are legitimate and secure. 
+
 
 [Source](https://www.upgrad.com/blog/what-is-blockchain-transaction/)
 
