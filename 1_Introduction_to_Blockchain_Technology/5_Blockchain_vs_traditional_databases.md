@@ -31,8 +31,8 @@ Real-time data exchange
 Financial transfer   
 Identifying and authenticating records   
 dApps (Decentralized applications)    
-Zero Knowledge(ZK)
-data immutable
+Zero Knowledge(ZK)  
+Data immutable
 
 ## Use traditional database for
 Relational Data  
