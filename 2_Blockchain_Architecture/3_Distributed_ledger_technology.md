@@ -6,7 +6,7 @@ Changes to the database are made through consensus mechanisms, ensuring that all
 
 
 ## Video Name: Difference Between Blockchain and Distributed Ledger Technology
-
+[Video](https://www.youtube.com/shorts/v80PKdpMtPo)
 Blockchain is one type of distributed ledger.  
 Blockchain is the subset of distributed ledger.  
 Distributed ledger do not need proof of work. Better scaling option. It have mutiple sites, regions or Participants.  
