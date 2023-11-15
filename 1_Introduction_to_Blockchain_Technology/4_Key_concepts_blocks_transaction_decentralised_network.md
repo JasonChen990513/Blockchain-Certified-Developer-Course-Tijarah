@@ -26,8 +26,8 @@ When executing smart contracts, each operation within the contract consumes a sp
 More complex operations or computations require more gas.  
 Gas serves as a mechanism to prevent abuse of network resources. Encourages efficient use of network resources.  
 ### Block confirmation 
-Process of validating and adding a block of transactions to the blockchain. 
-When a new block is created and added to the blockchain, it undergoes a confirmation process to ensure that the transactions within the block are legitimate and secure. 
+Process of validating and adding a block of transactions to the blockchain.   
+When a new block is created and added to the blockchain, it undergoes a confirmation process to ensure that the transactions within the block are legitimate and secure.   
 
 
 [Source](https://www.upgrad.com/blog/what-is-blockchain-transaction/)
