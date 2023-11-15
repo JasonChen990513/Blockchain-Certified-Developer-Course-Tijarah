@@ -117,13 +117,13 @@ Public bloclchain have riskier it terms of collision or 51% attack. Private bloc
 
 
 
-Questin of block:
-![Alt text](image.png)
-![Alt text](image-1.png)
-For the percentage, it is show about the size of block.
-The block target size of 15 million gas. But the size will accroding to the demand of the network.
-If the block size greater than target size, the protocol will increase the base fee for the following block. 
-Similarly, the protocol will decrease the base fee if the block size is less than the target block size. 
-The amount by which the base fee is adjusted is proportional to how far the current block size is from the target. 
+Questin of block:  
+![Alt text](image.png)  
+![Alt text](image-1.png)  
+For the percentage, it is show about the size of block.  
+The block target size of 15 million gas. But the size will accroding to the demand of the network.  
+If the block size greater than target size, the protocol will increase the base fee for the following block.   
+Similarly, the protocol will decrease the base fee if the block size is less than the target block size.   
+The amount by which the base fee is adjusted is proportional to how far the current block size is from the target.   
 
-The adjust fee is for same node or it is for next block?
+The adjust fee is for same node or it is for next block?  
