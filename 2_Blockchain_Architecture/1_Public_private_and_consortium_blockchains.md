@@ -58,7 +58,7 @@ Similarity:
 </table>​
 
 Differences:
-| Private Blockchain | Public Blockchain |
+| Public Blockchain | Private Blockchain |
 |:-------------------|:------------------|
 |Oder of magnitude is less in public blockchain|Oder of magnitude is more in private blockchain|
 |Anyone can take part by verifiing and adding data in public blockchain|Private blockchain olny allow authoried entities can praticipate and control network|
