@@ -12,8 +12,8 @@ Data in block is immutable.
 It is decentralized architecture.
 
 
-# Database vs BLockchain
-|Database|Blockchain|
+# Traditional Database vs BLockchain
+|Traditional Database|Blockchain|
 |:-------|:---------|
 |Database uses centralized storage of data.|Blockchain uses decentralized storage of data.|
 |Database needs a Database admin or Database administrator to manage the stored data.|There is no administrator in Blockchain.|
