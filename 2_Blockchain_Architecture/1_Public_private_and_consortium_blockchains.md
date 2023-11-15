@@ -118,8 +118,8 @@ Public bloclchain have riskier it terms of collision or 51% attack. Private bloc
 
 
 Questin of block:  
-![Alt text](Image/image.png)  
-![Alt text](Image/image-1.png)  
+![Alt text](https://github.com/JasonChen990513/Blockchain-Certified-Developer-Course-Tijarah/blob/main/Image/image-1.png?raw=true)  
+![Alt text](https://github.com/JasonChen990513/Blockchain-Certified-Developer-Course-Tijarah/blob/main/Image/image.png?raw=true)  
 For the percentage, it is show about the size of block.  
 The block target size of 15 million gas. But the size will accroding to the demand of the network.  
 If the block size greater than target size, the protocol will increase the base fee for the following block.   
