@@ -86,6 +86,7 @@ IBFT
 Transactions per second (or TPS) are lesser in a public blockchain when compared to private blockchains.    
 As the number of authorized participants is less in a private blockchain, it can process hundreds or even thousands of transactions per second. why?)  
 Because the public blockchain need to wait more node to do the validation for each transaction.  
+[Reason](https://github.com/JasonChen990513/Blockchain-Certified-Developer-Course-Tijarah/blob/main/1_Introduction_to_Blockchain_Technology/5_Blockchain_vs_traditional_databases.md#for-the-reading-speed-of-the-data-why-traditional-is-faster)    
 
 Public blockchain less scalable. Private blockchain more scalable.  
 (Question:   
