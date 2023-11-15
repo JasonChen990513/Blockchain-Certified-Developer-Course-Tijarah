@@ -117,7 +117,7 @@ Public bloclchain have riskier it terms of collision or 51% attack. Private bloc
 
 
 
-Questin of block:  
+Question of block:  
 ![Alt text](https://github.com/JasonChen990513/Blockchain-Certified-Developer-Course-Tijarah/blob/main/Image/image-1.png?raw=true)  
 ![Alt text](https://github.com/JasonChen990513/Blockchain-Certified-Developer-Course-Tijarah/blob/main/Image/image.png?raw=true)  
 For the percentage, it is show about the size of block.  
