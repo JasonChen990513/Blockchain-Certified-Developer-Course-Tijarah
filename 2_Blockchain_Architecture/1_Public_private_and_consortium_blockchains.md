@@ -128,3 +128,5 @@ The amount by which the base fee is adjusted is proportional to how far the curr
 
 The adjust fee is for same node or it is for next block?   
 [Source](https://ethereum.org/en/developers/docs/gas/#block-size)
+
+what if the blockchain have some bug and need to fix, is the developer can do something in blockchain? 
