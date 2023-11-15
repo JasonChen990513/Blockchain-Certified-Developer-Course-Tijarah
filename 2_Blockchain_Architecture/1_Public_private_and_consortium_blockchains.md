@@ -20,7 +20,7 @@ Question: The developer can do some change for the blockchain? if can, what is t
 
 
 
-3. Consortium /Hybird  
+3. Consortium /Hybird   
 >Some nodes private.  
 >Other are public.  
 >Some node use to participate the transcation, and other node use to control consensus process.  
