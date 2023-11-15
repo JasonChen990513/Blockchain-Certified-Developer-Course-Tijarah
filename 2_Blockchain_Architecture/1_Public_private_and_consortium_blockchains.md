@@ -1,5 +1,5 @@
 ## Video name: Types of Blockchain Explained | Blockchain Types
-1.Public Blockchain
+1. Public Blockchain
 >Public accessible, permissionless.  
 >No restriction on the participant and validator.  
 >Uncontrollability: single entuty can complete control over this network.  
@@ -10,7 +10,7 @@
 Question: The developer can do some change for the blockchain? if can, what is the meaning of the complete control?  
 >Can modify the smart contract
 
-2.Private Blockchain  
+2. Private Blockchain  
 >Invitation is required. Resrict the people who can participate.  
 >Only the user who in this system can see the transcation.  
 >Centralized and much better control.   
@@ -20,7 +20,7 @@ Question: The developer can do some change for the blockchain? if can, what is t
 
 
 
-3.consortium /Hybird  
+3. Consortium /Hybird  
 >Some nodes private.  
 >Other are public.  
 >Some node use to participate the transcation, and other node use to control consensus process.  
@@ -64,11 +64,11 @@ Differences:
 |Anyone can take part by verifiing and adding data in public blockchain|Private blockchain olny allow authoried entities can praticipate and control network|
 |Decentralized|Centralized|
 |Public blockchain more scalable|Private blockchain less scalable|
-|Public blockchain is trustless network|Participants must not trust one another|
+|Public blockchain is trustless network|Participants must trust the network provider|
 |More secure|Less secure|
 |Consumes more energy|Consumes less energy|    
 |Public bloclchain have riskier it terms of collision or 51% attack| Private blockchain no chance of minor collisions|
-|Private TPS(Transaction per second) are more| Public blockchain TPS are less.|
+|Public blockchain TPS are less.|Private TPS(Transaction per second) are more|
 
 Info of public vs private blockchain and scalability of blockchain  
 
@@ -126,7 +126,15 @@ If the block size greater than target size, the protocol will increase the base 
 Similarly, the protocol will decrease the base fee if the block size is less than the target block size.   
 The amount by which the base fee is adjusted is proportional to how far the current block size is from the target.   
 
+It is try to reduce the transaction coming in the same time.
+Like the movie start first day, the seat have limit. The price increase. So not everyone can watch the movie in the first day.
+If the seat are not full, the price will decrease, the person who can use the lower price to buy the ticket.  
+
 The adjust fee is for same node or it is for next block?   
 [Source](https://ethereum.org/en/developers/docs/gas/#block-size)
 
 what if the blockchain have some bug and need to fix, is the developer can do something in blockchain? 
+
+
+
+Find the private and Hybird blockchain example.
