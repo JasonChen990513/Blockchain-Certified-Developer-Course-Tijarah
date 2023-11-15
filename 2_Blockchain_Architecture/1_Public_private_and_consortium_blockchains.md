@@ -126,4 +126,5 @@ If the block size greater than target size, the protocol will increase the base 
 Similarly, the protocol will decrease the base fee if the block size is less than the target block size.   
 The amount by which the base fee is adjusted is proportional to how far the current block size is from the target.   
 
-The adjust fee is for same node or it is for next block?  [Source](https://ethereum.org/en/developers/docs/gas/#block-size)
+The adjust fee is for same node or it is for next block?   
+[Source](https://ethereum.org/en/developers/docs/gas/#block-size)
