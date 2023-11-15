@@ -42,7 +42,7 @@ Data that would be frequently modified
 
 
 Question:       
-For the reading speed of the data, why traditional is faster?    
+## For the reading speed of the data, why traditional is faster?    
 >When a transaction is carried out in the blockchain, it does all the things that a traditional database will do. However, it is slowed down because of carrying more operations, including the following.    
 >## Signature Verification:  
 >Blockchain transactions, when carried out, are cryptographically signed using cryptographic algorithms. This step is needed to ensure that each transaction is valid and originated from a valid source. As it is a complex process, it takes time to carry out the process.   
