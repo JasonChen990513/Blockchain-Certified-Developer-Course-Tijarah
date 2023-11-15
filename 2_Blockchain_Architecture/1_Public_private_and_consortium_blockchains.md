@@ -20,12 +20,13 @@ Question: The developer can do some change for the blockchain? if can, what is t
 
 
 
-3. Consortium /Hybird   
+3. Consortium /Hybrid   
 >Some nodes private.  
 >Other are public.  
 >Some node use to participate the transcation, and other node use to control consensus process.  
 >All node can access by blockchain, and what information can be accessed is based on particular data in that blockchain.  
->There are two type of the users, one is only can access the blockchain as their function, another can control over the blockchain and decides the level of security.  
+>There are two type of the users, one is only can access the blockchain as their function, another can control over the blockchain and decides the level of security. 
+>EX:  
 
 ## Difference between Blockchain and cryptocurrency  
 The relationship between Blockchain and cryptocurrency like the mobile app and mobile OS, like the bitcoin is the first cryptocurrency on the blockchain platform.  
