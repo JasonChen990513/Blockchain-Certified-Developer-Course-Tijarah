@@ -127,12 +127,14 @@ If the block size greater than target size, the protocol will increase the base 
 Similarly, the protocol will decrease the base fee if the block size is less than the target block size.   
 The amount by which the base fee is adjusted is proportional to how far the current block size is from the target.   
 
-It is try to reduce the transaction coming in the same time.
-Like the movie start first day, the seat have limit. The price increase. So not everyone can watch the movie in the first day.
-If the seat are not full, the price will decrease, the person who can use the lower price to buy the ticket.  
+
 
 The adjust fee is for same node or it is for next block?   
 [Source](https://ethereum.org/en/developers/docs/gas/#block-size)
+
+It is try to reduce the transaction coming in the same time.  
+Like the movie start first day, the seat have limit. The price increase. So not everyone can watch the movie in the first day.  
+If the seat are not full, the price will decrease, the person who can use the lower price to buy the ticket.    
 
 what if the blockchain have some bug and need to fix, is the developer can do something in blockchain? 
 
