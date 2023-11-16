@@ -140,15 +140,16 @@ what if the blockchain have some bug and need to fix, is the developer can do so
 
 
 
-Find the private and Hybird blockchain example.  
-private:  
+## Find the private and Hybird blockchain example.  
+### private:  
 Hyperledger Fabric  
 Quorum   
 Corda  
 
-Consortium/Hybrid:
+### Consortium/Hybrid:
 [R3 Corda](https://www.linkedin.com/pulse/types-blockchains-public-private-consortium-vipin-jain-ph-d-fcma-)  
-[Energy Web Foundation (EWF)](https://energyweb.org/wp-content/uploads/2019/05/EWF-Paper-TheEnergyWebChain-v1-201810-FINAL-1.pdf)  
+[Energy Web Foundation (EWF)](https://energyweb.org/wp-content/uploads/2019/05/EWF-Paper-TheEnergyWebChain-v1-201810-FINAL-1.pdf)
+>The EW Chain supports new features such as private transactions and permissioning of smart contracts that make it possible to control data access for competitive and/or regulated energy market applications, in addition to providing technical solutions for secure, lowcost, and efficient integration with hardware (e.g., smart meters).   
 Dragonchain  
 >Dragonchain is a hybrid blockchain that combines public and private elements. It allows for the creation of private smart contracts that can interact with public blockchain networks like Ethereum and Bitcoin.  
 Global Shipping Business Network (GSBN)  
