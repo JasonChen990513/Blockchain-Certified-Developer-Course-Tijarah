@@ -151,6 +151,9 @@ Consortium:
 [Energy Web Foundation (EWF)](https://energyweb.org/wp-content/uploads/2019/05/EWF-Paper-TheEnergyWebChain-v1-201810-FINAL-1.pdf)
 
 
+[why on the internet some say the Hyperledger Fabric and Quorum is private, and another say that are consortium?  
+Is it is depend on how the developer design to use that?](https://www.linkedin.com/pulse/understanding-different-types-blockchain-networks-sheria-online)
+
 
 Hyperledger ???
 
