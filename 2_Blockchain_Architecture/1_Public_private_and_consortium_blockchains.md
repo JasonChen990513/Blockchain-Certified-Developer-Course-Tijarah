@@ -141,3 +141,17 @@ what if the blockchain have some bug and need to fix, is the developer can do so
 
 
 Find the private and Hybird blockchain example.
+private:
+Hyperledger Fabric ???
+Quorum 
+
+
+Consortium:
+[R3](https://www.linkedin.com/pulse/types-blockchains-public-private-consortium-vipin-jain-ph-d-fcma-)
+[Energy Web Foundation (EWF)](https://energyweb.org/wp-content/uploads/2019/05/EWF-Paper-TheEnergyWebChain-v1-201810-FINAL-1.pdf)
+
+
+
+Hyperledger ???
+
+
