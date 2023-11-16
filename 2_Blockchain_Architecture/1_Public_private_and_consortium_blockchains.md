@@ -144,10 +144,10 @@ Find the private and Hybird blockchain example.
 private:
 Hyperledger Fabric ???
 Quorum 
-
+Corda
 
 Consortium:
-[R3](https://www.linkedin.com/pulse/types-blockchains-public-private-consortium-vipin-jain-ph-d-fcma-)
+[R3 Corda](https://www.linkedin.com/pulse/types-blockchains-public-private-consortium-vipin-jain-ph-d-fcma-)
 [Energy Web Foundation (EWF)](https://energyweb.org/wp-content/uploads/2019/05/EWF-Paper-TheEnergyWebChain-v1-201810-FINAL-1.pdf)
 
 
@@ -156,6 +156,6 @@ Consortium:
 Is it is depend on how the developer design to use that?  
 Or is the developer release some of the limit in private blockchain, so is become consortium/hybrid blockchain?
 
-Hyperledger ???
+Hyperledger is the platform to provide the blockchain service?
 
 
