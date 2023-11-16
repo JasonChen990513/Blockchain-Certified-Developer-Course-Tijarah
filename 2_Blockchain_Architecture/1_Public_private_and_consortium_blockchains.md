@@ -153,7 +153,7 @@ Consortium:
 
 [why on the internet some say the Hyperledger Fabric and Quorum is private, and another say that are consortium? ](https://www.linkedin.com/pulse/understanding-different-types-blockchain-networks-sheria-online)
 
-Is it is depend on how the developer design to use that?
+Is it is depend on how the developer design to use that?  
 Or is the developer release some of the limit in private blockchain, so is become consortium/hybrid blockchain?
 
 Hyperledger ???
