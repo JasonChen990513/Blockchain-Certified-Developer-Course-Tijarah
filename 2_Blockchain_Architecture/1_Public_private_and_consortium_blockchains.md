@@ -136,26 +136,38 @@ It is try to reduce the transaction coming in the same time.
 Like the movie start first day, the seat have limit. The price increase. So not everyone can watch the movie in the first day.  
 If the seat are not full, the price will decrease, the person who can use the lower price to buy the ticket.    
 
-what if the blockchain have some bug and need to fix, is the developer can do something in blockchain? 
+what if the blockchain have some bug and need to fix, is the developer can do something in blockchain?  
 
 
 
-Find the private and Hybird blockchain example.
-private:
-Hyperledger Fabric ???
-Quorum 
-Corda
+Find the private and Hybird blockchain example.  
+private:  
+Hyperledger Fabric  
+Quorum   
+Corda  
 
-Consortium:
-[R3 Corda](https://www.linkedin.com/pulse/types-blockchains-public-private-consortium-vipin-jain-ph-d-fcma-)
-[Energy Web Foundation (EWF)](https://energyweb.org/wp-content/uploads/2019/05/EWF-Paper-TheEnergyWebChain-v1-201810-FINAL-1.pdf)
+Consortium/Hybrid:
+[R3 Corda](https://www.linkedin.com/pulse/types-blockchains-public-private-consortium-vipin-jain-ph-d-fcma-)  
+[Energy Web Foundation (EWF)](https://energyweb.org/wp-content/uploads/2019/05/EWF-Paper-TheEnergyWebChain-v1-201810-FINAL-1.pdf)  
+Dragonchain  
+>Dragonchain is a hybrid blockchain that combines public and private elements. It allows for the creation of private smart contracts that can interact with public blockchain networks like Ethereum and Bitcoin.  
+Global Shipping Business Network (GSBN)  
+>GSBN is a non profit blockchain consortium aiming to digitize global trade. Participants include some of the world's largest shipping carriers such as COSCO Shipping Lines, Hapag Lloyd, ONE and OOCL, as well as several major port operators.
+
+## [why on the internet some say the Hyperledger Fabric and Quorum is private, and another say that are consortium? ](https://www.linkedin.com/pulse/understanding-different-types-blockchain-networks-sheria-online)  
+## Is it is depend on how the developer design to use that?    
+## Or is the developer release some of the limit in private blockchain, so is become consortium/hybrid blockchain?  
+Hyperledger Fabric is a versatile framework that can be used in various deployment scenarios, and whether it's referred to as a private or consortium blockchain depends on the specific configuration and use-case context.  
+
+Hyperledger is the platform to provide the blockchain service?  
 
 
-[why on the internet some say the Hyperledger Fabric and Quorum is private, and another say that are consortium? ](https://www.linkedin.com/pulse/understanding-different-types-blockchain-networks-sheria-online)
 
-Is it is depend on how the developer design to use that?  
-Or is the developer release some of the limit in private blockchain, so is become consortium/hybrid blockchain?
 
-Hyperledger is the platform to provide the blockchain service?
-
+more reference:  
+https://8112310.fs1.hubspotusercontent-na1.net/hubfs/8112310/Hyperledger/Offers/HL_Whitepaper_IntroductiontoHyperledger.pdf  
+https://www.hyperledger.org/projects/sawtooth  
+https://www.hyperledger.org/projects/fabric  
+https://8112310.fs1.hubspotusercontent-na1.net/hubfs/8112310/hyperledger_fabric_whitepaper.pdf  
+https://aws.amazon.com/blockchain/what-is-hyperledger-fabric/?nc1=h_ls  
 
