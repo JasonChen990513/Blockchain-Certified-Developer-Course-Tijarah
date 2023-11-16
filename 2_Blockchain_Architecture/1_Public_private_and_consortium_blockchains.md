@@ -160,6 +160,7 @@ Global Shipping Business Network (GSBN)
 >GSBN is a non profit blockchain consortium aiming to digitize global trade. Participants include some of the world's largest shipping carriers such as COSCO Shipping Lines, Hapag Lloyd, ONE and OOCL, as well as several major port operators.
 
 ## [why on the internet some say the Hyperledger Fabric and Quorum is private, and another say that are consortium? ](https://www.linkedin.com/pulse/understanding-different-types-blockchain-networks-sheria-online)  
+
 ## Is it is depend on how the developer design to use that?    
 ## Or is the developer release some of the limit in private blockchain, so is become consortium/hybrid blockchain?  
 Hyperledger Fabric is a versatile framework that can be used in various deployment scenarios, and whether it's referred to as a private or consortium blockchain depends on the specific configuration and use-case context.  
