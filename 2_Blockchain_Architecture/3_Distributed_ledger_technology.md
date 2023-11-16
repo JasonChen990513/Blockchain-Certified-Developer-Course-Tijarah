@@ -32,4 +32,5 @@ Distributed ledger do not need proof of work. Better scaling option. It have mut
 
 
 ## Question:
-when the system check the data consistency?
+when the system check the data consistency?  
+>Before the block put into blockchain.
