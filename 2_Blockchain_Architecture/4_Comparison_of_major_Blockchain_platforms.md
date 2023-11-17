@@ -17,7 +17,7 @@
 ## Detail of each platforms
 
 ### Ethereum:  
-|Consensus Mechanism|: PoW (Transitioning to PoS)  
+Consensus Mechanism: PoW (Transitioning to PoS)  
 Scalability: Ongoing improvements; Ethereum 2.0 for enhanced scalability. Through [layer 2](https://ethereum.org/en/developers/docs/scaling/#layer-2-scaling) scaling.  
 Programming Language: Solidity  
 Use Cases: General-purpose blockchain, decentralized applications  
