@@ -21,10 +21,10 @@ Consensus Mechanism: PoW (Transitioning to PoS)
 Scalability: Ongoing improvements; Ethereum 2.0 for enhanced scalability. Through [layer 2](https://ethereum.org/en/developers/docs/scaling/#layer-2-scaling) scaling.  
 Programming Language: Solidity  
 Use Cases: General-purpose blockchain, decentralized applications  
-Privacy and Security Features: Working on privacy solutions. Zero-knowledge proofs.
+Privacy and Security Features: Working on privacy solutions. Zero-knowledge proofs. Private Transactions.Immutable and Tamper-Proof Ledger. Immutable and Tamper-Proof Ledger.  
 >zk-SNARKs (Zero-Knowledge Succinct Non-Interactive Arguments of Knowledge) and zk-STARKs (Zero-Knowledge Scalable Transparent Arguments of Knowledge)  
-Governance Model: Ethereum Improvement Proposals (EIPs)  
-Token Standards: ERC-20, ERC-721  
+Governance Model: [Ethereum Improvement Proposals (EIPs)](https://ethereum.org/en/governance/#what-is-an-eip)  
+Token Standards: [ERC-20, ERC-721](https://ethereum.org/en/developers/docs/standards/tokens/)  
 Interoperability: Standardized interfaces for token exchanges  
 Community and Development Support: Large and active community  
 Licensing and Openness: Open-source  
@@ -32,14 +32,14 @@ Consolidation vs. Decentralization: Tends towards decentralization
 Adoption and Partnerships: Widely adopted; various partnerships  
 
 reference:  
-https://ethereum.org/en/developers/docs/scaling/#layer-2-scaling  
-
+https://medium.com/coinmonks/ethereum-privacy-and-security-features-exploring-for-enhanced-blockchain-protection-73f66d01b34a  
+ 
 
 ### Quorum (ConsenSys):  
-Consensus Mechanism: Raft or Istanbul BFT  
-Scalability: Focus on privacy and performance  
+Consensus Mechanism: [Raft or Istanbul BFT](https://docs.goquorum.consensys.net/concepts/consensus)  
+Scalability: [Focus on privacy and performance](https://consensys.io/blog/consensys-launches-consensys-rollups-with-the-support-of-mastercard-fostering-innovation-and-scalability-on-the-ethereum-mainnet-for-private-and-permissioned-blockchains)    
 Programming Language: Solidity  
-Use Cases: Enterprise solutions, finance  
+Use Cases: Enterprise solutions, finance, real estate, syndicated loans, digital currencies, business automation, and [more](https://consensys.net/quorum/enterprise/)      
 Privacy and Security Features: Privacy-focused; supports private transactions  
 Governance Model: ConsenSys-led development  
 Token Standards: Compatible with Ethereum tokens  
