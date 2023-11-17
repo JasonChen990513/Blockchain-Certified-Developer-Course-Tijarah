@@ -51,9 +51,9 @@ Consolidation vs. Decentralization: Focus on enterprise use; centralized governa
 Adoption and Partnerships: Enterprise-focused partnerships  
 
 ### Hyperledger Fabric:  
-Consensus Mechanism: Pluggable, supports various mechanisms  
+Consensus Mechanism: [Pluggable](https://hyperledger-fabric.readthedocs.io/en/release-2.2/whatis.html#pluggable-consensus), [supports various mechanisms](https://www.spydra.app/blog/hyperledger-fabric-consensus-mechanisms-exploring-the-options)    
 Scalability: Modular architecture for scalability  
-Programming Language: Go, Java  
+Programming Language: Go, Java, Node.js  
 Use Cases: Supply chain, finance, enterprise solutions  
 Privacy and Security Features: Granular control over data visibility  
 Governance Model: Linux Foundation-led; multiple contributors  
