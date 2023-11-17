@@ -18,10 +18,11 @@
 
 ### Ethereum:  
 Consensus Mechanism: PoW (Transitioning to PoS)  
-Scalability: Ongoing improvements; Ethereum 2.0 for enhanced scalability. Through [layer 2](https://ethereum.org/en/developers/docs/scaling/#layer-2-scaling) scaling.
+Scalability: Ongoing improvements; Ethereum 2.0 for enhanced scalability. Through [layer 2](https://ethereum.org/en/developers/docs/scaling/#layer-2-scaling) scaling.  
 Programming Language: Solidity  
 Use Cases: General-purpose blockchain, decentralized applications  
-Privacy and Security Features: Working on privacy solutions  
+Privacy and Security Features: Working on privacy solutions. Zero-knowledge proofs.
+>zk-SNARKs (Zero-Knowledge Succinct Non-Interactive Arguments of Knowledge) and zk-STARKs (Zero-Knowledge Scalable Transparent Arguments of Knowledge)  
 Governance Model: Ethereum Improvement Proposals (EIPs)  
 Token Standards: ERC-20, ERC-721  
 Interoperability: Standardized interfaces for token exchanges  
@@ -29,6 +30,10 @@ Community and Development Support: Large and active community
 Licensing and Openness: Open-source  
 Consolidation vs. Decentralization: Tends towards decentralization  
 Adoption and Partnerships: Widely adopted; various partnerships  
+
+reference:  
+https://ethereum.org/en/developers/docs/scaling/#layer-2-scaling  
+
 
 ### Quorum (ConsenSys):  
 Consensus Mechanism: Raft or Istanbul BFT  
