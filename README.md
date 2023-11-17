@@ -8,3 +8,11 @@ https://www.geeksforgeeks.org/consensus-algorithms-in-blockchain/ <br>
 https://www.investopedia.com/terms/c/consensus-mechanism-cryptocurrency.asp <br>
 https://ethereum.org/en/what-is-ethereum/ <br>
 https://www.algorand.foundation/news/web2-vs-web3 <br>
+
+
+
+
+
+
+
+https://medium.com/@IAMVISH/consensus-algorithms-in-hyperledger-framework-c8d40507aa70  
