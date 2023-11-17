@@ -138,7 +138,11 @@ If the seat are not full, the price will decrease, the person who can use the lo
 
 what if the blockchain have some bug and need to fix, is the developer can do something in blockchain?  
 
-
+|Features|Consortium|Private|Public|Hybird|
+|:-------|:---------|:------|:-----|:-----|
+|Usability|Finance, supply chain and research work|Supply chain, real estate and asset ownership|Document validations and IoT operations|Real estate and healthcare sector|
+|Access|Controlled access and security|Fully controlled access|Independent in nature with full transparency and trust|Controlled access and highly scalable in nature|
+|Transparency/Auditability/Security|Lack of transparency|Lack of auditability|Lack of security|Lack of transparency|
 
 ## Find the private and Hybird blockchain example.  
 ### private:  
