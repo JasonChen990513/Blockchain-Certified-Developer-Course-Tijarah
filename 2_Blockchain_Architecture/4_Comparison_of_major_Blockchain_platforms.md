@@ -35,6 +35,7 @@ Adoption and Partnerships: Widely adopted; various partnerships
 reference:  
 https://medium.com/coinmonks/ethereum-privacy-and-security-features-exploring-for-enhanced-blockchain-protection-73f66d01b34a  
  
+Governance Model X 
 
 ### Quorum (ConsenSys):  
 Consensus Mechanism: [Raft or Istanbul BFT](https://docs.goquorum.consensys.net/concepts/consensus)  
@@ -52,9 +53,9 @@ Adoption and Partnerships: Enterprise-focused partnerships
 
 ### Hyperledger Fabric:  
 Consensus Mechanism: [Pluggable](https://hyperledger-fabric.readthedocs.io/en/release-2.2/whatis.html#pluggable-consensus), [supports various mechanisms](https://www.spydra.app/blog/hyperledger-fabric-consensus-mechanisms-exploring-the-options)    
-Scalability: Modular architecture for scalability  
+Scalability: [Modular architecture for scalability](https://www.linkedin.com/pulse/scaling-hyperledger-fabric-transactions-strategies-enhancing-throughput)  
 Programming Language: Go, Java, Node.js  
-Use Cases: Supply chain, finance, enterprise solutions  
+Use Cases: Supply chain, finance, enterprise solutions, and [more](https://www.kaleido.io/blockchain-blog/10-use-cases-for-hyperledger-fabric)  
 Privacy and Security Features: Granular control over data visibility  
 Governance Model: Linux Foundation-led; multiple contributors  
 Token Standards: Modular; can define custom tokens  
@@ -65,13 +66,14 @@ Consolidation vs. Decentralization: Focus on enterprise use; modular and flexibl
 Adoption and Partnerships: Adopted by various industries; multiple collaborations  
 
 ### Corda:  
-Consensus Mechanism: Notary-based consensus  
-Scalability: Designed for privacy and scalability  
+Consensus Mechanism: [Notary-based](https://docs.r3.com/en/platform/corda/4.9/community/key-concepts-consensus.html) consensus  
+Scalability: [Designed for privacy and scalability](https://docs.r3.com/en/platform/corda/5.0/key-concepts.html)  
 Programming Language: Kotlin, Java  
-Use Cases: Financial services, legal, supply chain  
+Use Cases: Financial services, legal, supply chain, and [more](https://docs.r3.com/en/platform/corda/5.0/key-concepts.html#use-case-examples)    
 Privacy and Security Features: Focus on data privacy; selective data sharing  
+https://docs.r3.com/en/tools/cdl/privacy-overlay/privacy-hazard.html
 Governance Model: R3-led development  
-Token Standards: Corda does not have a built-in token standard  
+Token Standards: [Corda does not have a built-in token standard](https://www.linkedin.com/pulse/corda-crossover-private-dlt-public-blockchain-token-icer)  
 Interoperability: Designed for interoperability between Corda networks  
 Community and Development Support: R3-led development and support  
 Licensing and Openness: Open-source  
@@ -79,10 +81,10 @@ Consolidation vs. Decentralization: Emphasis on enterprise use; modular design
 Adoption and Partnerships: Adoption in financial services; partnerships with various industries  
 
 ### IBM Blockchain:  
-Consensus Mechanism: Supports multiple mechanisms  
+Consensus Mechanism: [Supports multiple mechanisms](https://www.ibm.com/downloads/cas/Q9DGBLV7), depend on the scenario.  
 Scalability: Modular for different business needs  
 Programming Language: Go, Java  
-Use Cases: Supply chain, finance, healthcare  
+Use Cases: Supply chain, finance, healthcare, and [more](https://www.ibm.com/blockchain/use-cases/)    
 Privacy and Security Features: Granular control over data visibility  
 Governance Model: IBM-led development; Hyperledger consortium  
 Token Standards: Can use Hyperledger token standards  
@@ -93,10 +95,10 @@ Consolidation vs. Decentralization: Focus on enterprise use; part of the Hyperle
 Adoption and Partnerships: Adoption in various industries; collaborations with enterprises  
 
 ### Bitcoin:  
-Consensus Mechanism: PoW  
+Consensus Mechanism: [PoW](https://www.santander.com/en/stories/blockchain-consensus)  
 Scalability: Limited scalability, slower transaction processing  
 Programming Language: Bitcoin Script  
-Use Cases: Peer-to-peer digital currency  
+Use Cases: Peer-to-peer digital currency [more](https://www.securities.io/5-best-use-cases-for-bitcoin-btc/)  
 Privacy and Security Features: Transparent and pseudonymous transactions  
 Governance Model: Decentralized; community-driven  
 Token Standards: Native currency (BTC)  
@@ -107,11 +109,11 @@ Consolidation vs. Decentralization: Decentralized; no single controlling entity
 Adoption and Partnerships: Widely adopted; accepted by various merchants  
 
 ### Hyperledger Sawtooth:  
-Consensus Mechanism: PoET (Pluggable)  
-Scalability: Modular design for flexibility  
-Programming Language: Python, Go  
-Use Cases: Supply chain, finance  
-Privacy and Security Features: Focus on modularity and scalability  
+Consensus Mechanism: PoET, PBFT, and Raft. (Pluggable) [look more](https://sawtooth.hyperledger.org/docs/1.2/#dynamic-consensus-label)   
+Scalability: [Modular design for flexibility](https://medium.com/@thakrandisharth/scaling-hyperledger-sawtooth-network-283f4b8024ce) 
+Programming Language: [Python, JavaScript, Go, C++, Java, and Rust.](https://sawtooth.hyperledger.org/docs/1.2/)  
+Use Cases: Supply chain, finance, and [more](https://medium.com/@thakrandisharth/hyperledger-sawtooth-use-cases-and-industry-applications-869535d17968)    
+Privacy and Security Features: Focus on modularity and scalability   
 Governance Model: Linux Foundation-led; multiple contributors  
 Token Standards: Can define custom token standards  
 Interoperability: Can interoperate with other Hyperledger projects  
@@ -121,10 +123,10 @@ Consolidation vs. Decentralization: Focus on enterprise use; modular design
 Adoption and Partnerships: Adopted by various industries; multiple collaborations  
 
 ### Stellar:  
-Consensus Mechanism: Federated Byzantine Agreement (FBA)  
-Scalability: High throughput and fast settlement  
+Consensus Mechanism: [Federated Byzantine Agreement (FBA)](https://www.leewayhertz.com/what-is-stellar-blockchain/)  
+Scalability: [High throughput and fast settlement](https://medium.com/cryptocurrency-scripts/stellar-blockchain-an-essential-solution-for-scalable-cryptocurrency-development-5c62a18bb1f2)   
 Programming Language: Stellar (custom language)  
-Use Cases: Cross-border payments, remittances  
+Use Cases: Cross-border payments, , and [more](https://rejolut.com/blog/top-10-use-cases-of-stellar-blockchain/)  
 Privacy and Security Features: Focus on fast and inexpensive transactions  
 Governance Model: Non-profit Stellar Development Foundation  
 Token Standards: Stellar Consensus Protocol (SCP)  
