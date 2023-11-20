@@ -102,10 +102,10 @@ Consolidation vs. Decentralization: Decentralized; no single controlling entity
 Adoption and Partnerships: Widely adopted; accepted by various merchants  
 
 ### Hyperledger Sawtooth:  
-Consensus Mechanism: PoET, PBFT, and Raft. (Pluggable) [look more](https://sawtooth.hyperledger.org/docs/1.2/#dynamic-consensus-label)   
-Scalability: [Modular design for flexibility](https://medium.com/@thakrandisharth/scaling-hyperledger-sawtooth-network-283f4b8024ce) 
-Programming Language: [Python, JavaScript, Go, C++, Java, and Rust.](https://sawtooth.hyperledger.org/docs/1.2/)  
-Use Cases: Supply chain, finance, and [more](https://medium.com/@thakrandisharth/hyperledger-sawtooth-use-cases-and-industry-applications-869535d17968)    
+Consensus Mechanism: PoET, PBFT, and Raft. (Pluggable) [look more](https://sawtooth.hyperledger.org/docs/1.2/#dynamic-consensus-label)    
+Scalability: [Modular design for flexibility](https://medium.com/@thakrandisharth/scaling-hyperledger-sawtooth-network-283f4b8024ce)   
+Programming Language: [Python, JavaScript, Go, C++, Java, and Rust.](https://sawtooth.hyperledger.org/docs/1.2/)    
+Use Cases: Supply chain, finance, and [more](https://medium.com/@thakrandisharth/hyperledger-sawtooth-use-cases-and-industry-applications-869535d17968)      
 Privacy and Security Features: Focus on modularity and scalability   
 Token Standards: Can define custom token standards  
 Interoperability: Can interoperate with other Hyperledger projects  
