@@ -24,7 +24,7 @@ Use Cases: General-purpose blockchain, decentralized applications
 Privacy and Security Features: Working on privacy solutions. Zero-knowledge proofs. Private Transactions.Immutable and Tamper-Proof Ledger. Immutable and Tamper-Proof Ledger.  
 >zk-SNARKs (Zero-Knowledge Succinct Non-Interactive Arguments of Knowledge) and zk-STARKs (Zero-Knowledge Scalable Transparent Arguments of Knowledge)  
  
-Token Standards: [ERC-20, ERC-721](https://ethereum.org/en/developers/docs/standards/tokens/)  
+Token Standards: [ERC-20, ERC-721, ERC-1155](https://ethereum.org/en/developers/docs/standards/tokens/)  
 Interoperability: Standardized interfaces for token exchanges  
 Community and Development Support: Large and active community  
 Licensing and Openness: Open-source  
