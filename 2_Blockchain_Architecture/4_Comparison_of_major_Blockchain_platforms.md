@@ -67,7 +67,7 @@ Scalability: [Designed for privacy and scalability](https://docs.r3.com/en/platf
 Programming Language: Kotlin, Java  
 Use Cases: Financial services, legal, supply chain, and [more](https://docs.r3.com/en/platform/corda/5.0/key-concepts.html#use-case-examples)    
 Privacy and Security Features: Focus on data privacy; selective data sharing  
-https://docs.r3.com/en/tools/cdl/privacy-overlay/privacy-hazard.html 
+https://docs.r3.com/en/tools/cdl/privacy-overlay/privacy-hazard.html   
 Token Standards: [Corda does not have a built-in token standard](https://www.linkedin.com/pulse/corda-crossover-private-dlt-public-blockchain-token-icer)  
 Interoperability: Designed for interoperability between Corda networks  
 Community and Development Support: R3-led development and support  
