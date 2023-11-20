@@ -161,6 +161,10 @@ Adoption and Partnerships: Various decentralized applications (DApps) built on E
 
 
 
+Reference:
+https://www.solulab.com/top-blockchain-platforms/   
+https://www.blockchain-council.org/blockchain/top-10-blockchain-platforms-you-need-to-know-about/  
+https://www.knowledgehut.com/blog/blockchain/blockchain-platforms#blockchain-platforms-for%C2%A0developers  
 
 
 
