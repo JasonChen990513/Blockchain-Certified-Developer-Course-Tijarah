@@ -35,7 +35,7 @@ It provide more secure, private, transparnecy of transaction. And it is no need 
 
 ## Ownership  
 ‍
->In Web2, we have relied on banks to hold our money; on Visa, SWIFT, Paypal and others to transact our money; and on Google, Facebook and others to verify our identity. In Web3, our >wallet (and the assets within it) can be used to verify our decentralized identity and as the “key” to unlock verification and commerce.  ‍  
+>In Web2, we have relied on banks to hold our money; on Visa, SWIFT, Paypal and others to transact our money; and on Google, Facebook and others to verify our identity. In Web3, our wallet (and the assets within it) can be used to verify our decentralized identity and as the “key” to unlock verification and commerce.  ‍  
 
 ## Native payments   
 ‍
