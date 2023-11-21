@@ -139,7 +139,7 @@ It is try to reduce the transaction coming in the same time.
 Like the movie start first day, the seat have limit. The price increase. So not everyone can watch the movie in the first day.  
 If the seat are not full, the price will decrease, the person who can use the lower price to buy the ticket.    
 
-what if the blockchain have some bug and need to fix, is the developer can do something in blockchain?  
+ 
 
 |Features|Consortium|Private|Public|Hybird|
 |:-------|:---------|:------|:-----|:-----|
