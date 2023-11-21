@@ -15,4 +15,7 @@ https://www.algorand.foundation/news/web2-vs-web3 <br>
 
 
 
-https://medium.com/@IAMVISH/consensus-algorithms-in-hyperledger-framework-c8d40507aa70  
+https://medium.com/@IAMVISH/consensus-algorithms-in-hyperledger-framework-c8d40507aa70   
+
+
+[EIPs](https://eips.ethereum.org/)
