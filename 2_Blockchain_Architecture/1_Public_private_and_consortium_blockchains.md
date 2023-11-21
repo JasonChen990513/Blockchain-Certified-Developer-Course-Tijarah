@@ -96,9 +96,12 @@ In a private blockchain, as only a few nodes need to manage data, transactions c
 
 What is the meaning of scalability at here?  
 
-Scalability: The ability to effectively cope with the growing volume of transactions and number of users without degrading performance or increasing latency.     
+Scalability: The ability to effectively cope with the growing volume of transactions and number of users without degrading performance or increasing latency.    
+
+The decentralized nature and the need for consensus among a large number of nodes can lead to slower transaction processing times and higher latency.  
 So for the node increasing the public blockchain will be slower than private blockchain.  
 
+The scalability of a private blockchain still depends on its design, the number of nodes, the consensus algorithm used, and the underlying technology.  
 
 ## Public blockchain is trustless network. In private blockchain, participants must trust one another(Owner of the network).  
 Question: why can not trust other perticipants in private blockchain?   
