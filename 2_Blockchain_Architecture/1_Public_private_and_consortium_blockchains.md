@@ -64,7 +64,7 @@ Differences:
 |Oder of magnitude is less in public blockchain|Oder of magnitude is more in private blockchain|
 |Anyone can take part by verifiing and adding data in public blockchain|Private blockchain olny allow authoried entities can praticipate and control network|
 |Decentralized|Centralized|
-|Public blockchain more scalable|Private blockchain less scalable|
+|Public blockchain less scalable|Private blockchain more scalable|
 |Public blockchain is trustless network|Participants must trust the network provider|
 |More secure|Less secure|
 |Consumes more energy|Consumes less energy|    
@@ -100,7 +100,7 @@ Scalability: The ability to effectively cope with the growing volume of transact
 So for the node increasing the public blockchain will be slower than private blockchain.  
 
 
-## Public blockchain is trustless network. In private blockchain, participants must not trust one another.  
+## Public blockchain is trustless network. In private blockchain, participants must trust one another(Owner of the network).  
 Question: why can not trust other perticipants in private blockchain?   
 Answer:Because in a private blockchain, the validity of records cannot be independently verified as the integrity of a private network relies on the credibility of the authorized nodes.  
 
