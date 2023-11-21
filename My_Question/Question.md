@@ -40,3 +40,20 @@ If certain nodes have substantially more resources, they may have a disproportio
 In a decentralized blockchain, the goal is to distribute decision-making power and influence across a network of nodes to prevent centralization and promote a more democratic and equitable system. When nodes with significantly different performances exist, it raises concerns about the potential concentration of power, which can be seen as detrimental to the decentralized nature of the blockchain.  
 
 Therefore, the emphasis on fairness is to encourage a level playing field among nodes, allowing a more inclusive and distributed participation in the consensus process. However, it's essential to strike a balance, as complete uniformity in node performance may not always be practical or necessary, depending on the specific design and goals of the blockchain network.  
+
+
+# Oder of magnitude
+## What is the Oder of magnitude meaning? transaction or other thing?
+The term "order of magnitude" refers to the scale or size of a value, usually measured in powers of 10. In the context of blockchain, when someone mentions that the order of magnitude in public blockchain, they are likely referring to the scale or volume of transactions, computational power, or some other metric being magnitude compared to another blockchain or system.  
+
+For example, if one blockchain has transaction processing capabilities or computational power that are several orders of magnitude less than another, it means there is a substantial difference in scale between the two systems. This comparison helps convey the magnitude of the difference, with each order of magnitude representing a factor of 10.  
+
+
+
+
+
+
+
+
+
+
