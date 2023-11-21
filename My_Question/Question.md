@@ -66,7 +66,7 @@ Caching and Optimization: To optimize performance, nodes and blockchain explorer
 So, while the blockchain stores a complete and immutable history of transactions, the way users interact with this data is typically through specific requests to nodes or blockchain explorers. This approach ensures that the burden on individual nodes is manageable, and users can access the information they need efficiently  
 
 
-# Different node Type
+# Different Node Type
 ## Full Node:  
 A full node is a participant in the blockchain network that maintains a complete copy of the entire blockchain ledger.   
 It stores all historical transaction data from the genesis block to the latest block.   
