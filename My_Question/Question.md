@@ -49,6 +49,41 @@ The term "order of magnitude" refers to the scale or size of a value, usually me
 For example, if one blockchain has transaction processing capabilities or computational power that are several orders of magnitude less than another, it means there is a substantial difference in scale between the two systems. This comparison helps convey the magnitude of the difference, with each order of magnitude representing a factor of 10.  
 
 
+# Serching data in blockchain
+## How the blockchain store the data? The information on the internet we see that all are read from the blockchain?
+The information on the internet that you access is not directly read from the blockchain in real-time for every request. Blockchain data is stored on the nodes that participate in the network. When users or applications want to access information from the blockchain.    
+
+Blockchain Nodes: Nodes in the blockchain network store a copy of the entire blockchain, including all transactions and blocks. These nodes validate and maintain the integrity of the blockchain.  
+
+Accessing Information: When a user or application wants to access specific information from the blockchain (e.g., transaction details, account balances), they can send a request to a node.  
+
+Node Processing: The node processes the request and retrieves the relevant information from its local copy of the blockchain. It does not need to query the entire network for every request.  
+
+Response to User/Application: The node sends the requested information back to the user or application, and it is presented through the blockchain explorer or the user interface of the application.  
+
+Caching and Optimization: To optimize performance, nodes and blockchain explorers often use caching mechanisms. Frequently accessed data may be cached to reduce the load on the node and improve response times.  
+
+So, while the blockchain stores a complete and immutable history of transactions, the way users interact with this data is typically through specific requests to nodes or blockchain explorers. This approach ensures that the burden on individual nodes is manageable, and users can access the information they need efficiently  
+
+
+# Different node Type
+## Full Node:  
+A full node is a participant in the blockchain network that maintains a complete copy of the entire blockchain ledger.   
+It stores all historical transaction data from the genesis block to the latest block.   
+Full nodes validate transactions, enforce consensus rules, and relay information to other nodes in the network.   
+They ensure that the blockchain remains secure, transparent, and resistant to attacks.  
+
+## Archive Node:  
+An archive node is a specialized type of full node that not only stores the entire blockchain but also maintains historical data and states at every point in the blockchain's history.   
+It suitable for complex queries and analytics.   
+This includes the state of smart contracts and account balances at different blocks.  
+
+## Lite Node:  
+A lite node is a node that does not store the complete blockchain.   
+Also known as a "pruned" or "light" node. It consume less storage and bandwidth compared to full nodes, making them suitable for resource-constrained devices or environments.   
+Instead, it relies on full nodes to provide specific information on demand.   
+Lite nodes typically store a recent state subset of blockchain data, such as block headers or a simplified payment verification (SPV) proof, to verify transactions without the need for a full copy of the blockchain.  
+
 
 
 
