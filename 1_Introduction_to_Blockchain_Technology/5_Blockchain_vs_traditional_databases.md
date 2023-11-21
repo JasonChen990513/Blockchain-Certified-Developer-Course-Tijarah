@@ -61,4 +61,9 @@ Question:
 >When both of them keep growing, the blockchain will slower than traditional database.  
 >Because the blockchain need do addtional step, check signature verification, consensus mechanisms, and redundancy.   
 >It will take some time for each transaction.  
->If i want to add more node, it may affect the 
+>If entity or organization want to add more node to improve the performance for blockchain, it could lead to a centralization risk, diminishing the advantages of decentralization in a blockchain network.  
+
+
+
+
+
