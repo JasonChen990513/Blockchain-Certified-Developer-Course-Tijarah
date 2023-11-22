@@ -22,7 +22,7 @@ A 256-bit hash function takes information and turns it into a 256-bit, 64-digit 
 Cryptographic hash functions are designed to be collision-proof, whereas hash functions are made to be faster to solve.
 
 ## What Is SHA-512 Cryptographic Hash Function?
-SHA-512 does the same thing as other secure hashing algorithms. The difference is that in 256-bit, there are 2<sup>512</sup> possibilities for a given input, but in 512-bit, there are 2 <sup>512</sup> possibilities. It is theoretically twice as secure, but because 256-bit is virtually impossible to crack with modern computers, 512-bit is unnecessary. It also requires more storage and processing power and could slow down processes that use it.
+SHA-512 does the same thing as other secure hashing algorithms. The difference is that in 256-bit, there are 2<sup>256</sup> possibilities for a given input, but in 512-bit, there are 2 <sup>512</sup> possibilities. 256-bit is virtually impossible to crack with modern computers, 512-bit is unnecessary. It also requires more storage and processing power and could slow down processes that use it.
 
 
 
@@ -62,12 +62,31 @@ A digital signature scheme typically consists of three algorithms: a key generat
 Hashes can ensure messages and files transmitted from sender to receiver are not tampered with during transit. Recipients can hash the receive file and compare with the receive hash. If the hash is different, that mean the file have be modify during transit.  
 
 
+# Hash Function Weaknesses
+
+In the past, there were incidences where popular algorithms like MD5 and SHA-1 were producing the same hash value for different data. Hence, the quality of collision-resistance was compromised.  
+There is a technology named “rainbow tables” that hackers use to try to crack unsalted hash values. This is why salting before hashing is so crucial to secure password storage.   
+There are some software services and hardware tools (called “hash cracking rigs”) that attackers, security researchers, or even government agencies use to crack the hashed passwords.  
+Some types of brute force attacks can crack the hashed data.  
+
+More reference:  
+https://sectigostore.com/blog/hash-function-in-cryptography-how-does-it-work/  
+
+
+## What Is Salting 
+Salting means adding randomly generated characters to the input values before hashing them. It’s a technique that’s used in password hashing. It makes the hashing values unique and more difficult to crack
+
+## Why Do You Use It with Password Hash Functions?
+If the hacker get user password and there are two user using the same password.They can bypass the authentication mechanism of all other accounts that have the same password. They just need to see the table of hash values and find the user IDs having the same hash value in their password column.  
+Now we can use salting to avoid this situation, some random alphanumeric characters are added to the input values. Assume the password is 123456 for user1 and user2. After adding salt "ACB" to user1 and "XYZ" to user2. 
+Now the user1 password is 123456ABC and user2 is 123456XYZ. Now the password store into storage is hash from 123456ABC and 123456XYZ. The final result would not be same. So if the hacker can access user1 account but cannot access user2 account with same hash.
 
 
 
 
-
-
+## Difference between encryption and hashing
+While encryption is also a process that converts plaintext data into incomprehensible format using a key, you can use the same or another key to decrypt it.   
+With hashing, on the other hand, it uses a hash function to map your input data to a fixed-length output. This is something that you can’t restore because it essentially serves as a one-way process.  
 
 
 
