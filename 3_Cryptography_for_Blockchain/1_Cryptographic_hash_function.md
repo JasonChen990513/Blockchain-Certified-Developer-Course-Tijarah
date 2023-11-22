@@ -34,20 +34,20 @@ The hash value is the final output of the cryptographic hash function. It should
 
 # Examples of Cryptographic Hash Functions
 
-Cryptographic hash functions are widely used in cryptocurrencies to pass transaction information anonymously. 
-Bitcoin uses the SHA-256 cryptographic hash function in its algorithm. 
-Ethereum, the second most popular blockchain, uses Keccak-256 to hash information.
+Cryptographic hash functions are widely used in cryptocurrencies to pass transaction information anonymously.  
+Bitcoin uses the SHA-256 cryptographic hash function in its algorithm.  
+Ethereum, the second most popular blockchain, uses Keccak-256 to hash information.  
 
 ## Password Verification
-If directly store the password in text file is very dangerous. Usually store the password as hash. When user input the password, the password will be hashing and compare with the hashed password in the storage.  
+If directly store the password in text file is very dangerous. Usually store the password as hash. When user input the password, the password will be hashing and compare with the hashed password in the storage.    
 
 ## Signature Generation and Verification
-Verifying signatures is a mathematical process used to verify the authenticity of digital documents or messages. A valid digital signature, where the prerequisites are satisfied, gives its receiver strong proof that a known sender created the message and that it was not altered in transit.
+Verifying signatures is a mathematical process used to verify the authenticity of digital documents or messages. A valid digital signature, where the prerequisites are satisfied, gives its receiver strong proof that a known sender created the message and that it was not altered in transit.  
 
-A digital signature scheme typically consists of three algorithms: a key generation algorithm; a signing algorithm that, given a message and a private key, produces a signature; and a signature verifying algorithm.
+A digital signature scheme typically consists of three algorithms: a key generation algorithm; a signing algorithm that, given a message and a private key, produces a signature; and a signature verifying algorithm.  
 
 ## Verifying File and Message Integrity
-Hashes can ensure messages and files transmitted from sender to receiver are not tampered with during transit. Recipients can hash the receive file and compare with the receive hash. If the hash is different, that mean the file have be modify during transit.
+Hashes can ensure messages and files transmitted from sender to receiver are not tampered with during transit. Recipients can hash the receive file and compare with the receive hash. If the hash is different, that mean the file have be modify during transit.  
 
 
 
