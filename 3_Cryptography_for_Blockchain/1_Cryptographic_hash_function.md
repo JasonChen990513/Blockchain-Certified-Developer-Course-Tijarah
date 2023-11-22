@@ -69,8 +69,7 @@ There is a technology named “rainbow tables” that hackers use to try to crac
 There are some software services and hardware tools (called “hash cracking rigs”) that attackers, security researchers, or even government agencies use to crack the hashed passwords.  
 Some types of brute force attacks can crack the hashed data.  
 
-More reference:  
-https://sectigostore.com/blog/hash-function-in-cryptography-how-does-it-work/  
+
 
 
 ## What Is Salting 
@@ -91,5 +90,6 @@ With hashing, on the other hand, it uses a hash function to map your input data 
 
 
 
-
+More reference:  
+https://sectigostore.com/blog/hash-function-in-cryptography-how-does-it-work/  
 
