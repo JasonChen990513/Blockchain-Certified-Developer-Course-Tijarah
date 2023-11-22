@@ -15,6 +15,18 @@ The two input hashes almost impossible generate same output hash. It call collis
 The hash data can be hidden, it is hard use the output to deduce the input value.  
 Always get the same output if you give the same input.   
 
+## What Is the 256-Bit Cryptographic Hash Function?
+A 256-bit hash function takes information and turns it into a 256-bit, 64-digit hexadecimal output that is nearly impossible to convert without a key.
+
+## What's the Difference Between a Hash Function and a Cryptographic Hash Function?
+Cryptographic hash functions are designed to be collision-proof, whereas hash functions are made to be faster to solve.
+
+## What Is SHA-512 Cryptographic Hash Function?
+SHA-512 does the same thing as other secure hashing algorithms. The difference is that in 256-bit, there are 2<sup>512</sup> possibilities for a given input, but in 512-bit, there are 2 <sup>512</sup> possibilities. It is theoretically twice as secure, but because 256-bit is virtually impossible to crack with modern computers, 512-bit is unnecessary. It also requires more storage and processing power and could slow down processes that use it.
+
+
+
+
 # How Cryptographic Hash Functions Work
 ## Initialization (IV - Initialization Vector): 
 The process begins with an initialization vector (IV), a constant value unique to each hash function instance. The IV is a predetermined value and is used to initialize the algorithm before processing the message.  
