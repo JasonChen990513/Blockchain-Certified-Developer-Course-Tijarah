@@ -92,4 +92,4 @@ With hashing, on the other hand, it uses a hash function to map your input data 
 
 More reference:  
 https://sectigostore.com/blog/hash-function-in-cryptography-how-does-it-work/  
-
+https://www.investopedia.com/news/cryptographic-hash-functions/#toc-what-is-the-256-bit-cryptographic-hash-function  
