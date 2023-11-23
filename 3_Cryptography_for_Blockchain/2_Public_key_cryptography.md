@@ -35,16 +35,16 @@ Public key cryptography is also used for digital signatures, a way for someone t
 ## How it work?
 For digital signatures, the sender (Alice) uses her private key to create the signature, which is then verified by the recipient (Bob) using Alice's public key.  
 
-If want to send the message that include the digital signature and encrypt content.
-It will using two pair key to encrypt the message.
-Assume the Alice want to send message to BOb.
-Alice use her private key to generate the hash of digital signature.
-Alice use Bob public key to encrypt the message content.
-Alicr send above two to Bob.
-Bob receive the message and use his private key to decrypt message content.
-Bob use Alice public key to decrypt the hsah.
-Bob compute the hash of receive content with same hash function.
-If the hash is same with Alice send, that mean the content is correct.
+If want to send the message that include the digital signature and encrypt content.  
+It will using two pair key to encrypt the message.  
+Assume the Alice want to send message to BOb.  
+Alice use her private key to generate the hash of digital signature.  
+Alice use Bob public key to encrypt the message content.  
+Alicr send above two to Bob.  
+Bob receive the message and use his private key to decrypt message content.  
+Bob use Alice public key to decrypt the hsah.  
+Bob compute the hash of receive content with same hash function.  
+If the hash is same with Alice send, that mean the content is correct.  
 
 
 
