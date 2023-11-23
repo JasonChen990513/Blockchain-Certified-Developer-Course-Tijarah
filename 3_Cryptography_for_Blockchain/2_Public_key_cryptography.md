@@ -61,7 +61,7 @@ A use B's public key to encrypt transcation detail and use A's private key to cr
 Blockchain network will validate the transaction. the node in the network will use the A's public key to validate the transaction detail
 
 
-
+continue tmr
 
 
 
