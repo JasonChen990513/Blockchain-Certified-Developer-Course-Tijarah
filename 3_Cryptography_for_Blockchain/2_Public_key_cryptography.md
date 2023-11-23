@@ -55,6 +55,67 @@ Bob, the recipient, uses his private key to decrypt the message.
 Since only Bob has the private key corresponding to the public key used for encryption, he is the only one who can decrypt and read the original message.  
 
 
+# How it work in blockchain? 
+A want to transfer 1 bitcoin to B
+A use B's public key to encrypt transcation detail and use A's private key to create the  digital signature.
+Blockchain network will validate the transaction. the node in the network will use the A's public key to validate the transaction detail
+
+
+
+
+
+
+
+?????????????????????????
+Step 1: Raj will take the message that he wants to share and encrypt it using Aditi’s public key or public address. This will convert the message into an unreadable format.
+
+Step 2: Raj will now take the hashed message and sign this message using his private key. This is known as digitally signing the transaction (digital signature).
+
+Step 3: Now, Raj is ready to send this message to Aditi via the blockchain network. But before this, Raj needs to get this transaction verified by the entire blockchain network. Using Raj’s public key, every node on the network will verify the digital signature of Raj and pass the transaction. 
+
+Step 4: After successful verification, Aditi will receive the message but in an encrypted form known as ciphertext. First off, Aditi will also verify the digital signature of Raj using his public key or public address. 
+
+Step 5: Then, Aditi will decrypt the ciphertext using her private key. This will convert the message into a readable format. 
+
+Step 6: The transaction is successfully carried out. Also, it is recorded on a new block in the blockchain permanently. No one can deny that this transaction between Raj and Aditi did not take place. 
+[from](https://data-flair.training/blogs/public-key-cryptography/)
+??????????????????????????????
+Digital Signature Verification:
+
+The user signs the transaction with their private key, creating a digital signature.
+The digital signature is included in the transaction details.
+Transaction Propagation:
+
+The signed transaction is broadcasted to the network.
+Public Key Extraction:
+
+Each node, upon receiving the transaction, extracts the public key of the sender from the transaction details.
+Hashing and Comparison:
+
+The node doesn't decrypt the transaction or the digital signature. Instead, it hashes the transaction content.
+The node uses the extracted public key to decrypt the digital signature, obtaining a hash of the original transaction.
+Verification:
+
+The node compares the hash obtained from the transaction content with the hash obtained from the decrypted digital signature.
+If the two hashes match, it indicates that the transaction has not been tampered with, and it was indeed signed by the private key associated with the public key.
+
+from ChatGPT
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 # Digital Signatures:
 Public key cryptography is also used for digital signatures, a way for someone to sign a document or message electronically to prove its authenticity and integrity.  
