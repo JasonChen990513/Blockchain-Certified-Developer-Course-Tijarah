@@ -1,5 +1,31 @@
 # What is Public Key Cryptography?
-Public key cryptography, also known as asymmetric cryptography, is a cryptographic system that uses pairs of keys: public keys and private keys.   
+Public key cryptography, also known as asymmetric cryptography, is a cryptographic system that uses pairs of keys: public keys and private keys.
+
+# Benefits of Public Key Cryptography
+## Secure Communication:
+Public key cryptography enables secure communication over insecure channels.  
+## Authentication:
+Public key infrastructure allows for user authentication. The private key is kept secret, and the public key is freely distributed, allowing others to verify the identity of the key owner.  
+## Key Exchange:
+Public key cryptography solves the key exchange problem. Instead of needing a secure channel to exchange secret keys, parties can freely exchange public keys, and the security relies on the difficulty of certain mathematical problems.  
+## Non-repudiation:
+Digital signatures provide non-repudiation, meaning that a party cannot deny sending a message that has been digitally signed with their private key.  
+## Scalability:
+In systems with many users, public key cryptography is more scalable than symmetric key cryptography.
+## Decentralization:
+Public key cryptography supports decentralized systems by allowing participants to independently generate and manage their key pairs.
+
+# Disadventage of Public Key Cryptography
+## Computational Cost:
+Public key algorithms are generally more computationally intensive than symmetric key algorithms. This can impact performance, especially in resource-constrained environments.
+## Length of Keys:
+As security requirements increase, longer key lengths are needed. Longer keys result in slower cryptographic operations.
+## Single Point of Failure (Private Key):
+The compromise of a private key can have severe consequences. Protecting private keys is crucial, and their loss or exposure requires a careful response.
+## Key Management Complexity:
+Managing key pairs, especially in large systems, can be complex. This includes key generation, distribution, storage, and revocation. A robust key management system is essential.  
+
+
 
 ## Public Key:
 The public key is shared openly and is used for encryption. Anyone can use this key to encrypt a message or data.  
@@ -29,6 +55,7 @@ Bob, the recipient, uses his private key to decrypt the message.
 Since only Bob has the private key corresponding to the public key used for encryption, he is the only one who can decrypt and read the original message.  
 
 
+
 # Digital Signatures:
 Public key cryptography is also used for digital signatures, a way for someone to sign a document or message electronically to prove its authenticity and integrity.  
 
@@ -37,7 +64,7 @@ For digital signatures, the sender (Alice) uses her private key to create the si
 
 If want to send the message that include the digital signature and encrypt content.  
 It will using two pair key to encrypt the message.  
-Assume the Alice want to send message to BOb.  
+Assume the Alice want to send message to Bob.  
 Alice use her private key to generate the hash of digital signature.  
 Alice use Bob public key to encrypt the message content.  
 Alicr send above two to Bob.  
