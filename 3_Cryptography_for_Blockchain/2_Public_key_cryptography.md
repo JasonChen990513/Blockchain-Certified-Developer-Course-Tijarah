@@ -72,7 +72,7 @@ This requirement is very crucial in business applications, since likelihood of a
 
 
 ## model of digital signature
-![image](https://www.tutorialspoint.com/cryptography/images/model_digital_signature.jpg)
+![image](https://www.tutorialspoint.com/cryptography/images/model_digital_signature.jpg)  
 Since digital signature is created by ‘private’ key of signer and no one else can have this key; the signer cannot repudiate signing the data in future.  
 
 ## Importance of Digital Signature
@@ -107,8 +107,8 @@ Encrypt-then-sign is more reliable and widely adopted.
 
 ![image](https://www.tutorialspoint.com/cryptography/images/encryption_with_digital_signature.jpg)   
 
-If using shared symmetric encryption key, both method transfer data may are modified by hacker.
-So use Public key cryptography to avoid this situation.
+If using shared symmetric encryption key, both method transfer data may are modified by hacker.  
+So use Public key cryptography to avoid this situation.  
 
 
 
