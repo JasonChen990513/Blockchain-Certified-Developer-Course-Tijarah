@@ -84,11 +84,7 @@ Data Integrity − If someone modify the message, the hash compute by the receiv
 
 Non-repudiation − Excluding specific cases, only the sender know the private key and can generate the unique signature on a given data. So if future dispute arises, it can be a proof as evidence.  
 
-
-
-
-
-## How it work?
+## How digital signatures work?
 For digital signatures, the sender (Alice) uses her private key to create the signature, which is then verified by the recipient (Bob) using Alice's public key.  
 
 If want to send the message that include the digital signature and encrypt content.  
@@ -103,12 +99,22 @@ Bob compute the hash of receive content with same hash function.
 If the hash is same with Alice send, that mean the content is correct.  
 
 
+## Two Different Encryption Scheme
+There are two type of encryption scheme: sign-then-encrypt and encrypt-then-sign.  
+Sign-then-encrypt can be exploited by receiver to spoof identity of sender and sent that data to third party.
+> (How and Why i cannot understand)  
+Encrypt-then-sign is more reliable and widely adopted.  
+
+![image](https://www.tutorialspoint.com/cryptography/images/encryption_with_digital_signature.jpg)   
+
+If using shared symmetric encryption key, both method transfer data may are modified by hacker.
+So use Public key cryptography to avoid this situation.
 
 
 
-
-
-
+reference:  
+https://www.preveil.com/blog/public-and-private-key/  
+https://www.tutorialspoint.com/cryptography/cryptography_digital_signatures.htm  
 
 
 
