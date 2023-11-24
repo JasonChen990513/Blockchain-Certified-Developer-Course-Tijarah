@@ -55,15 +55,10 @@ Bob, the recipient, uses his private key to decrypt the message.
 Since only Bob has the private key corresponding to the public key used for encryption, he is the only one who can decrypt and read the original message.  
 
 
-# How it work in blockchain? 
-A want to transfer 1 bitcoin to B
-A use B's public key to encrypt transcation detail and use A's private key to create the  digital signature.
-Blockchain network will validate the transaction. the node in the network will use the A's public key to validate the transaction detail
-
-
-continue tmr
-
-
+# How it work in blockchain?  
+A want to transfer 1 bitcoin to B  
+A use B's public key to encrypt transcation detail and use A's private key to create the  digital signature.   
+Blockchain network will validate the transaction. the node in the network will use the A's public key to validate the transaction detail  
 
 
 
