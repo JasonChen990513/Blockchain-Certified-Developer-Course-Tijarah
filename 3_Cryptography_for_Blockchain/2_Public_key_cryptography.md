@@ -64,9 +64,14 @@ Blockchain network will validate the transaction. the node in the network will u
 continue tmr
 
 
+# Question of application in blockchain
+
+need to encrypt the message with receiver public key
+hash the message and encrypt wirh sender private key
+In step 3, how the blockchain network know the encrypt message and generate hash? They should not have the receiver private key to decrypt.
 
 
-?????????????????????????
+## ??????????????????????????????
 Step 1: Raj will take the message that he wants to share and encrypt it using Aditi’s public key or public address. This will convert the message into an unreadable format.
 
 Step 2: Raj will now take the hashed message and sign this message using his private key. This is known as digitally signing the transaction (digital signature).
@@ -79,7 +84,15 @@ Step 5: Then, Aditi will decrypt the ciphertext using her private key. This will
 
 Step 6: The transaction is successfully carried out. Also, it is recorded on a new block in the blockchain permanently. No one can deny that this transaction between Raj and Aditi did not take place. 
 [from](https://data-flair.training/blogs/public-key-cryptography/)
-??????????????????????????????
+
+
+no need to encrypt the message  
+only encrypt the hash
+so in step 3 no need to decrypt message   
+what can do if want to improve the security of this transaction? 
+
+
+## ??????????????????????????????
 Digital Signature Verification:
 
 The user signs the transaction with their private key, creating a digital signature.
