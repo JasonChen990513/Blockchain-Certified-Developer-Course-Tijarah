@@ -70,7 +70,23 @@ It is the cryptographic value that compute by message content and sender private
 And it can make the receiver to check the message is belong to the sender original message.   
 This requirement is very crucial in business applications, since likelihood of a dispute over exchanged data is very high.  
 
+
+## model of digital signature
 ![image](https://www.tutorialspoint.com/cryptography/images/model_digital_signature.jpg)
+Since digital signature is created by ‘private’ key of signer and no one else can have this key; the signer cannot repudiate signing the data in future.  
+
+## Importance of Digital Signature
+Apart from ability to provide non-repudiation of message, the digital signature also provides message authentication and data integrity.
+
+Message authentication − when receiver validated the message using sender public key. That mean the message is send from sender.  
+
+Data Integrity − If someone modify the message, the hash compute by the receiver will not match with the receive hash. Hence, the receiver can reject this message.  
+
+Non-repudiation − Excluding specific cases, only the sender know the private key and can generate the unique signature on a given data. So if future dispute arises, it can be a proof as evidence.  
+
+
+
+
 
 ## How it work?
 For digital signatures, the sender (Alice) uses her private key to create the signature, which is then verified by the recipient (Bob) using Alice's public key.  
