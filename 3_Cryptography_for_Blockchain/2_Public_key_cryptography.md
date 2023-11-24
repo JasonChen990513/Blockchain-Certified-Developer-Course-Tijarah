@@ -64,6 +64,13 @@ Blockchain network will validate the transaction. the node in the network will u
 
 # Digital Signatures:
 Public key cryptography is also used for digital signatures, a way for someone to sign a document or message electronically to prove its authenticity and integrity.  
+Digital signature is the technique that binds a person/entity to the digital data.   
+This binding can be independently verified by receiver as well as any third party.   
+It is the cryptographic value that compute by message content and sender private key.   
+And it can make the receiver to check the message is belong to the sender original message.   
+This requirement is very crucial in business applications, since likelihood of a dispute over exchanged data is very high.  
+
+![image](https://www.tutorialspoint.com/cryptography/images/model_digital_signature.jpg)
 
 ## How it work?
 For digital signatures, the sender (Alice) uses her private key to create the signature, which is then verified by the recipient (Bob) using Alice's public key.  
@@ -94,9 +101,9 @@ If the hash is same with Alice send, that mean the content is correct.
 
 # Question of application in blockchain
 
-need to encrypt the message with receiver public key
-hash the message and encrypt wirh sender private key
-In step 3, how the blockchain network know the encrypt message and generate hash? They should not have the receiver private key to decrypt.
+need to encrypt the message with receiver public key  
+hash the message and encrypt wirh sender private key  
+In step 3, how the blockchain network know the encrypt message and generate hash? They should not have the receiver private key to decrypt.  
 
 
 ## ??????????????????????????????
@@ -114,10 +121,10 @@ Step 6: The transaction is successfully carried out. Also, it is recorded on a n
 [from](https://data-flair.training/blogs/public-key-cryptography/)
 
 
-no need to encrypt the message  
-only encrypt the hash
-so in step 3 no need to decrypt message   
-what can do if want to improve the security of this transaction? 
+no need to encrypt the message    
+only encrypt the hash  
+so in step 3 no need to decrypt message     
+what can do if want to improve the security of this transaction?   
 
 
 ## ??????????????????????????????
