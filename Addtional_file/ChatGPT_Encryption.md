@@ -1,3 +1,7 @@
+https://poe.com/chat/2rp7pe83a7m7df7yp5t  
+with jasonchen990513@gmail.com
+
+
 Which one is more preferable, encrypt-then-sign or sign-then-encrypt?
 
 Both "encrypt-then-sign" and "sign-then-encrypt" are valid methods for securing data, and the choice between them depends on the specific use case and the desired level of security.Encrypt-then-sign is a method where the data is first encrypted using a symmetric key, and then the encryption key is signed using an asymmetric key. This provides confidentiality and integrity for the data, as the encryption ensures that only authorized parties can read the data, and the signature ensures that the data has not been tampered with.Sign-then-encrypt is a method where the data is first signed using an asymmetric key, and then the signature and data are encrypted using a symmetric key. This also provides confidentiality and integrity, but it also ensures that the authenticity of the sender is verified, as the signature can only be created by the sender's private key.In general, encrypt-then-sign is used when the goal is to ensure the confidentiality and integrity of the data, while sign-then-encrypt is used when the goal is to also ensure the authenticity of the sender. However, the choice between the two methods may also depend on the specific security requirements, such as the need to comply with certain regulations or standards, or the availability of specific encryption or signing algorithms.

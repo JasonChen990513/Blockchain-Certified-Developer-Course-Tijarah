@@ -102,7 +102,8 @@ If the hash is same with Alice send, that mean the content is correct.
 ## Two Different Encryption Scheme
 There are two type of encryption scheme: sign-then-encrypt and encrypt-then-sign.  
 Sign-then-encrypt can be exploited by receiver to spoof identity of sender and sent that data to third party.
-> (How and Why i cannot understand)  
+> (How and Why i cannot understand)   
+
 Encrypt-then-sign is more reliable and widely adopted.  
 
 ![image](https://www.tutorialspoint.com/cryptography/images/encryption_with_digital_signature.jpg)   
@@ -139,7 +140,7 @@ Step 4: After successful verification, Aditi will receive the message but in an 
 
 Step 5: Then, Aditi will decrypt the ciphertext using her private key. This will convert the message into a readable format. 
 
-Step 6: The transaction is successfully carried out. Also, it is recorded on a new block in the blockchain permanently. No one can deny that this transaction between Raj and Aditi did not take place. 
+Step 6: The transaction is successfully carried out. Also, it is recorded on a new block in the blockchain permanently. No one can deny that this transaction between Raj and Aditi did not take place.   
 [from](https://data-flair.training/blogs/public-key-cryptography/)
 
 
