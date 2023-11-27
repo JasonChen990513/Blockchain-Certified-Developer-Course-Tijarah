@@ -265,8 +265,8 @@ Losing the private key can result in the loss of access to the associated funds.
 
 ## The relationship can be summarized as follows:
 
-Wallet Address is derived from the Public Key.
-Public Key is derived from the Private Key.
+Wallet Address is derived from the Public Key.  
+Public Key is derived from the Private Key.  
 
 Why need the wellat address, the public key seen can done same work?
 
