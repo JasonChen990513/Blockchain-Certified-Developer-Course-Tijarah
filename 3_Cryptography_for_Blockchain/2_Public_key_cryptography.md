@@ -193,7 +193,7 @@ Additional Data (Optional): Some blockchain platforms allow users to include add
 The sender uses their private key to create a digital signature for the transaction.       
 The digital signature is a unique cryptographic code that is generated based on the transaction data.(Hashing)  
 
-**Transaction Broadcasting:**
+**3. Transaction Broadcasting:**
 The signed transaction is broadcast to the network. This means the transaction details and the digital signature are sent to all the nodes (participants) in the blockchain network.
 
 ### How it work?
@@ -214,24 +214,32 @@ UTXO model is commonly used in blockchain systems like Bitcoin, where each trans
 D. Double-Spending Prevention:  
 Nodes check whether the same funds are not being spent in multiple transactions (double-spending). This is critical to maintaining the integrity of the ledger.  
 
-what is UTXO model is commonly used in blockchain systems like Bitcoin, where each transaction consumes certain unspent outputs and creates new ones?
+###　what is UTXO model is commonly used in blockchain systems like Bitcoin, where each transaction consumes certain unspent outputs and creates new ones?
+Each transaction in the UTXO model consumes one or more UTXOs as inputs. These UTXOs represent the funds being spent in the transaction.　　
+The transaction then creates new UTXOs as outputs, which are assigned to the addresses of the recipients.　　
+
+Example:  
+A have UTXO1 (1 BTC) and UTXO2 (2 BTC).
+now want to send 2.5 BTC to B
+Consume UTXO1 (1 BTC) and UTXO2 (2 BTC) as inputs.
+Output will be UTXO3(2.5 BTC) and UTXO4(0.5 BTC) 
+UTXO3(2.5 BTC) will be given to Bob
+UTXO4(0.5 BTC) will reserved for A
 
 
-
-
-**3. Verification by Miners/Nodes:**
+**4. Verification by Miners/Nodes:**
 Miners or validating nodes on the network receive the transaction and verify the digital signature using the sender's public key.  
 If the verification is successful, it means the sender is the rightful owner of the private key associated with the public key used in the transaction.  
 
 
-**4. Inclusion in a Block:**
+**5. Inclusion in a Block:**
 Once verified, the transaction is added to a block by the miners. 
 
 
-**5. Consensus Mechanism:**
+**6. Consensus Mechanism:**
 Depending on the blockchain's consensus mechanism (e.g., proof-of-work or proof-of-stake), and ensure agreement across the network on the order and validity of transactions.  
 
-**6. Broadcasting the Updated Ledger:**
+**7. Broadcasting the Updated Ledger:**
 Once a block is added to the blockchain, the updated ledger (containing all transactions up to that point) is broadcast to all nodes in the network.  
 
 
