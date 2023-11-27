@@ -178,19 +178,19 @@ from ChatGPT
 ## ??????????????????????????????
 ### How the public key cryptography work in blockchain.
 **1. Transaction Initiation:**
-User creating a digital message that include necessary information.  
->Recipient's Address: The public key (or address) of the recipient, identifying the destination for the funds. This is where the cryptocurrency will be sent.
-Sender's Address: The public key (or address) of the sender, identifying the entity initiating the transaction. This is used for verification purposes.
-Amount: The quantity of cryptocurrency being transferred from the sender to the recipient.
-Digital Signature: The digital signature, created using the sender's private key, is a crucial component for transaction verification. It ensures that the sender has the authority to initiate the transaction.
-Timestamp: A timestamp indicating when the transaction was created. This helps in ordering transactions and preventing issues like double-spending.
+User creating a digital message that include necessary information.    
+>Recipient's Address: The public key (or address) of the recipient, identifying the destination for the funds. This is where the cryptocurrency will be sent.    
+Sender's Address: The public key (or address) of the sender, identifying the entity initiating the transaction. This is used for verification purposes.    
+Amount: The quantity of cryptocurrency being transferred from the sender to the recipient.    
+Digital Signature: The digital signature, created using the sender's private key, is a crucial component for transaction verification. It ensures that the sender has the authority to initiate the transaction.    
+Timestamp: A timestamp indicating when the transaction was created. This helps in ordering transactions and preventing issues like double-spending.    
 
->Transaction Fee (Optional): Depending on the blockchain, a transaction fee may be required. It incentivizes miners to include the transaction in a block. The sender may choose to attach a fee to expedite transaction processing.
-Additional Data (Optional): Some blockchain platforms allow users to include additional data or metadata in their transactions. For example, a message or a reference to a smart contract.
+>Transaction Fee (Optional): Depending on the blockchain, a transaction fee may be required. It incentivizes miners to include the transaction in a block. The sender may choose to attach a fee to expedite transaction processing.    
+Additional Data (Optional): Some blockchain platforms allow users to include additional data or metadata in their transactions. For example, a message or a reference to a smart contract.    
 
 
 **2. Creation of Digital Signature:**
-The sender uses their private key to create a digital signature for the transaction.   
+The sender uses their private key to create a digital signature for the transaction.       
 The digital signature is a unique cryptographic code that is generated based on the transaction data.(Hashing)  
 
 **Transaction Broadcasting:**
