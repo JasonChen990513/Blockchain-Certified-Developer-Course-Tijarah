@@ -212,12 +212,12 @@ Nodes check whether the same funds are not being spent in multiple transactions 
 >>Each transaction in the UTXO model consumes one or more UTXOs as inputs. These UTXOs represent the funds being spent in the transaction.　　
 >>The transaction then creates new UTXOs as outputs, which are assigned to the addresses of the recipients.　　
 >> Example:  
-A have UTXO1 (1 BTC) and UTXO2 (2 BTC).
-now want to send 2.5 BTC to B
-Consume UTXO1 (1 BTC) and UTXO2 (2 BTC) as inputs.
-Output will be UTXO3(2.5 BTC) and UTXO4(0.5 BTC) 
-UTXO3(2.5 BTC) will be given to Bob
-UTXO4(0.5 BTC) will reserved for A
+>> A have UTXO1 (1 BTC) and UTXO2 (2 BTC).
+>> now want to send 2.5 BTC to B
+>> Consume UTXO1 (1 BTC) and UTXO2 (2 BTC) as inputs.
+>> Output will be UTXO3(2.5 BTC) and UTXO4(0.5 BTC) 
+>> UTXO3(2.5 BTC) will be given to Bob
+>> UTXO4(0.5 BTC) will reserved for A
 
 
 **4. Verification by Miners/Nodes:**
