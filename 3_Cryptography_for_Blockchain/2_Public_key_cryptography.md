@@ -61,61 +61,58 @@ A use B's public key to encrypt transcation detail and use A's private key to cr
 Blockchain network will validate the transaction. the node in the network will use the A's public key to validate the transaction detail  
 
 
+### What is the relationship between wallet address, public key and private key?
+**Wallet Address:** 
+The string of characters, that represent the destination on the blockchain network.  
+It is a derived version of the public key.  
+The wellat address is use to receive the funds.   
+Hard to determine the public key from the address.  
 
-# Digital Signatures:
-Public key cryptography is also used for digital signatures, a way for someone to sign a document or message electronically to prove its authenticity and integrity.  
-Digital signature is the technique that binds a person/entity to the digital data.   
-This binding can be independently verified by receiver as well as any third party.   
-It is the cryptographic value that compute by message content and sender private key.   
-And it can make the receiver to check the message is belong to the sender original message.   
-This requirement is very crucial in business applications, since likelihood of a dispute over exchanged data is very high.  
-
-
-## model of digital signature
-![image](https://www.tutorialspoint.com/cryptography/images/model_digital_signature.jpg)  
-Since digital signature is created by ‘private’ key of signer and no one else can have this key; the signer cannot repudiate signing the data in future.  
-
-## Importance of Digital Signature
-Apart from ability to provide non-repudiation of message, the digital signature also provides message authentication and data integrity.
-
-Message authentication − when receiver validated the message using sender public key. That mean the message is send from sender.  
-
-Data Integrity − If someone modify the message, the hash compute by the receiver will not match with the receive hash. Hence, the receiver can reject this message.  
-
-Non-repudiation − Excluding specific cases, only the sender know the private key and can generate the unique signature on a given data. So if future dispute arises, it can be a proof as evidence.  
-
-## How digital signatures work?
-For digital signatures, the sender (Alice) uses her private key to create the signature, which is then verified by the recipient (Bob) using Alice's public key.  
-
-If want to send the message that include the digital signature and encrypt content.  
-It will using two pair key to encrypt the message.  
-Assume the Alice want to send message to Bob.  
-Alice use her private key to generate the hash of digital signature.  
-Alice use Bob public key to encrypt the message content.  
-Alicr send above two to Bob.  
-Bob receive the message and use his private key to decrypt message content.  
-Bob use Alice public key to decrypt the hsah.  
-Bob compute the hash of receive content with same hash function.  
-If the hash is same with Alice send, that mean the content is correct.  
+**Public Key:**
+The public key is derived from a private key using a mathematical algorithm.  
+The public key is used to generate the wallet address and to verify digital signatures.  
+It is a cryptographic key that is openly shared with others on the network.   
 
 
-## Two Different Encryption Scheme
-There are two type of encryption scheme: sign-then-encrypt and encrypt-then-sign.  
-Sign-then-encrypt can be exploited by receiver to spoof identity of sender and sent that data to third party.
-> (How and Why i cannot understand)   
-
-Encrypt-then-sign is more reliable and widely adopted.  
-
-![image](https://www.tutorialspoint.com/cryptography/images/encryption_with_digital_signature.jpg)   
-
-If using shared symmetric encryption key, both method transfer data may are modified by hacker.  
-So use Public key cryptography to avoid this situation.  
+**Private Key:**
+The private key is a secret piece of information that is kept secure by the owner.
+It is used to create digital signatures for transactions and to access the funds associated with the corresponding wallet address.  
+The private key is used in the process of signing transactions, and it should never be shared with anyone.  
+Losing the private key can result in the loss of access to the associated funds.  
 
 
+## The relationship can be summarized as follows:
 
-reference:  
-https://www.preveil.com/blog/public-and-private-key/  
-https://www.tutorialspoint.com/cryptography/cryptography_digital_signatures.htm  
+Wallet Address is derived from the Public Key.  
+Public Key is derived from the Private Key.  
+
+###　Why need the wallet address, the public key seen can done same work?
+**Ease of Use:**  
+Wallet address are shorter and more friendly.
+Wallet addresses are designed to be easily readable and shareable, facilitating a more user-friendly experience.  
+**Privacy and Security:**  
+Wallet addresses help enhance privacy and security.  
+Public key is part of the cryptographic key, if can reduce the exposing that can enhance the security implications.  
+So that is the way to protect the user identities and prevant portential attacks.
+
+**Derivation and Compatibility:**
+Wallet address is derived from public key, so it can standardize the representation of address across different network.  
+Making it easier for users to interact with different cryptocurrencies.  
+
+**Checksums:**
+Many wallet addresses incorporate checksums to detect errors in manually entered addresses. 
+This helps users avoid mistakes when transcribing or sharing addresses, reducing the risk of sending funds to the wrong destination
+Preventing loss of funds that could occur if transactions were sent to mistyped or invalid addresses.
+
+**Hierarchical Deterministic (HD) Wallets:**
+HD wallet will generate the sequence of key pairs from a single seed and use addresses to manage the funds. This hierarchical structure enables the creation of new addresses for each transaction without compromising the security of the wallet.  
+
+**Compatibility with Smart Contracts:**
+Smart contracts often work with wallet addresses rather than raw public keys.  
+The address provides a standardized, user-friendly identifier that can be easily processed by smart contracts on the blockchain.  
+
+
+
 
 
 
@@ -244,6 +241,46 @@ Once a block is added to the blockchain, the updated ledger (containing all tran
 
 
 
+--------------------------------
+1. Initiation by Sender (A):
+A decides to send Ether (ETH) to B.
+A initiates a transaction from their Ethereum wallet.
+2. Transaction Details:
+A specifies the transaction details, including:
+Recipient's address (B's Ethereum address).
+Amount of Ether to be sent.
+Gas price (fee paid to miners for processing the transaction).
+Optionally, data (used for smart contract interactions).
+3. Nonce:
+A transaction in Ethereum includes a nonce, a unique number associated with the sender's account. It ensures the transaction is processed in the correct order and prevents replay attacks.
+4. Digital Signature:
+A signs the transaction with their private key to create a digital signature.
+The digital signature provides proof that A, the owner of the private key, initiated the transaction.
+5. Transaction Hash:
+The transaction details, including the digital signature, are hashed to create a unique transaction hash.
+The transaction hash is a cryptographic representation of the transaction and serves as its identifier on the Ethereum network.
+6. Broadcasting to the Network:
+A broadcasts the signed transaction to the Ethereum network.
+The transaction is sent to all nodes on the network.
+7. Nodes Verification:
+Ethereum nodes receive the transaction and perform initial verification, checking the digital signature's validity and the nonce.
+8. Mempool Inclusion:
+Valid transactions are added to the mempool, a temporary pool of unconfirmed transactions.
+9. Miners Select Transactions:
+Miners select transactions from the mempool to include in the next block based on factors like gas price.
+Gas represents the computational effort required to execute the transaction.
+10. Mining:
+Miners compete to solve a proof-of-work puzzle to add the next block to the blockchain.
+The block includes the selected transactions, including A's transaction to B.
+11. Block Confirmation:
+The new block is added to the Ethereum blockchain.
+The transaction is now confirmed, and B's balance is updated.
+12. Transaction Receipt:
+A transaction receipt is generated, containing details such as the block number, gas used, and contract execution results (if applicable).
+13. Event Notification (Optional):
+If B's Ethereum address is associated with a smart contract, events or functions within the contract may be triggered, providing additional functionality.
+14. Final Confirmation:
+B's Ethereum client (wallet) acknowledges the receipt of funds, and the transaction is considered complete.
 
 
 
@@ -251,32 +288,9 @@ Once a block is added to the blockchain, the updated ledger (containing all tran
 
 
 
-### What is the relationship between wallet address, public key and private key?
-**Wallet Address:** 
-The string of characters, that represent the destination on the blockchain network.  
-It is a derived version of the public key.  
-The wellat address is use to receive the funds.   
-Hard to determine the public key from the address.  
-
-**Public Key:**
-The public key is derived from a private key using a mathematical algorithm.  
-The public key is used to generate the wallet address and to verify digital signatures.  
-It is a cryptographic key that is openly shared with others on the network.   
 
 
-**Private Key:**
-The private key is a secret piece of information that is kept secure by the owner.
-It is used to create digital signatures for transactions and to access the funds associated with the corresponding wallet address.  
-The private key is used in the process of signing transactions, and it should never be shared with anyone.  
-Losing the private key can result in the loss of access to the associated funds.  
 
-
-## The relationship can be summarized as follows:
-
-Wallet Address is derived from the Public Key.  
-Public Key is derived from the Private Key.  
-
-Why need the wellat address, the public key seen can done same work?
 
 
 
