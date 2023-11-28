@@ -120,6 +120,12 @@ The address provides a standardized, user-friendly identifier that can be easily
 
 
 # Question of application in blockchain
+[Public key cryptography and digital signature](https://www.shiksha.com/online-courses/articles/digital-signing-in-blockchain/)  
+https://www.coinbase.com/cloud/discover/dev-foundations/digital-signatures  
+
+
+
+
 
 need to encrypt the message with receiver public key  
 hash the message and encrypt wirh sender private key  
