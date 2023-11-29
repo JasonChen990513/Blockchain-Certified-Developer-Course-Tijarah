@@ -35,7 +35,7 @@ Combine it with the first hash in the Merkle path (either concatenate or hash th
 Repeat the process for each hash in the Merkle path, moving towards the Merkle root.  
 The final result should be the Merkle root.  
 
-![Alt text](image.png)
+![Alt text](https://github.com/JasonChen990513/Blockchain-Certified-Developer-Course-Tijarah/blob/main/Image/image-2.png)
 
 ![image](https://editor.analyticsvidhya.com/uploads/86353A.png)
 
