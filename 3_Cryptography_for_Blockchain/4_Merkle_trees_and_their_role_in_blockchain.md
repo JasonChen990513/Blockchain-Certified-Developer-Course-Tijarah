@@ -30,10 +30,18 @@ If want to change it, need to recalculating Merkle root and proof of work or sta
 
 # How to use Merkle root to validate the transaction hash in the tree?
 ## To validate the transaction hash:
-Start with the transaction hash.  
-Combine it with the first hash in the Merkle path (either concatenate or hash them together, depending on the position of the transaction in the tree).  
-Repeat the process for each hash in the Merkle path, moving towards the Merkle root.  
-The final result should be the Merkle root.  
+1. Start with the transaction hash.  
+2. Combine it with the first hash in the Merkle path (either concatenate or hash them together, depending on the position of the transaction in the tree).  
+3. Repeat the process for each hash in the Merkle path, moving towards the Merkle root.  
+4. The final result should be the Merkle root.  
+
+## Example:
+If want to check the Tx1/Transaction A is inside the block.  
+Start with Tx1.  
+Combine with HashB to get HashAB.  
+Combine with HashCD to get Root.  
+
+below which one is correct?  
 
 ![Alt text](https://github.com/JasonChen990513/Blockchain-Certified-Developer-Course-Tijarah/blob/main/Image/image-2.png)
 
