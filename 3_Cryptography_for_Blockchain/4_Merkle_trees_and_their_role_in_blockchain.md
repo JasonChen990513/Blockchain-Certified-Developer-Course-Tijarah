@@ -49,3 +49,9 @@ below which one is correct?
 
 
 
+
+
+Reference:  
+https://www.analyticsvidhya.com/blog/2022/10/a-quick-guide-to-blockchain-merkle-tree/  
+https://www.javatpoint.com/blockchain-merkle-tree  
+https://www.simplilearn.com/tutorials/blockchain-tutorial/merkle-tree-in-blockchain
