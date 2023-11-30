@@ -61,6 +61,25 @@ So use Public key cryptography to avoid this situation.
 
 
 
-reference:  
+Reference:  
 https://www.preveil.com/blog/public-and-private-key/  
 https://www.tutorialspoint.com/cryptography/cryptography_digital_signatures.htm  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+https://rejolut.com/blog/how-blockchain-document-signing-works/  
+https://www.linkedin.com/pulse/digital-signatures-blockchain-irvinetek  
+https://www.shiksha.com/online-courses/articles/digital-signing-in-blockchain/  
