@@ -25,7 +25,7 @@ The compromise of a private key can have severe consequences. Protecting private
 ## Key Management Complexity:
 Managing key pairs, especially in large systems, can be complex. This includes key generation, distribution, storage, and revocation. A robust key management system is essential.  
 
-
+-----------------------------------------------------------------
 
 ## Public Key:
 The public key is shared openly and is used for encryption. Anyone can use this key to encrypt a message or data.  
@@ -34,7 +34,7 @@ The private key is kept secret and is used for decryption. Only the owner of the
 
 ## Generating public and private keys
 Encrypted by the public key can only be decrypted by the related private key.  
-A person cannot guess the private key based on knowing the public key. So public key can be freely shared. The private key however belongs to only one person.  
+A person cannot guess the private key based on knowing the public key. So public key can be freely shared. The private key belongs to only one person.  
 
 There are several well-known mathematical algorithms that are used to produce the public and private key.   
 
@@ -86,7 +86,7 @@ Losing the private key can result in the loss of access to the associated funds.
 Wallet Address is derived from the Public Key.  
 Public Key is derived from the Private Key.  
 
-###　Why need the wallet address, the public key seen can done same work?
+### Why need the wallet address, the public key seen can done same work?
 **Ease of Use:**  
 Wallet address are shorter and more friendly.
 Wallet addresses are designed to be easily readable and shareable, facilitating a more user-friendly experience.  

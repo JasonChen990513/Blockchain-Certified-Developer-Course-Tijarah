@@ -76,9 +76,9 @@ Some types of brute force attacks can crack the hashed data.
 Salting means adding randomly generated characters to the input values before hashing them. It’s a technique that’s used in password hashing. It makes the hashing values unique and more difficult to crack
 
 ## Why Do You Use It with Password Hash Functions?
-If the hacker get user password and there are two user using the same password.They can bypass the authentication mechanism of all other accounts that have the same password. They just need to see the table of hash values and find the user IDs having the same hash value in their password column.  
-Now we can use salting to avoid this situation, some random alphanumeric characters are added to the input values. Assume the password is 123456 for user1 and user2. After adding salt "ACB" to user1 and "XYZ" to user2. 
-Now the user1 password is 123456ABC and user2 is 123456XYZ. Now the password store into storage is hash from 123456ABC and 123456XYZ. The final result would not be same. So if the hacker can access user1 account but cannot access user2 account with same hash.
+If the hacker get user password and there are two user using the same password.They can by pass the authentication mechanism of all other accounts that have the same password. They just need to see the table of hash values and find the user IDs having the same hash value in their password column.  
+Now we can use salting to avoid this situation, some random alphanumeric characters are added to the input values. Assume the password is 123456 for user1 and user2. After adding salt "ACB" to user1 and "XYZ" to user2.  
+Now the user1 password is 123456ABC and user2 is 123456XYZ. Now the password store into storage is hash from 123456ABC and 123456XYZ. The final result would not be same. So if the hacker can access user1 account but cannot access user2 account with same hash.  
 
 
 
