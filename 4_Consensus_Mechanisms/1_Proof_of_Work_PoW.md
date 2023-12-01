@@ -34,7 +34,7 @@ New cryptocurrency units are distributed to miners, providing an incentive for t
 
 
 # Challenges and Concerns:
-**nergy Consumption:**  
+**Energy Consumption:**  
 PoW algorithms, especially in large and popular networks like Bitcoin, require substantial amounts of energy, leading to environmental concerns.  
 **Centralization of Mining Pools:**  
 While PoW aims for decentralization, the reality is that mining has become concentrated in large mining pools, potentially posing a risk to the distributed nature of the network.  
