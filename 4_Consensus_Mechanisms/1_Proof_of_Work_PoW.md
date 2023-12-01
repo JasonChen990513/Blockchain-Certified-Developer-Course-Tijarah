@@ -4,22 +4,22 @@ In PoW, the work is key point. In this system the miner need to compete with oth
 After the node validate the data is correct and valid, the winer will receive the reward.  
 Solved the double-spend problem.
 # How It Work?
-**Transaction Validation:**   
+1. **Transaction Validation:**   
 Transactions are broadcast to the network and gathered into a pool called the mempool.  
-**Block Creation:**  
+2. **Block Creation:**  
 Miners select transactions from the mempool to include in a new block.   
-**Mining Process:**  
+3. **Mining Process:**  
 Miners compete to find a specific value (nonce) that, when combined with the block's data, produces a hash that meets certain criteria.    
 The criteria usually include having a hash that starts with a certain number of leading zeros.    
-**Brute Force Approach:**  
+4. **Brute Force Approach:**  
 Mining involves a brute-force approach, where miners repeatedly change the nonce until a valid hash is found.  
 This process requires a significant amount of computational power and energy.  
-**Validating the Solution:**   
+5. **Validating the Solution:**   
 Once a miner finds a valid solution, they broadcast the new block to the network.  
-**Consensus:**  
+6. **Consensus:**  
 Other nodes in the network verify the validity of the solution by applying the same hash function to the block's data and checking if the hash meets the criteria.  
 If the majority of nodes agree that the solution is valid, the new block is added to the blockchain.  
-**Reward:**  
+7. **Reward:**  
 The miner who successfully mines a new block is rewarded with newly created cryptocurrency (e.g., Bitcoin) and transaction fees from the included transactions.  
 
 
