@@ -47,6 +47,8 @@ PoS eliminates requirement of the expensive mining hardware, potentially reducin
 # Challenges and Considerations:
 The initial distribution of cryptocurrency in a PoS system needs to be carefully managed to avoid centralization.  
 Some critics argue that PoS may be more susceptible to long-term security risks compared to PoW. After a prolonged period, there is a possibility that coins may become concentrated in the hands of certain groups.  
+PoS networks may have varying degrees of finality, which refers to the irreversibility of confirmed transactions.(why?)  
+
 
 
 
