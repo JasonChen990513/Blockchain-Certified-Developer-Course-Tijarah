@@ -16,7 +16,7 @@ Different proof-of-stake mechanisms may use various methods to reach a consensus
 
 
  
-1. **Staking:** 
+1. **Staking:**   
 Participants in the network lock up a certain amount of cryptocurrency as collateral by staking it in the network.  
 2. **Validator Selection:**  
 Validators are selected to create new blocks based on the amount of cryptocurrency they have staked.  
