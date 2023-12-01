@@ -2,8 +2,16 @@
 Proof of stake(PoS) is the cryptocurrency consensus machanism, it is use to processing transaction and creating new block.  
 Proof-of-stake (POS) was created as an alternative to proof-of-work (POW).  
 PoS mechanisms require validators to hold and stake tokens for the privilege of earning transaction fees.  
-Proof-of-stake (POS) is seen as less risky regarding the potential for an attack on the network, as it structures compensation in a way that makes an attack less advantageous.  (why? detail)
+Proof-of-stake (POS) is seen as less risky regarding the potential for an attack on the network, as it structures compensation in a way that makes an attack less advantageous.  (why? detail)  
 The next block writer on the blockchain is selected at random, with higher odds being assigned to nodes with larger stake positions.   
+
+|Proof-of-stake (POS)|proof-of-work (POW)|
+|:-|:-|
+|Block creators are called validators|Block creators are called miners|
+|Participants must own coins or tokens to become a validator|Participants must buy equipment and energy to become a miner|
+|Energy efficient|Not energy efficient|
+|Security through community control|Robust security due to expensive upfront requirement|
+|Validators receive transactions fees as rewards|Miners receive block rewards|
 
 
 # How it Work?
