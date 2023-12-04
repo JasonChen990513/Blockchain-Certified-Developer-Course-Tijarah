@@ -215,7 +215,6 @@ Nodes check whether the sender has sufficient funds to execute the transaction. 
 UTXO model is commonly used in blockchain systems like Bitcoin, where each transaction consumes certain unspent outputs and creates new ones.  
 > D. **Double-Spending Prevention:**  
 Nodes check whether the same funds are not being spent in multiple transactions (double-spending). This is critical to maintaining the integrity of the ledger.  
-
 >> ### what is UTXO model and how it work?
 >>Each transaction in the UTXO model consumes one or more UTXOs as inputs. These UTXOs represent the funds being spent in the transaction.　　
 >>The transaction then creates new UTXOs as outputs, which are assigned to the addresses of the recipients.　　
