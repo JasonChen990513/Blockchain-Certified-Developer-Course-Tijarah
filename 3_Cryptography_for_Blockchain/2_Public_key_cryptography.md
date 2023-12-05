@@ -114,7 +114,7 @@ The address provides a standardized, user-friendly identifier that can be easily
 
 ## Elliptic Curve Cryptography(ECC)
  
-![Alt text](image-3.png)  
+![Alt text](https://github.com/JasonChen990513/Blockchain-Certified-Developer-Course-Tijarah/blob/main/Image/image-3.png)  
 The line connecting points P and Q, intersecting the elliptical curve at a third point -R, and its symmetric point with respect to the x-axis is denoted as R.
 P dot Q -> R
 If the two points are identical, a tangent is taken.
