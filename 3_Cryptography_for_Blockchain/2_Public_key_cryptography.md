@@ -112,8 +112,22 @@ Smart contracts often work with wallet addresses rather than raw public keys.
 The address provides a standardized, user-friendly identifier that can be easily processed by smart contracts on the blockchain.  
 
 
+## Elliptic Curve Cryptography(ECC)
+ 
+![Alt text](image-3.png)  
+The line connecting points P and Q, intersecting the elliptical curve at a third point -R, and its symmetric point with respect to the x-axis is denoted as R.
+P dot Q -> R
+If the two points are identical, a tangent is taken.
+then continue do P dot R to get the next point.
+In final get the result is public key.
+private key will decide how many time need to dot. 
 
+G is the generate point
+(Publick key)PK = (Private key)n * G
 
+So it is very easy to compute the PK using the private key and G.
+But very difficult to using PK and G to compute the private key.
+Only know the starting point and end point. It's challenging to deduce the calculation process.
 
 
 
