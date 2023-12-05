@@ -114,26 +114,49 @@ The address provides a standardized, user-friendly identifier that can be easily
 
 ## Elliptic Curve Cryptography(ECC)
  
-![Alt text](https://github.com/JasonChen990513/Blockchain-Certified-Developer-Course-Tijarah/blob/main/Image/image-3.png)  
-The line connecting points P and Q, intersecting the elliptical curve at a third point -R, and its symmetric point with respect to the x-axis is denoted as R.
-P dot Q -> R
-If the two points are identical, a tangent is taken.
-then continue do P dot R to get the next point.
-In final get the result is public key.
-private key will decide how many time need to dot. 
+![Alt text](https://github.com/JasonChen990513/Blockchain-Certified-Developer-Course-Tijarah/blob/main/Image/image-3.png)    
+The line connecting points P and Q, intersecting the elliptical curve at a third point -R, and its symmetric point with respect to the x-axis is denoted as R.  
+P dot Q -> R  
+If the two points are identical, a tangent is taken.  
+then continue do P dot R to get the next point.  
+In final get the result is public key.  
+private key will decide how many time need to dot.   
 
-G is the generate point
-(Publick key)PK = (Private key)n * G
+G is the generate point  
+(Publick key)PK = (Private key)n * G  
 
-So it is very easy to compute the PK using the private key and G.
-But very difficult to using PK and G to compute the private key.
-Only know the starting point and end point. It's challenging to deduce the calculation process.
+So it is very easy to compute the PK using the private key and G.  
+But very difficult to using PK and G to compute the private key.  
+Only know the starting point and end point. It's challenging to deduce the calculation process.  
 
 
 
 
 
 # Question of application in blockchain
+Everyone have their own private key, that is very important for the user. Because that is the only way you can access and do something with wallet.  
+Public key is driven by private key.
+Wallet address is driven by public key.
+The digital signature is using private key and sending message to generate.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 [Public key cryptography and digital signature](https://www.shiksha.com/online-courses/articles/digital-signing-in-blockchain/)  
 https://www.coinbase.com/cloud/discover/dev-foundations/digital-signatures  
 
