@@ -136,8 +136,8 @@ To encrypt a message using ECC, the sender takes the recipient's public key and 
 ## Diffie–Hellman key exchange
 ![image](https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Public_key_shared_secret.svg/1200px-Public_key_shared_secret.svg.png)  
 Though the fomula PK = n * G, we can know the public key is generate from private key and G.
-Assuem the user A and B change their public key.  
-User A can compute the A's private key * B's private key * G.    
+Assuem the user A and B change their public key.    
+User A can compute the A's private key * B's private key * G.     
 User B can compute the B's private key * A's private key * G.     
 In final they can get the encryption key and this key only know for them.  
 
