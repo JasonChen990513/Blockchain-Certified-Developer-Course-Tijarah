@@ -112,7 +112,7 @@ Smart contracts often work with wallet addresses rather than raw public keys.
 The address provides a standardized, user-friendly identifier that can be easily processed by smart contracts on the blockchain.  
 
 
-## Elliptic Curve Cryptography(ECC)
+# Elliptic Curve Cryptography(ECC)
  
 ![Alt text](https://github.com/JasonChen990513/Blockchain-Certified-Developer-Course-Tijarah/blob/main/Image/image-3.png)    
 The line connecting points P and Q, intersecting the elliptical curve at a third point -R, and its symmetric point with respect to the x-axis is denoted as R.  
@@ -122,7 +122,7 @@ then continue do P dot R to get the next point.
 In final get the result is public key.  
 private key will decide how many time need to dot.   
 
-G is the generate point  
+G is the generator point    
 (Publick key)PK = (Private key)n * G  
 
 So it is very easy to compute the PK using the private key and G.  
@@ -131,7 +131,56 @@ Only know the starting point and end point. It's challenging to deduce the calcu
 
 
 
+To encrypt a message using ECC, the sender takes the recipient's public key and performs a series of mathematical operations on it and the message to produce a ciphertext. The recipient can then use their private key (which only they have) to decrypt the ciphertext and recover the original message.  
 
+## Diffie–Hellman key exchange
+![image](https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Public_key_shared_secret.svg/1200px-Public_key_shared_secret.svg.png)  
+Though the fomula PK = n * G, we can know the public key is generate from private key and G.
+Assuem the user A and B change their public key.  
+User A can compute the A's PV(private key) * B's PV * G.    
+User B can compute the B's PV * A's PV * G.     
+In final they can get the encryption key and this key only know for them.  
+
+Example of ECC using the Diffie Hellman key exchange:  
+Curve: y2 = x3 + 7 (mod 17)  
+
+p: 17 (notice this is a prime number, so this is considered a “prime” curve)
+
+a: 0
+
+b: 7
+
+G: (15,13)
+
+n: 18  
+To find n, you Point Double/Point Add starting from G until you reach a point at infinity.  That is, the operations continue until the resultant line is vertical.  In this case, n = 18.  
+
+h = 1 (which is the ideal value for h)  
+![Alt text](image-1.png)  
+A is Alice public key   
+
+B is Bob public key   
+
+⍺: randomly chosen number between 1 and n-1.  This is the private key for Alice   
+
+β: randomly chosen number between 1 and n-1.  This is the private key for Bob   
+
+Bob computes:  P = β * A   or, substituting ⍺ (G) for A, you get  P = β * ⍺ * G   
+
+Alice computes:  P = ⍺ * B  or, substituting β (G) for B, you get  P = ⍺ * β * G   
+
+Assume ⍺ = 5  
+Alice public key = A = ⍺ * G = 5G    
+3G = (6,6) according to the image above.  
+
+Assume  = 7  
+Bob public key = B = β * G = 7G  
+B = (10,15)  
+
+Bob computes s = β * A  = β * ⍺ * G  = 5(10, 15) = 5*7G = 35G mod 17 = G  
+Alice computes s = ⍺ * B = ⍺ * β * G  = 7(6, 6) = 7*5G = 35G mod 17 = G  
+G = (15,13)  
+It will be a secure key that only Bob and Alice know.  
 
 # Question of application in blockchain
 Everyone have their own private key, that is very important for the user. Because that is the only way you can access and do something with wallet.  

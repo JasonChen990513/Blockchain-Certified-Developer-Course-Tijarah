@@ -29,6 +29,7 @@ Given the message we want to sign and a private key, this function produces a   
 Verify (Message, Public Key, Signature) -> True/False  
 Given the message we want to verify, the signature and the public key, this function gives a binary output depending on whether the signature is authentic.  
 
+[refer](https://www.blockchain-council.org/blockchain/how-does-blockchain-use-public-key-cryptography/)
 
 
 ## How digital signatures work?
