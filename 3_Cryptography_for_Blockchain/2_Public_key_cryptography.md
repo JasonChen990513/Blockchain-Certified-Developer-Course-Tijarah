@@ -156,7 +156,7 @@ n: 18
 To find n, you Point Double/Point Add starting from G until you reach a point at infinity.  That is, the operations continue until the resultant line is vertical.  In this case, n = 18.  
 
 h = 1 (which is the ideal value for h)  
-![Alt text](image-1.png)  
+![Alt text](https://github.com/JasonChen990513/Blockchain-Certified-Developer-Course-Tijarah/blob/main/Image/image-4.png)  
 A is Alice public key   
 
 B is Bob public key   
