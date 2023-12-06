@@ -141,7 +141,7 @@ User A can compute the A's PV(private key) * B's PV * G.
 User B can compute the B's PV * A's PV * G.     
 In final they can get the encryption key and this key only know for them.  
 
-Example of ECC using the Diffie Hellman key exchange:  
+**Example of ECC using the Diffie Hellman key exchange:**  
 Curve: y2 = x3 + 7 (mod 17)  
 
 p: 17 (notice this is a prime number, so this is considered a “prime” curve)
