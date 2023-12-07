@@ -32,7 +32,10 @@ The newly created block is broadcast to the network for validation.
 
 **Verification by Other Nodes:**  
 Other elected block producers and nodes in the network verify the validity of the proposed block.  
-who validate the transaction?  
+
+> who validate the transaction?   
+> In a Delegated Proof of Stake (DPoS) system, when it's time to create a new block, the system typically selects a group of nodes to be the active block producers for that specific round. The number of nodes in this group is often predetermined and limited to a fixed number,  depending on the network's design.  
+
 
 ## 4. Consensus and Block Addition:  
 **Supermajority Agreement:**    
