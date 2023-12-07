@@ -5,7 +5,7 @@ Delegated Proof of Stake (DPoS) is a consensus algorithm used in blockchain netw
 
 
 # How Does Delegated Proof of Stake Work?  
-1. Token Holder Voting:  
+## 1. Token Holder Voting:  
 **Staking Tokens:**  
 Token holders in the network have the ability to vote for their preferred block producers by staking their tokens. 
 The weight of their vote is proportional to the number of tokens they hold and are willing to lock up as collateral. It also decide how many reward you will receive.    
