@@ -9,6 +9,7 @@ Delegated Proof of Stake (DPoS) is a consensus algorithm used in blockchain netw
 **Staking Tokens:**  
 Token holders in the network have the ability to vote for their preferred block producers by staking their tokens. 
 The weight of their vote is proportional to the number of tokens they hold and are willing to lock up as collateral. It also decide how many reward you will receive.    
+
 **Election Process:**   
 The election process is typically conducted periodically, and token holders can adjust their votes during each election cycle.   
 The top-ranked nodes with the highest number of votes become the active block producers.    
@@ -17,6 +18,7 @@ The top-ranked nodes with the highest number of votes become the active block pr
 **Limited Number of Nodes:**  
 DPoS limits the number of active block producers, often to a fixed number, such as 21 or 101, depending on the blockchain network's design. Only the chosen group will be receive the reward.   
 The limitation is imposed to enhance efficiency and prevent network congestion.  
+
 **Rotation of Block Producers:**  
 The elected nodes take turns being responsible for producing new blocks in a round-robin fashion.  
 The rotation of block producers ensures a fair distribution of responsibilities and helps prevent centralization.  
@@ -24,8 +26,10 @@ The rotation of block producers ensures a fair distribution of responsibilities 
 3. Block Production and Validation:  
 **Creation of New Blocks:**  
 During their turn, an elected block producer creates a new block by including a set of valid transactions from the transaction pool (mempool) into the block.  
+
 **Block Propagation:**  
 The newly created block is broadcast to the network for validation.  
+
 **Verification by Other Nodes:**  
 Other elected block producers and nodes in the network verify the validity of the proposed block.  
 who validate the transaction?  
@@ -33,11 +37,13 @@ who validate the transaction?
 4. Consensus and Block Addition:  
 **Supermajority Agreement:**    
 For a proposed block to be added to the blockchain, a supermajority of the elected block producers must agree that the block is valid.  
+
 **Confirmation and Finality:**    
 Once the supermajority agrees on the validity of the block, it is confirmed and added to the blockchain.  
 DPoS networks often achieve faster confirmation times compared to PoW.  
 
 5. Incentives for Block Producers:  
+
 **Reward System:**  
 Elected block producers are rewarded for their services with transaction fees and, in some cases, newly created cryptocurrency.  
 The incentive structure encourages block producers to act honestly and efficiently.    
