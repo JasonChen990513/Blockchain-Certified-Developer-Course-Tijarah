@@ -36,14 +36,12 @@ If want to change it, need to recalculating Merkle root and proof of work or sta
 4. The final result should be the Merkle root.  
 
 ## Example:
-If want to check the Tx1/Transaction A is inside the block.  
-Start with Tx1.  
+If want to check the Transaction A is inside the block.  
+Start with A.  
 Combine with HashB to get HashAB.  
 Combine with HashCD to get Root.  
 
 below which one is correct?  
-
-![Alt text](https://github.com/JasonChen990513/Blockchain-Certified-Developer-Course-Tijarah/blob/main/Image/image-2.png)
 
 ![image](https://editor.analyticsvidhya.com/uploads/86353A.png)
 
