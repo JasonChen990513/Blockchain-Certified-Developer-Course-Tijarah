@@ -52,6 +52,7 @@ DPoS networks often achieve faster confirmation times compared to PoW.
 Elected block producers are rewarded for their services with transaction fees and, in some cases, newly created cryptocurrency.  
 The incentive structure encourages block producers to act honestly and efficiently.    
 what is newly created cryptocurrency?  
+> Reward of new block create.
 
 ## 6. Token Holder Participation:  
 **Flexibility in Voting:**  
