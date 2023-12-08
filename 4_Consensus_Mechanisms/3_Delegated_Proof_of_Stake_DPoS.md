@@ -18,6 +18,7 @@ The top-ranked nodes with the highest number of votes become the active block pr
 **Limited Number of Nodes:**  
 DPoS limits the number of active block producers, often to a fixed number, such as 21 or 101, depending on the blockchain network's design. Only the chosen group will be receive the reward.   
 The limitation is imposed to enhance efficiency and prevent network congestion.  
+> Due to the small number of the node, they can use less time to achive the consensus. That also mean it can create a new block in shorter time. This is particularly important for applications requiring low transaction confirmation times.   
 
 **Rotation of Block Producers:**  
 The elected nodes take turns being responsible for producing new blocks in a round-robin fashion.  
