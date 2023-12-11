@@ -33,7 +33,7 @@ After receiving more than 2f+1 view change message, the new leader will broadcas
 
 # Key Properties:    
 **Permissioned:**  
-PBFT is not permissionless network, the system need to record all node information. Because the PBFT need to accurately tracking the number of nodes for mutual message verification.
+PBFT is not permissionless network, the system need to record all node information. Because the PBFT need to accurately tracking the number of nodes for mutual message verification.  
 **Leader-based:**  
 First, designate a leader, and then have the leader submit proposals. The most straightforward advantage of this approach is that it eliminates the need to expend computational resources vying for the opportunity to become a leader. By determining the leader through a random process, it avoids unfair opportunities to become a leader and also conserves computational resources.  
 **Communication-based:**  
