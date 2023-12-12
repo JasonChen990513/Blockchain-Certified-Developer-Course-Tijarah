@@ -3,7 +3,7 @@ Privacy enhancing technologies are the broad range of technologies.
 That unlock the full commercial, scientific, and social benefits of data without compromising its privacy and security.  
 privacy-enhancing technologies is very important now. Businesses can pay serious fines because of data breaches and privacy breaches can harm your business’ reputation, businesses or customers (depending on your business model) may want to stop interacting with your brand. PETs enable privacy protection while data sharing.   
 
-# Homomorphic Encryption:
+# Homomorphic Encryption
 Homomorphic encryption allows computations to be performed on encrypted data without decrypting it.  
 It generates an encrypted result which, when decrypted, matches the result of the operations as if they had been performed on unencrypted data (i.e. plaintext).  
 This enables encrypted data to be transfered, analyzed and returned to the data owner who can decrypt the information and view the results on the original data.  
@@ -35,7 +35,7 @@ Vulnerable to attacks from colluding parties: For instance, the second employee 
 
 
 
-# Secure multi-party computation (SMPC):
+# Secure multi-party computation (SMPC)
 Secure multi-party computation is a subfield of homomorphic encryption with one difference: users are able to compute values from multiple encrypted data sources. Therefore, machine learning models can be applied to encrypted data since SMPC is used for a larger volume of data.   
 
 **For example**:  
@@ -75,7 +75,7 @@ It is important to note that there are techniques to solve these problems, but t
 
 
 
-# Differential privacy:
+# Differential privacy
 Differential privacy is a method that involves adding a bit of controlled randomness to a dataset to protect the privacy of individuals. This controlled randomness ensures that the overall dataset remains accurate for generating general insights through analysis while safeguarding the personal information of each participant.   
 
 [Explain Video](https://www.youtube.com/watch?v=gI0wk1CXlsQ)   
