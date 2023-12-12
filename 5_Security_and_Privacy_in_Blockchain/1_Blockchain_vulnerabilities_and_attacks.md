@@ -35,4 +35,3 @@ Some blockchain networks involve governance mechanisms that allow token holders 
 
 
 
-https://blockchainmagazine.net/unraveling-the-top10-blockchain-attacks-and-dlt-vulnerabilities/
