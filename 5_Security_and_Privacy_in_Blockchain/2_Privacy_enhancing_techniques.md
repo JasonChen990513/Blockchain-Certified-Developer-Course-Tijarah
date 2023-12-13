@@ -125,16 +125,34 @@ Correct level of ε is not clear: There is no consensus over the optimal value o
 
 
 
-# Zero-knowledge proofs (ZKPs)
-Zero-knowledge proof (ZKP), also called a zero-knowledge protocol, is a mathematical technique to verify the truth of information without revealing the information itself.
+# Zero-Knowledge Proofs (ZKPs)
+Zero-knowledge proof (ZKP), also called a zero-knowledge protocol, is a mathematical technique to verify the truth of information without revealing the information itself.  
+
+
+Suppose A (the prover) have a color-blind friend B (the verifier) that cannot distinguish a green and a red ball from each other (have zero knowledge about whether the balls are different colors). Now A need to prove these two ball color is different. In ZKP will prove this problem like below:   
+
+B takes the balls and lets you see which ball is in which hand.   
+Then B switch the balls between their hands or not behind their back.  
+B ask A, whether switched the balls or not. Because A can distinguish the green ball and red ball, so it can answer it correctly.   
+But it have 50% chance to correctly guess the switched the balls or not.  
+However, if this process repeat several times, the probability of correctly guessing whether they switched the balls or not each time would be very low.   
+So B can verify the different color ball without knowing the actual colors of the balls.  
 
 
 
+## Properties of Zero-Knowledge Proofs
+Completeness: If the information provided by the prover is true, then a ZKP method must enable the verifier to verify that the prover is telling the truth.  
+Soundness: If the information provided by the prover is false, then a ZKP method must allow the verifier to refute that the prover is telling the truth.(Prover is lying)  
+Zero-knowledge: The method must reveal to the verifier nothing else than whether the prover telling the truth or not.  
 
+## Different Types of Zero-Knowledge Proofs? 
+Interactive zero-knowledge proofs: In this type of ZKPs, the prover and the verifier interact several times. The verifier challenges the prover who provides replies to these challenges until the verifier is convinced.   
+Non-interactive zero-knowledge proofs: In this type of ZKPs, proof delivered by the prover can be verified by the verifier only once at any time. This type of ZKPs requires more computational power than interactive ZKPs. (How it work?)  
 
+## Challenges of Zero-Knowledge Proofs?  
+No 100% guarantee: Even can repeat the prove process 1000 times, it also cannot prove with 100% certainty that the prover is not lying. As demonstrated above, the probability of a prover lying decreases in each iteration of the ball-picking process, but it can never reach zero. Thus, zero-knowledge proofs aren’t actual proofs in a mathematical sense.  
 
-
-
+Computation intensity: Algorithms used are computationally intense as they require many interactions between the verifier and the prover (in interactive ZKPs), or require a lot of computational capabilities (in non-interactive ZKPs). This makes ZKPs unsuitable for slow or mobile devices.  
 
 
 
