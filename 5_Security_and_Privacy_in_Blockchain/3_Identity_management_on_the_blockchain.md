@@ -25,17 +25,17 @@ Each DID can have multiple Verifiable Credentials associated with them that are 
 
 
 # How it work
-1. Uploading the documents  
+1. Uploading the documents   
 After the user gets ID number, user need to upload the government-issued IDs to app then that will be save in IPFS with hashed addresses stored in the blockchain.   
 
-2. Smart contracts generating trust score of the person.  
+2. Smart contracts generating trust score of the person    
 Suppose there is a score that determines the trustworthiness of a person.  
 Smart contracts containing the business logic can generate a trust score for a user from the information provided by them while creating a self-sovereign identity.  
 
-3. Third-party companies requesting access 
-When third party want to access the specific details of a person for authentication purposes, the notification will be send to that user.  
-When user allow the third party to access the information, they can use the identifiable information for authenticating a person.   
-There do not store any user data or information on blockchain. That only store the identity holders and companies transaction record.  
+3. Third-party companies requesting access   
+When third party want to access the specific details of a person for authentication purposes, the notification will be send to that user.   
+When user allow the third party to access the information, they can use the identifiable information for authenticating a person.    
+There do not store any user data or information on blockchain. That only store the identity holders and companies transaction record.   
 
 
 
