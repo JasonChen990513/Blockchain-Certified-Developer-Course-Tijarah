@@ -5,7 +5,7 @@ Blockchain-based identity management involves the use of decentralized and crypt
 Each user is assigned a unique Decentralized Identifier (DID) on the blockchain. DIDs serve as the foundation for self-sovereign identity.   
 
 ### Benefits of Decentralized Identifiers
-Organizations and individuals have full control and ownership over their DIDs and no party can take them away  
+User have full control and ownership over their DIDs and no party can take them away  
 Enable the owner to prove cryptographic control of them   
 Don’t contain personal data or wallet information  
 Enables private and secure connections between two parties and can be verified anywhere at any time  
@@ -25,12 +25,12 @@ Each DID can have multiple Verifiable Credentials associated with them that are 
 
 
 # How it work
-1. Uploading the documents
+1. Uploading the documents  
 After the user gets ID number, user need to upload the government-issued IDs to app then that will be save in IPFS with hashed addresses stored in the blockchain.   
 
-Smart contracts generating trust score of the person
+2. Smart contracts generating trust score of the person.  
 
-2. Suppose there is a score that determines the trustworthiness of a person.  
+Suppose there is a score that determines the trustworthiness of a person.  
 
 Smart contracts containing the business logic can generate a trust score for a user from the information provided by them while creating a self-sovereign identity.  
 
