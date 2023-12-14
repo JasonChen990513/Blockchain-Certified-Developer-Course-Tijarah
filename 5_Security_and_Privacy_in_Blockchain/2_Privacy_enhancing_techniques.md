@@ -38,7 +38,9 @@ Fully homomorphic encryption scheme that allows all mathematical operations on e
 
 
 # Secure multi-party computation (SMPC)
-Secure multi-party computation is a subfield of homomorphic encryption with one difference: users are able to compute values from multiple encrypted data sources. Therefore, machine learning models can be applied to encrypted data since SMPC is used for a larger volume of data.   
+Secure multi-party computation is a subfield of homomorphic encryption with one difference: users are able to compute values from multiple encrypted data sources. Therefore, machine learning models can be applied to encrypted data since SMPC is used for a larger volume of data.     
+
+Suppose a group of employees wants to learn their average salary but they don’t want to disclose their individual salary information.   
 
 **For example**:  
 Each employee is numbered from first to last.  
