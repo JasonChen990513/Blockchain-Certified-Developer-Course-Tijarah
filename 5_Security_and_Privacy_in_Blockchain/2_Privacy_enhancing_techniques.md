@@ -104,7 +104,7 @@ Differential privacy can be implemented locally or globally. In local differenti
 
 
 ## Advantage  
-Preventing attackers from access to perfect data
+Preventing attackers from access to perfect data:  
 Applying differentially private computation for each query separately would lead to different answers for the same query by different researchers. These different approximate answers are still meaningful for aggregate statistics and it ensures that a querier cannot reveal information specific to individual participants.   
 
 Protection from linkage attacks:    
@@ -147,16 +147,16 @@ So B can verify the different color ball without knowing the actual colors of th
 
 ## Properties of Zero-Knowledge Proofs
 Completeness: If the information provided by the prover is true, then a ZKP method must enable the verifier to verify that the prover is telling the truth.  
-   
+
 Soundness: If the information provided by the prover is false, then a ZKP method must allow the verifier to refute that the prover is telling the truth.(Prover is lying)       
 
 Zero-knowledge: The method must reveal to the verifier nothing else than whether the prover telling the truth or not.  
 
-## Different Types of Zero-Knowledge Proofs? 
+## Different Types of Zero-Knowledge Proofs 
 Interactive zero-knowledge proofs: In this type of ZKPs, the prover and the verifier interact several times. The verifier challenges the prover who provides replies to these challenges until the verifier is convinced.   
 Non-interactive zero-knowledge proofs: In this type of ZKPs, proof delivered by the prover can be verified by the verifier only once at any time. This type of ZKPs requires more computational power than interactive ZKPs. (How it work?)  
 
-## Challenges of Zero-Knowledge Proofs?  
+## Challenges of Zero-Knowledge Proofs  
 No 100% guarantee: Even can repeat the prove process 1000 times, it also cannot prove with 100% certainty that the prover is not lying. As demonstrated above, the probability of a prover lying decreases in each iteration of the ball-picking process, but it can never reach zero. Thus, zero-knowledge proofs aren’t actual proofs in a mathematical sense.  
 
 Computation intensity: Algorithms used are computationally intense as they require many interactions between the verifier and the prover (in interactive ZKPs), or require a lot of computational capabilities (in non-interactive ZKPs). This makes ZKPs unsuitable for slow or mobile devices.  
