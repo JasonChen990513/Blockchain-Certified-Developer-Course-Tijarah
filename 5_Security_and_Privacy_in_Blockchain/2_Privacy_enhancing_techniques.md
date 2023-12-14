@@ -146,8 +146,10 @@ So B can verify the different color ball without knowing the actual colors of th
 
 
 ## Properties of Zero-Knowledge Proofs
-Completeness: If the information provided by the prover is true, then a ZKP method must enable the verifier to verify that the prover is telling the truth.     
+Completeness: If the information provided by the prover is true, then a ZKP method must enable the verifier to verify that the prover is telling the truth.  
+   
 Soundness: If the information provided by the prover is false, then a ZKP method must allow the verifier to refute that the prover is telling the truth.(Prover is lying)       
+
 Zero-knowledge: The method must reveal to the verifier nothing else than whether the prover telling the truth or not.  
 
 ## Different Types of Zero-Knowledge Proofs? 
