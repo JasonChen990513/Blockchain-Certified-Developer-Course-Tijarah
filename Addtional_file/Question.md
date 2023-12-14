@@ -145,4 +145,36 @@ Finality in the context of blockchain networks refers to the degree of confidenc
 ### 10. **Network Upgrades and Governance:**
     - The governance mechanisms and ability to upgrade the network may affect finality. Changes in the protocol, such as adjustments to consensus parameters, can influence how finality is achieved.
 
-In summary, the varying degrees of finality in PoS networks are influenced by the design choices made in the consensus mechanism, the security parameters set by the protocol, the network's ability to synchronize, and the economic incentives provided to validators. Achieving a balance between security and efficiency is an ongoing challenge in the development and optimization of PoS-based blockchain networks.
+In summary, the varying degrees of finality in PoS networks are influenced by the design choices made in the consensus mechanism, the security parameters set by the protocol, the network's ability to synchronize, and the economic incentives provided to validators. Achieving a balance between security and efficiency is an ongoing challenge in the development and optimization of PoS-based blockchain networks.  
+
+
+
+
+## Two Different Encryption Scheme (confuse)
+There are two type of encryption scheme: sign-then-encrypt and encrypt-then-sign.  
+Sign-then-encrypt can be exploited by receiver to spoof identity of sender and sent that data to third party.
+> (How and Why i cannot understand)   
+
+Encrypt-then-sign is more reliable and widely adopted.  
+
+![image](https://www.tutorialspoint.com/cryptography/images/encryption_with_digital_signature.jpg)   
+
+If using shared symmetric encryption key, both method transfer data may are modified by hacker.  
+So use Public key cryptography to avoid this situation.  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
