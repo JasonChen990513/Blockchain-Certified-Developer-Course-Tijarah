@@ -56,6 +56,7 @@ SMPC aims to ensure two basic properties against adversarial attacks:
 
 Input privacy: No party can infer information about private inputs from the output.  
 Correctness: An adversarial party must not be able to prevent other parties from receiving their correct outputs.(Why?)  
+(Is it mean during the sending message process, the message should ensure it is secure and would not manipular by adversarial party?)  
 
 ## Advantages
 Promotes privacy and data utility: SMPC can eliminate the tradeoff between data privacy and data utility since private or encrypted data doesn’t need to be shared with third parties or model owners to be utilized. By this means, it also eliminates the risks of data breaches and misuses stemming from data collection.  
@@ -145,8 +146,8 @@ So B can verify the different color ball without knowing the actual colors of th
 
 
 ## Properties of Zero-Knowledge Proofs
-Completeness: If the information provided by the prover is true, then a ZKP method must enable the verifier to verify that the prover is telling the truth.    
-Soundness: If the information provided by the prover is false, then a ZKP method must allow the verifier to refute that the prover is telling the truth.(Prover is lying)    
+Completeness: If the information provided by the prover is true, then a ZKP method must enable the verifier to verify that the prover is telling the truth.     
+Soundness: If the information provided by the prover is false, then a ZKP method must allow the verifier to refute that the prover is telling the truth.(Prover is lying)       
 Zero-knowledge: The method must reveal to the verifier nothing else than whether the prover telling the truth or not.  
 
 ## Different Types of Zero-Knowledge Proofs? 
