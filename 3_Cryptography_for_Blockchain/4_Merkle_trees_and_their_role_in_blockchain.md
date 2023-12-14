@@ -40,8 +40,7 @@ If want to check the Transaction A is inside the block.
 Start with A.  
 Combine with HashB to get HashAB.  
 Combine with HashCD to get Root.  
-
-below which one is correct?  
+ 
 
 ![image](https://editor.analyticsvidhya.com/uploads/86353A.png)
 
