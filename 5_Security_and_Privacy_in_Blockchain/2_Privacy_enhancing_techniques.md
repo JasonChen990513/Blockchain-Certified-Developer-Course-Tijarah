@@ -18,16 +18,18 @@ Somewhat homomorphic encryption: can perform more than one type of operation (e.
 Fully homomorphic encryption: can perform more than one type of operation and there is no restriction on the number of operations performed.  
 
 
-## Advantages
-Promotes privacy and data utility: SMPC can eliminate the tradeoff between data privacy and data utility since private or encrypted data doesn’t need to be shared with third parties or model owners to be utilized. By this means, it also eliminates the risks of data breaches and misuses stemming from data collection.  
+# Benefits of homomorphic encryption  
+Allows secure and efficient cloud use: Homomorphic encryption allow safely using the cloud computing and storage services. Businesses do not need to rely cloud service to protect the data security, at the same time still can do some computations on it.  
 
-Reveals only the final result: SMPC only reveals the final result and doesn’t reveal intermediate information during the computation. Compared with federated learning, a machine learning approach where data is not collected from different parties but model parameters are communicated, SMPC provides a higher security level.  
 
-Less resource-intensive than other methods: Compared with fully homomorphic encryption, another cryptographic method that allows computation on encrypted data, SMPC requires less computing power.  
+Enables collaboration: Homomorphic encryption can share private and sensitive data to the third party and no need to worry getting compromised. It can improve collaboration and innovation in industry.    
 
-## Disadvantages  
-Communication overhead: As illustrated in the example above, the SMPC method requires communication between parties, which can lead to high communication costs.  
-Vulnerable to attacks from colluding parties: For instance, the second employee and the fourth employee can collude to learn the third employee’s salary by subtracting the value sent by second to third from the value sent by the third to fourth.  
+Ensures regulatory compliance: For those businesses which heavily regulated industries, like healthcare and finance. They can use homomorphic encryption to get outsource services to do research and analytical without risk of non-compliance.    
+
+# Challenges to homomorphic encryption  
+Fully homomorphic encryption scheme that allows all mathematical operations on encrypted data was first established in 2009 by Craig Gentry. In its current form, fully homomorphic encryption is impractically slow.  
+
+ In 2017, Researchers from organizations such as Microsoft, IBM, Google, government organizations and academia have formed a an open consortium to standardize homomorphic encryption and to advance secure computation.  
 
 
 
