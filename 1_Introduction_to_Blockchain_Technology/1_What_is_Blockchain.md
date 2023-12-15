@@ -26,7 +26,7 @@ Unique id for each item
 Good transparency of all transaction  
 Everyone can get the real time data  
 why blockchain speed faster than normal database?   
-> For the blockchain stored the data in the node, when want to update the data in the node, only need to get the data which is inside your node. So the speed is depend on the size you need to download.  
+> For the blockchain stored the data in the node, when want to update the data in the node, only need to get the data which is inside your node. So the time is depend on the size you need to download.  
 
 
 Block have 3 part
