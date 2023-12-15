@@ -159,4 +159,7 @@ Non-interactive zero-knowledge proofs: In this type of ZKPs, proof delivered by 
 ## Challenges of Zero-Knowledge Proofs  
 No 100% guarantee: Even can repeat the prove process 1000 times, it also cannot prove with 100% certainty that the prover is not lying. As demonstrated above, the probability of a prover lying decreases in each iteration of the ball-picking process, but it can never reach zero. Thus, zero-knowledge proofs aren’t actual proofs in a mathematical sense.  
 
-Computation intensity: Algorithms used are computationally intense as they require many interactions between the verifier and the prover (in interactive ZKPs), or require a lot of computational capabilities (in non-interactive ZKPs). This makes ZKPs unsuitable for slow or mobile devices.  
+Computation intensity: Algorithms used are computationally intense as they require many interactions between the verifier and the prover (in interactive ZKPs), or require a lot of computational capabilities (in non-interactive ZKPs). This makes ZKPs unsuitable for slow or mobile devices.    
+
+
+More ZKP reference: [Zero-Knowledge STARK (zkSTARK)](https://www.techopedia.com/definition/zero-knowledge-stark-zkstark)  
