@@ -120,7 +120,7 @@ P dot Q -> R
 If the two points are identical, a tangent is taken.  
 then continue do P dot R to get the next point.  
 In final get the result is public key.  
-private key will decide how many time need to dot.   
+private key will decide how many times need to dot.   
 
 G is the generator point    
 (Publick key)PK = (Private key)n * G  
