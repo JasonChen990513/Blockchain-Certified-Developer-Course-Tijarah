@@ -183,10 +183,10 @@ G = (15,13)
 It will be a secure key that only Bob and Alice know.  
 
 # Question of application in blockchain
-Everyone have their own private key, that is very important for the user. Because that is the only way you can access and do something with wallet.  
-Public key is driven by private key.
-Wallet address is driven by public key.
-The digital signature is using private key and sending message to generate.
+Everyone have their own private key, that is very important for the user. Because that is the only way you can access and do something with wallet.   
+Public key is driven by private key.  
+Wallet address is driven by public key.  
+The digital signature is using private key and sending message to generate.  
 
 
 
