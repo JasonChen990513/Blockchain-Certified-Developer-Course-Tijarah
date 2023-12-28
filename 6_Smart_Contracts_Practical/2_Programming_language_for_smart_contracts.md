@@ -37,6 +37,7 @@ contract Batman {
 
 
 **Tag Used for:**
+|:-|:-|
 |Tag|Used for|
 |@title|Title for the smart contract|
 |@author|Author of the smart contract|
