@@ -22,7 +22,7 @@ pragma solidity ^0.4.19;
 /// @author DC-man  
 /// @notice You can use this contract for only the most basic simulation  
 /// @dev All function calls are currently implement without side effects  
-contract Batman {  
+contract Batman {   
   /// @author Samanyu Chopra  
   /// @notice Determine if Bugs will accept `(_weapons)` to kill  
   /// @dev String comparison may be inefficient  
