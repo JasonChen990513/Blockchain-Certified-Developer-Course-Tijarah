@@ -30,7 +30,7 @@ contract Batman {
   /// @param _weapons The name weapons to save in the repo (English)  
   /// @return true if Batman will keep it, false otherwise  
   function doesKeep(string _weapons) external pure returns (bool) {  
-  return keccak256(_weapons) == keccak256(“Shotgun”);  
+    return keccak256(_weapons) == keccak256(“Shotgun”);  
   }  
 }  
 ```
