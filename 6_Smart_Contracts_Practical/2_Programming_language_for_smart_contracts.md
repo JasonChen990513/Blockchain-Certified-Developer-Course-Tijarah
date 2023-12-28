@@ -60,10 +60,12 @@ external: Similar to public, but the automatic getter function is not generated.
 Functions can be called internally or externally.
 
 Such as:  
+``` solidity
 function getGameHistory () external view returns(GameInfo[] memory){  
     //do some condition check then return the data  
     return (gameHistory);  
 }  
+```
 
 ## Function modifiers
 
@@ -72,6 +74,7 @@ A modifier is a piece of code that can be reused across different functions to e
 Modifiers can be especially useful for access control, input validation, or ensuring certain conditions are met before executing a function.  
 
 Example:  
+``` solidity
 modifier onlyOwner() {
     require(msg.sender == owner, "Not the owner");
     _; //This is a placeholder that gets replaced by the modified function's code
@@ -85,6 +88,7 @@ modifier checkValue(uint256 amount) {
 function purchase(uint256 amount) public payable onlyOwner checkValue(amount) {
     // Function logic for purchase
 }
+```
 
 
 
