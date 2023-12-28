@@ -17,6 +17,7 @@ Single line (//) comments and multi-line(/* … */) comments are used.
 Natspec Comment, which is also possible; in this type of comment, we either use /// or /** … */, and they are to be used only earlier function declaration or statements.  
 Natspec is short for natural specification; these comments as per the latest solidity version (0.4.24) do not apply to variables, even if the variables are public. Here is a small code snippet with an example of such these types of comments:
 
+``` solidity
 pragma solidity ^0.4.19;  
 /// @title A simulator for Batman, Gotham’s Hero  
 /// @author DC-man  
@@ -32,6 +33,7 @@ contract Batman {
   return keccak256(_weapons) == keccak256(“Shotgun”);  
   }  
 }  
+```
 
 
 **Tag Used for:**
