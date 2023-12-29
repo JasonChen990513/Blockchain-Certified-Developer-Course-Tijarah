@@ -120,7 +120,17 @@ bool b = false;
 
 
 # Integers
+There are two sub-types of integers, that is int and uint, which are signed integer and unsigned integer types respectively.   
+Memory size is allocated at compile time; it is to be specified using int8 or int256, where the number represents the size allocated in the memory.  
+```solidity
+int public signedNumber;
+uint public unsignedNumber;
 
+signedNumber = -5;
+unsignedNumber = 10;
+
+```
+uint8 is uses 8 bits, allowing values in the range of 0 to 255 (2^8 - 1).
 
 # Address
 ```solidity
