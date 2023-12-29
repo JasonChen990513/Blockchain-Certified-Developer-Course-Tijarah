@@ -49,7 +49,8 @@ contract Batman {
     
 
 # Structure of a contract
-## State variables
+## State 
+
 State variables can have different visibility levels, including public, internal, private, and external.   
 public: Readable from outside the contract, and an automatic getter function is generated.  
 internal: Readable only within the current contract and derived contracts.  
@@ -74,7 +75,7 @@ A modifier is a piece of code that can be reused across different functions to e
 Modifiers can be especially useful for access control, input validation, or ensuring certain conditions are met before executing a function.  
 
 Example:  
-``` solidity
+``` solidity 
 modifier onlyOwner() {
     require(msg.sender == owner, "Not the owner");
     _; //This is a placeholder that gets replaced by the modified function's code
@@ -90,8 +91,153 @@ function purchase(uint256 amount) public payable onlyOwner checkValue(amount) {
 }
 ```
 
+Pure functions can’t read or write from the storage.  
+Constant modifier function cannot write in the storage in any way.  
+View acts just like constant in that its function cannot change storage in any way.  
+Payable allows a function to receive ether while being called.  
+
+# Events
+Events allow convenient usage of the EVM, via the frontend of the DApp. Events can be heard and maintained.
+An event in Solidity is a way to emit and log information from a smart contract. It allows a contract to notify the outside world or other parts of the contract when specific actions or state changes occur.  
+Events are often used to provide a transparent and decentralized way to track and listen for important occurrences within the contract.  
+
+
+Example:  
+``` solidity 
+event MyEvent(address indexed sender, uint256 amount);
+
+function someFunction(uint256 amount) public {
+    // ... contract logic ...
+    emit MyEvent(msg.sender, amount);
+}
+```
+
+# Value types
+Boolean  
+``` solidity
+bool b = false;
+```
+
+
+# Integers
+
+
+# Address
+```solidity
+address a = 0xe2793a1b9a149253341cA268057a9EFA42965F83
+```
+
+
+This type has several members that can be used to interact with the contract.  
+balance returns the balance of the address in units of wei.
+```solidity
+address a = 0xe2793a1b9a149253341cA268057a9EFA42965F83;
+uint bal = a.balance;
+```
+
+transfer is used to transfer from one address to another address.  
+```solidity
+address public recipient;
+
+function sendEther() public payable {
+    // Transfer Ether to the recipient address
+    recipient.transfer(msg.value);
+}
+```
+
+Noting that the transfer function is a basic way to handle Ether transfers, but it has limitations.  
+For more complex scenarios or other contracts that have a large codebase, consider using more advanced patterns, such as send function. Which provide more flexibility and control over the transfer process.  
+```solidity 
+bool success = recipient.send(msg.value);
+require(success, "Ether transfer failed");
+```
+
+
+# Call Callcode Delegatecall
+Call function is a low-level function that allows a contract to invoke another contract's function.  
+Callcode is similar to call but replaces the calling contract's code with the code of the called contract for the duration of the call.
+Delegatecall allows a contract to execute code from another contract while maintaining the calling contract's storage context.  
+
+
+
+# Array value type
+Fixed-size array is initialized as test[10]  
+Dynamic-size array is initialized as test2[]  
+
+
+# Literal
+1. Integer literals
+```solidity
+int a = 11;
+```
+
+2. String literals
+```solidity
+Test = ‘Batman’;
+Test2 = “Batman”;
+```
+
+3. Hexadecimal literals
+Hexadecimal literals are prefixed with the keyword hex and are enclosed with double (hex”69ed75") or single (hex’69ed75') quotes.  
+
+4. Address literals
+```solidity
+address userAddress = 0xe2793a1b9a149253341cA268057a9EFA42965F83;
+```
+
+
+# Enums
+Enums allow the creation of user-defined type in Solidity. Enums are convertible to and from all integer types.   
+```solodity
+enum Action {jump, fly, ride, fight};
+```
+
+
+# Function
+There are two types of functions: internal and external.   
+Internal functions can be called from inside the current contract only.   
+External functions can be called via external function calls.  
 
 
 
 
+# Reference types
+These are passed on by reference; these are very memory heavy, due to the allocation of memory they constitute.  
 
+# Structs
+A struct is a composite data type that is declared under a logical group. 
+Structs are used to define new types. 
+
+```solidity
+//Use to store the user information
+struct UserInfo{
+    address userAddress;  //store particular user address
+    uint userOption; // store user's option
+}
+
+//Use to store the game information
+struct GameInfo{
+    UserInfo user1;  //store user1 information
+    UserInfo user2;  //store user2 information
+    string finalResult;  //store game result
+}
+```
+
+# Data location
+Parameters of functions are stored in memory.    
+Other local variables make use of storage.  
+Parameters of external functions use calldata memory.  
+
+# Mapping
+Mapping is used for key-to-value mapping.  
+Mappings can be seen as hash tables that are virtually initialized such that every possible key exists and is mapped to a default value.  
+Ethereum addresses with their corresponding value.
+
+```solidity
+mapping(address => uint256) public balances;
+
+function updateBalance(uint256 newBalance) public {
+    balances[msg.sender] = newBalance;
+}
+```
+The function takes a uint256 parameter newBalance, and it updates the balance associated with the caller's address in the balances mapping to the new value.  
