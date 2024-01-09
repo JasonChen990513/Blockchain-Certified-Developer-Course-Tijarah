@@ -1,31 +1,23 @@
-//https://docs.ethers.org/v5/getting-started/#getting-started--connecting
 //declare contract address and abi
-const RockPaperScissorsAddress = "0x052Dd51Ad222ece76792b0Cc769B00Dd51f47D59";
-const RockPaperScissorsABI = [
+const RockPaperScissorsAddressfor2 = "0x9129AfeB06E03A33AEC8239EbFE8ad59B023d12f";
+const RockPaperScissorsfor2ABI = [
     {
         "anonymous": false,
         "inputs": [
             {
                 "indexed": false,
-                "internalType": "uint256",
-                "name": "",
-                "type": "uint256"
-            }
-        ],
-        "name": "showArraylenght",
-        "type": "event"
-    },
-    {
-        "anonymous": false,
-        "inputs": [
+                "internalType": "address",
+                "name": "user1",
+                "type": "address"
+            },
             {
                 "indexed": false,
-                "internalType": "uint256",
-                "name": "currentNumber",
-                "type": "uint256"
+                "internalType": "address",
+                "name": "user2",
+                "type": "address"
             }
         ],
-        "name": "showCurrentNumber",
+        "name": "inputOption",
         "type": "event"
     },
     {
@@ -185,31 +177,11 @@ const RockPaperScissorsABI = [
         "inputs": [
             {
                 "internalType": "uint256",
-                "name": "option",
+                "name": "index",
                 "type": "uint256"
             }
         ],
-        "name": "getUserOption",
-        "outputs": [],
-        "stateMutability": "nonpayable",
-        "type": "function"
-    },
-    {
-        "inputs": [],
-        "name": "showNumber",
-        "outputs": [
-            {
-                "internalType": "uint256",
-                "name": "",
-                "type": "uint256"
-            }
-        ],
-        "stateMutability": "view",
-        "type": "function"
-    },
-    {
-        "inputs": [],
-        "name": "showWaitingPoll",
+        "name": "getUser1",
         "outputs": [
             {
                 "components": [
@@ -224,9 +196,42 @@ const RockPaperScissorsABI = [
                         "type": "uint256"
                     }
                 ],
-                "internalType": "struct RockPaperScissors.UserInfo[]",
+                "internalType": "struct RockPaperScissors.UserInfo",
                 "name": "",
-                "type": "tuple[]"
+                "type": "tuple"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "inputs": [],
+        "name": "play",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+    },
+    {
+        "inputs": [],
+        "name": "user1address",
+        "outputs": [
+            {
+                "internalType": "address",
+                "name": "",
+                "type": "address"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "inputs": [],
+        "name": "user2address",
+        "outputs": [
+            {
+                "internalType": "address",
+                "name": "",
+                "type": "address"
             }
         ],
         "stateMutability": "view",
@@ -236,69 +241,66 @@ const RockPaperScissorsABI = [
         "inputs": [
             {
                 "internalType": "uint256",
-                "name": "_number",
+                "name": "option",
                 "type": "uint256"
             }
         ],
-        "name": "updateNumber",
+        "name": "userEnterOption",
         "outputs": [],
         "stateMutability": "nonpayable",
         "type": "function"
     }
 ];
 
-//document.getElementById("getInfo").addEventListener("click",getnumber());
-
-//get the button element and set the onclick listener
-let getNumberBtn = document.getElementById("getInfo");
-let setNumberBtn = document.getElementById("UpdateNumber");
-getNumberBtn.onclick = () => {
-    getnumber();
-    };
-
-setNumberBtn.onclick = () => {
-    setNumber();
-    };
+//alert("I am an alert box!");
 
 
-async function getnumber(){
-    // A Web3Provider wraps a standard Web3 provider, which is
-    // what MetaMask injects as window.ethereum into each page
-    const provider = new ethers.providers.Web3Provider(window.ethereum);
-
-    //Create the contract object
-    const gameContract = new ethers.Contract(RockPaperScissorsAddress, RockPaperScissorsABI, provider);
-
-    //call contract to get the number
-    const num = await gameContract.showNumber();
-    console.log(num.toString());
-    document.getElementById("showResult").innerHTML = num.toString();
+let CurrentUserAddress;
+let playGame = document.getElementById("playGame");
+let submitOption = document.getElementById("submitOption");
+playGame.onclick = () => {
+    Game();
 };
 
+submitOption.onclick = () => {
+    uploadOption();
+};
 
-async function setNumber(){
-    
+async function Game(){
 
-    let provider = new ethers.providers.Web3Provider(window.ethereum);
-
-    // The MetaMask plugin also allows signing transactions to
-    // send ether and pay to change state within the blockchain.
+    //declare provider signer and connect to matamask 
+    const provider = new ethers.providers.Web3Provider(window.ethereum);
     const signer = provider.getSigner();
-    //MetaMask requires requesting permission to connect users accounts
     await provider.send("eth_requestAccounts", []);
-    let gameContract = new ethers.Contract(RockPaperScissorsAddress, RockPaperScissorsABI, signer);
 
-    //Get user input and call contract to update the number
-    //let userName = prompt("Please enter your name:");
-    let setNum = document.getElementById("setNumber").value;
-    await gameContract.updateNumber(setNum);
-
-    //listening the transaction log
-    gameContract = new ethers.Contract(RockPaperScissorsAddress, RockPaperScissorsABI, provider);
-    gameContract.once("showCurrentNumber", (currentNumber) => {
-        console.log(currentNumber.toString());
+    //Create the contract object and call the play function
+    let gameContract = new ethers.Contract(RockPaperScissorsAddressfor2, RockPaperScissorsfor2ABI, signer);
+    await gameContract.play();
+    //set listener to check 2 user already prepare to play the game
+    //show the user 1 and 2 information
+    gameContract.once("inputOption", (user1, user2) => {
+        alert("welcome user1: " + user1 + " and user2: " + user2 + " to play this game")
+        
+        document.getElementById("showPlayer").innerHTML = "User1: " + user1 + " \nUser2: " + user2;
     });
-    
+
+}
+
+async function uploadOption(){
+    let option = document.getElementById("setOption").value;
+
+    //declare provider signer and connect to matamask 
+    const provider = new ethers.providers.Web3Provider(window.ethereum);
+    const signer = provider.getSigner();
+    await provider.send("eth_requestAccounts", []);
+    //Create the contract object.  Call the userEnterOption function and submit user option
+    let gameContract = new ethers.Contract(RockPaperScissorsAddressfor2, RockPaperScissorsfor2ABI, signer);
+    await gameContract.userEnterOption(option);
+    //get the final result and show it
+    gameContract.once("showResult", (logResult) => {
+        alert(logResult);
+        document.getElementById("finalResult").innerHTML = logResult;
+    });
 }
 
 //init the wallet address
@@ -307,15 +309,12 @@ async function onInit() {
     const accounts = await window.ethereum.request({ method: 'eth_requestAccounts' });
     const account = accounts[0];
     console.log(account)
+    CurrentUserAddress = account;
+
     //  window.ethereum.on('accountsChanged', function (accounts) {
     //     // Time to reload your interface with accounts[0]!
     //     console.log(accounts[0])
     //    });
 }
 
-//onInit();
-
-
-
-
-
+onInit();
