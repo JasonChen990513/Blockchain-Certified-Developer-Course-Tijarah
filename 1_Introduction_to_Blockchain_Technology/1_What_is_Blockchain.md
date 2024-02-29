@@ -80,7 +80,7 @@ Question: last time say the miner would not be compete anymore, for now how to c
 pos  
 poa  
 pow  
-pods  
+dpos  
 
     
 
