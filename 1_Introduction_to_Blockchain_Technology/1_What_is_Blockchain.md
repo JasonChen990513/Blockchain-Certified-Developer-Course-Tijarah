@@ -14,7 +14,7 @@ Base on peer to peer topology
 > 2 PC communicate without the server, each user can be a server and node.
 
 Distributed ledger technology  
-> That data can be store in globlely on thousands of server  
+> That data can be store in globally on thousands of server  
 > A platform that uses ledgers stored on separate, connected devices in a network to ensure data accuracy and security   
 
 One user is hard to gain control the network  
