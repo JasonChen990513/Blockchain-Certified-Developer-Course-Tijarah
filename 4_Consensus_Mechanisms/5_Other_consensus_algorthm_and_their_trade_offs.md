@@ -71,7 +71,7 @@ Security Dependency: The security of a PoA network depends heavily on the honest
 
 
 
-# Proof of Inportance
+# Proof of Importance
 Proof of Importance (PoI) is a consensus algorithm used by the NEM (New Economy Movement) blockchain platform. This concept is a further build-up on the Proof of Stake (PoS) algorithm. The PoI uses network theory to assign a score for each node’s importance in the network. But different with the PoS, PoI also consider total amount, activity clusters, reputation, and transactions made through any given address.
 
 # How it work
