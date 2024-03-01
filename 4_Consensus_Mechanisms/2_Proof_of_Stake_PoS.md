@@ -1,5 +1,5 @@
-# What is Proof of Stake
-Proof of stake(PoS) is the cryptocurrency consensus machanism, it is use to processing transaction and creating new block.  
+![image](https://github.com/JasonChen990513/Blockchain-Certified-Developer-Course-Tijarah/assets/149560212/3408648c-3ccd-4d1f-b653-ac5aad98058c)# What is Proof of Stake
+Proof of stake(PoS) is the cryptocurrency consensus mechanism, it is use to processing transaction and creating new block.  
 Proof-of-stake (POS) was created as an alternative to proof-of-work (POW).  
 PoS mechanisms require validators to hold and stake tokens for the privilege of earning transaction fees.  
 Proof-of-stake (POS) is seen as less risky regarding the potential for an attack on the network, as it structures compensation in a way that makes an attack less advantageous.   
