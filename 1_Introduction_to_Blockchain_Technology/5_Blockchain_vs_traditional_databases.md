@@ -1,15 +1,15 @@
-# Database 
-Database is a data structure use to store the information.
-It can store data and also can access a existing data.
-The data store in database can organized using a database management system.
-Using the client-server architecture.
-The database administrator can modify the data in database.
+![image](https://github.com/JasonChen990513/Blockchain-Certified-Developer-Course-Tijarah/assets/149560212/21c51838-9230-4057-9c5a-eb50310b69a7)![image](https://github.com/JasonChen990513/Blockchain-Certified-Developer-Course-Tijarah/assets/149560212/a5bb0bfa-1c84-40fa-8e3f-6c85d2b3e304)# Database 
+Database is a data structure use to store the information.  
+It can store data and also can access a existing data.  
+The data store in database can organized using a database management system.  
+Using the client-server architecture.  
+The database administrator can modify the data in database.  
 
 # Blockchain
-It is a growing list record, call block, that are linked using cryptography.
-The block contain the cryptograthic hash of the pervious block, timestamp and transaction data.
-Data in block is immutable.
-It is decentralized architecture.
+It is a growing list record, call block, that are linked using cryptography.  
+The block contain the cryptographic hash of the pervious block, timestamp and transaction data.  
+Data in block is immutable.  
+It is decentralized architecture.  
 
 
 # Traditional Database vs Blockchain
