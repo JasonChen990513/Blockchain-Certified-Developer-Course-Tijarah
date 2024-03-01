@@ -15,11 +15,11 @@ Message content include message, view and sequence number.
 
 **Prepare:**  
 Node receive the pre-prepare message and validate it, if the message is valid then broadcast the prepare message.
-When node receive more than 2f+1 prepare message, the state will become prepared. f is the maximum acceptable system fault.
+When node receive more than f+1 prepare message, the state will become prepared. f is the maximum acceptable system fault.
 
 **Commit:**  
 Next going to commit step, the node need to broadcast the commit message to network.
-Same as the step 2, need receive more than 2f+1 commit message.
+Same as the step 2, need receive more than f+1 commit message.
 After excecution, the node enter committed state and return the result to client.
 
 ![image](https://miro.medium.com/v2/resize:fit:720/format:webp/1*PkEirp502mK0dhr_urThng.png)
