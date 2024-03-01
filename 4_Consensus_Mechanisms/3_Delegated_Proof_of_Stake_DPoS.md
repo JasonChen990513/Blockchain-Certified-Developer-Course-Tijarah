@@ -1,4 +1,4 @@
-# What Is Delegated Proof of Stake (DPoS)?  
+![image](https://github.com/JasonChen990513/Blockchain-Certified-Developer-Course-Tijarah/assets/149560212/de98fa24-d9c6-486d-80c0-856feaa05f1c)# What Is Delegated Proof of Stake (DPoS)?  
 Delegated Proof of Stake (DPoS) is a consensus algorithm used in blockchain networks to achieve agreement on the state of the distributed ledger. In DPoS, a limited number of trusted nodes, known as "delegates" or "witnesses," are elected to produce new blocks and validate transactions. DPoS is designed to improve scalability and efficiency compared to traditional Proof of Work (PoW) and Proof of Stake (PoS) systems.  
 
     
@@ -70,7 +70,7 @@ This allows them to influence the governance of the network based on the perform
 
 
 # Advantages of DPoS
-## calability:   
+## Capability:   
 DPoS is designed to be more scalable than PoW and some PoS systems by limiting the number of active block producers.  
 ## Efficiency:   
 The rotational block production process enhances efficiency and reduces the risk of network congestion.  
