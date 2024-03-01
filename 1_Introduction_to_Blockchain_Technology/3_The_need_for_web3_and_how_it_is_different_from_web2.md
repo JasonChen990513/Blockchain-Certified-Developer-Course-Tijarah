@@ -5,7 +5,7 @@ Characterized by dynamic and interactive websites that revolutionized the way we
 The embodiment of a decentralized and user-centric internet. Built on blockchain technology, Web 3.0 try to build the decentralized structures. Each participant has a say and can contribute to the collective decision-making process. In web3, they own their creation, buy and sell digital and real world assets. 
 
 # The need for web3
-It provide more secure, private, transparnecy of transaction. And it is no need the intermediary.
+It provide more secure, private, transparency of transaction. And it is no need the intermediary.
 
 # Main ideas behind Web3
 ## Decentralization   
