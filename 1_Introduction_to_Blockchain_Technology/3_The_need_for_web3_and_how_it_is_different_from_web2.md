@@ -2,7 +2,7 @@
 Characterized by dynamic and interactive websites that revolutionized the way we connect and collaborate online. Such as the social media. User can create, share and interact with the content. But the data and power are handle by few big company. So there the problem of the data privacy, censorship, and the concentration of power. 
 
 # What is web3
-The embodiment of a decentralized and user-centric internet. Built on blockchain technology, Web 3.0 try to build the decentralized structures. Each participant has a say and can contribute to the collective decision-making process. In web3, the own their creation, buy and sell digital and real world assets. 
+The embodiment of a decentralized and user-centric internet. Built on blockchain technology, Web 3.0 try to build the decentralized structures. Each participant has a say and can contribute to the collective decision-making process. In web3, they own their creation, buy and sell digital and real world assets. 
 
 # The need for web3
 It provide more secure, private, transparnecy of transaction. And it is no need the intermediary.
