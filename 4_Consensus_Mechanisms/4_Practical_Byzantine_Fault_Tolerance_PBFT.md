@@ -1,4 +1,4 @@
-# What is Practical Byzantine Fault Tolerance (PBFT)  
+![image](https://github.com/JasonChen990513/Blockchain-Certified-Developer-Course-Tijarah/assets/149560212/acbb8187-6aed-4423-b7e1-1d912078e01f)# What is Practical Byzantine Fault Tolerance (PBFT)  
 PBFT tries to provide a practical Byzantine state machine replication that can work even when malicious nodes are operating in the system.  
 
 In PBFT, there are primary node and secondary node, the secondary can become to primary node when primary node failure. The PBFT system goal is that all honest nodes help in reaching a consensus regarding the state of the system using the majority rule.  
@@ -20,7 +20,7 @@ When node receive more than f+1 prepare message, the state will become prepared.
 **Commit:**  
 Next going to commit step, the node need to broadcast the commit message to network.
 Same as the step 2, need receive more than f+1 commit message.
-After excecution, the node enter committed state and return the result to client.
+After execution, the node enter committed state and return the result to client.
 
 ![image](https://miro.medium.com/v2/resize:fit:720/format:webp/1*PkEirp502mK0dhr_urThng.png)
 
