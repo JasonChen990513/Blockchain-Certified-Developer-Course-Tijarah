@@ -1,4 +1,4 @@
-![image](https://github.com/JasonChen990513/Blockchain-Certified-Developer-Course-Tijarah/assets/149560212/acbb8187-6aed-4423-b7e1-1d912078e01f)# What is Practical Byzantine Fault Tolerance (PBFT)  
+# What is Practical Byzantine Fault Tolerance (PBFT)  
 PBFT tries to provide a practical Byzantine state machine replication that can work even when malicious nodes are operating in the system.  
 
 In PBFT, there are primary node and secondary node, the secondary can become to primary node when primary node failure. The PBFT system goal is that all honest nodes help in reaching a consensus regarding the state of the system using the majority rule.  
