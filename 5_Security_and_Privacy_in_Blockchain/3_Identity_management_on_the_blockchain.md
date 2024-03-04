@@ -1,4 +1,4 @@
-# Why Need Blockchain Identity Menagement
+# Why Need Blockchain Identity Management
 Blockchain-based identity management involves the use of decentralized and cryptographic techniques to secure and manage digital identities. Traditional identity management systems often rely on central authorities to validate and control user identities. In contrast, blockchain-based identity management empowers individuals with greater control over their personal information and enhances security.
 
 ## Decentralized Identifier (DID) Creation:  
