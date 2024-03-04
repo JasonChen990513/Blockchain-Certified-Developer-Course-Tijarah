@@ -6,8 +6,7 @@ privacy-enhancing technologies is very important now. Businesses can pay serious
 # Homomorphic Encryption
 Homomorphic encryption allows computations to be performed on encrypted data without decrypting it.  
 It generates an encrypted result which, when decrypted, matches the result of the operations as if they had been performed on unencrypted data (i.e. plaintext).  
-This enables encrypted data to be transferred![Uploading image.png…]()
-, analyzed and returned to the data owner who can decrypt the information and view the results on the original data.  
+This enables encrypted data to be transferred, analyzed and returned to the data owner who can decrypt the information and view the results on the original data.  
 This technique is useful in scenarios where computations need to be conducted on sensitive data while preserving privacy.  
 EX: companies can share sensitive data with third parties for analysis purposes.   
 
